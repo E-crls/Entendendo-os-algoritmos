@@ -17,17 +17,17 @@ Conhecimento é bom, mas conhecimento com facilidade de acesso é melhor ainda.
 
 ## Estrutura de explicação
 Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outros conforme o tempo:
-<br>Descrição simples
-<br>Descrição técnica
-<br>O que faz
-<br>Onde é mais aplicado (Exemplos de aplicações mais usadas) 
-<br>Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?) 
-<br>Como usar 
-<br>Por que usar 
-<br>Recursos necessários (custos para aplicar) 
-<br>Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este) 
-<br>Vantagens 
-<br>Desvantagens
+<br>>Descrição simples
+<br>>Descrição técnica
+<br>>O que faz
+<br>>Onde é mais aplicado (Exemplos de aplicações mais usadas) 
+<br>>Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?) 
+<br>>Como usar 
+<br>>Por que usar 
+<br>>Recursos necessários (custos para aplicar) 
+<br>>Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este) 
+<br>>Vantagens 
+<br>>Desvantagens
 
 ## Validação das informações
 >Todas as informações aqui presentes estão sendo passadas por revisão constante. Sendo assim, se você identificar algum conteúdo errado, sinta-se livre para sugerir a correção.
