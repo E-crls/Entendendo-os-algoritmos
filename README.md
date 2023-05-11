@@ -35,7 +35,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
-**<br>Regressão Linear 
+<br>Regressão Linear 
 <br>Regressão Logística 
 <br>Máquinas de Vetores de Suporte (SVM) 
 <br>k-vizinhos mais próximos (k-NN) 
@@ -45,44 +45,44 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>AdaBoost 
 <br>Redes Neurais Artificiais (ANN) 
 <br>Redes Neurais Convolucionais (CNN) 
-<br>Redes Neurais Recorrentes (RNN) **
+<br>Redes Neurais Recorrentes (RNN)
 
 ### Algoritmos de aprendizado não supervisionado: 
 
-**<br>k-means 
+<br>k-means 
 <br>Clustering hierárquico 
 <br>DBSCAN 
 <br>Modelo de Mistura Gaussiana (GMM) 
 <br>PCA (Principal Component Analysis) 
 <br>ICA (Independent Component Analysis) 
 <br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
-<br>UMAP (Uniform Manifold Approximation and Projection) **
+<br>UMAP (Uniform Manifold Approximation and Projection)
 
 ### Algoritmos de aprendizado por reforço: 
 
-**<br>Q-Learning 
+<br>Q-Learning 
 <br>SARSA 
 <br>Deep Q-Network (DQN) 
 <br>Policy Gradients 
 <br>Actor-Critic 
 <br>Proximal Policy Optimization (PPO) 
-<br>Soft Actor-Critic (SAC) **
+<br>Soft Actor-Critic (SAC)
 
 ### Algoritmos de otimização e busca: 
 
-**<br>Gradient Descent 
+<br>Gradient Descent 
 <br>Stochastic Gradient Descent 
-<br>Newton-Raphson **
+<br>Newton-Raphson
 
 ### Algoritmos Genéticos 
 
-**<br>Particle Swarm Optimization 
+<br>Particle Swarm Optimization 
 <br>Simulated Annealing 
-<br>Hill Climbing **
+<br>Hill Climbing
 
 ### Algoritmos de processamento de linguagem natural (NLP): 
 
-**<br>TF-IDF 
+<br>TF-IDF 
 <br>Word2Vec 
 <br>GloVe 
 <br>FastText 
@@ -90,22 +90,22 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>GPT 
 <br>ELMo 
 <br>Transformer 
-<br>Seq2Seq **
+<br>Seq2Seq
 
 ### Algoritmos de recomendação: 
 
-**<br>Collaborative Filtering 
+<br>Collaborative Filtering 
 <br>Content-based Filtering 
 <br>Hybrid Filtering 
 <br>Matrix Factorization (SVD, NMF) 
-<br>Deep Learning-based Recommendations **
+<br>Deep Learning-based Recommendations
 
 ### Algoritmos de detecção de anomalias: 
 
-**<br>Isolation Forest 
+<br>Isolation Forest 
 <br>Local Outlier Factor (LOF) 
 <br>One-Class SVM 
-<br>Autoencoders **
+<br>Autoencoders
 
 ### Algoritmos de redução de dimensionalidade: 
 
@@ -116,20 +116,20 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ### Algoritmos de análise de séries temporais: 
 
-**<br>ARIMA 
+<br>ARIMA 
 <br>SARIMA 
 <br>Exponential Smoothing 
 <br>Prophet 
 <br>LSTM 
-<br>GRU **
+<br>GRU
 
 ### Algoritmos de análise de redes e grafos: 
 
-**<br>PageRank 
+<br>PageRank 
 <br>Shortest Path (Dijkstra, A*, Bellman-Ford) 
 <br>Community Detection (Louvain, Girvan-Newman) 
 <br>Node2Vec 
-<br>Graph Convolutional Networks (GCN) **
+<br>Graph Convolutional Networks (GCN)
 
 ## Todos os algoritmos 
 
@@ -333,56 +333,46 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ## Descrição
 ## K-Means
-Descrição Simples
+### Descrição Simples
+K-means é um algoritmo de aprendizado de máquina não supervisionado que é usado para agrupar dados semelhantes em clusters. Imagine que você tem um grande conjunto de dados, mas não sabe como eles se relacionam ou se agrupam; o K-means ajuda a descobrir essas relações.
 
-    K-means é um algoritmo de aprendizado de máquina não supervisionado que é usado para agrupar dados semelhantes em clusters. Imagine que você tem um grande conjunto de dados, mas não sabe como eles se relacionam ou se agrupam; o K-means ajuda a descobrir essas relações.
+### Descrição Técnica
+O algoritmo K-means funciona através de um processo iterativo. Ele começa selecionando "k" pontos aleatórios, que são chamados de centróides. Cada ponto de dados é então atribuído ao centróide mais próximo. Depois disso, novos centróides são calculados como a média dos pontos de dados em cada cluster. Este processo é repetido até que os centróides parem de mudar significativamente ou um número máximo de iterações seja alcançado.
 
-Descrição Técnica
+### O Que Faz
+O K-means agrupa dados semelhantes em clusters. Ele encontra a melhor maneira de dividir os dados em "k" grupos, onde "k" é um parâmetro que você fornece ao algoritmo.
 
-    O algoritmo K-means funciona através de um processo iterativo. Ele começa selecionando "k" pontos aleatórios, que são chamados de centróides. Cada ponto de dados é então atribuído ao centróide mais próximo. Depois disso, novos centróides são calculados como a média dos pontos de dados em cada cluster. Este processo é repetido até que os centróides parem de mudar significativamente ou um número máximo de iterações seja alcançado.
-
-O Que Faz
-
-    O K-means agrupa dados semelhantes em clusters. Ele encontra a melhor maneira de dividir os dados em "k" grupos, onde "k" é um parâmetro que você fornece ao algoritmo.
-
-Onde é Mais Aplicado
+### Onde é Mais Aplicado
 
 O K-means é amplamente utilizado em muitos campos, incluindo:
+>Segmentação de clientes: empresas podem agrupar seus clientes em diferentes categorias com base em características como idade, renda, hábitos de compra, etc.
+>Análise de redes sociais: identificar comunidades ou grupos de usuários com interesses semelhantes.
+>Reconhecimento de imagens: por exemplo, para compressão de imagens ou segmentação.
+>Bioinformática: para o agrupamento de genes ou proteínas com funções semelhantes.
 
-    Segmentação de clientes: empresas podem agrupar seus clientes em diferentes categorias com base em características como idade, renda, hábitos de compra, etc.
-    Análise de redes sociais: identificar comunidades ou grupos de usuários com interesses semelhantes.
-    Reconhecimento de imagens: por exemplo, para compressão de imagens ou segmentação.
-    Bioinformática: para o agrupamento de genes ou proteínas com funções semelhantes.
+### Quando Usar
+O K-means é útil quando você tem um grande conjunto de dados e deseja entender como esses dados podem ser agrupados. Ele é especialmente útil quando você não tem uma ideia clara de como os dados podem estar relacionados ou agrupados.
 
-Quando Usar
+### Como Usar
 
-    O K-means é útil quando você tem um grande conjunto de dados e deseja entender como esses dados podem ser agrupados. Ele é especialmente útil quando você não tem uma ideia clara de como os dados podem estar relacionados ou agrupados.
+Para usar o K-means, você precisa ter um conjunto de dados e uma escolha para "k", o número de clusters. Você então executa o algoritmo, que irá iterativamente mover os centróides e reatribuir pontos de dados aos clusters até que os centróides parem de se mover significativamente.
 
-Como Usar
+### Por Que Usar
+O K-means é um algoritmo simples e eficaz para agrupamento de dados. Ele é fácil de entender e implementar, e pode ser muito eficaz para identificar padrões e estruturas nos dados.
 
-    Para usar o K-means, você precisa ter um conjunto de dados e uma escolha para "k", o número de clusters. Você então executa o algoritmo, que irá iterativamente mover os centróides e reatribuir pontos de dados aos clusters até que os centróides parem de se mover significativamente.
+### Recursos Necessários
+O K-means é computacionalmente eficiente, mas pode exigir bastante memória se o conjunto de dados for muito grande. Além disso, a escolha de "k" pode ser difícil e pode exigir experimentação. Em termos de custo, a implementação do K-means geralmente não é muito cara, mas pode exigir tempo e experiência para interpretar e aplicar os resultados de maneira eficaz.
 
-Por Que Usar
+### Diferencial
+O K-means é diferente de outros algoritmos de agrupamento porque minimiza a variância dentro do cluster, ao invés de minimizar a distância entre pontos. Isso pode resultar em clusters mais "coerentes" do que outros métodos.
 
-    O K-means é um algoritmo simples e eficaz para agrupamento de dados. Ele é fácil de entender e implementar, e pode ser muito eficaz para identificar padrões e estruturas nos dados.
+### Vantagens
+>Simplicidade: O algoritmo é fácil de entender e implementar.
+>Eficiência: K-means é computacionalmente eficiente, o que o torna adequado para grandes conjuntos de dados.
+>Flexibilidade: K-means pode ser usado com qualquer tipo de dados que possa ser representado em um espaço multidimensional e onde a distância entre os pontos de dados possa ser calculada.
 
-Recursos Necessários
-
-    O K-means é computacionalmente eficiente, mas pode exigir bastante memória se o conjunto de dados for muito grande. Além disso, a escolha de "k" pode ser difícil e pode exigir experimentação. Em termos de custo, a implementação do K-means geralmente não é muito cara, mas pode exigir tempo e experiência para interpretar e aplicar os resultados de maneira eficaz.
-
-Diferencial
-
-    O K-means é diferente de outros algoritmos de agrupamento porque minimiza a variância dentro do cluster, ao invés de minimizar a distância entre pontos. Isso pode resultar em clusters mais "coerentes" do que outros métodos.
-
-Vantagens
-
-    Simplicidade: O algoritmo é fácil de entender e implementar.
-    Eficiência: K-means é computacionalmente eficiente, o que o torna adequado para grandes conjuntos de dados.
-    Flexibilidade: K-means pode ser usado com qualquer tipo de dados que possa ser representado em um espaço multidimensional e onde a distância entre os pontos de dados possa ser calculada.
-
-Desvantagens
-
-    Escolha de K: Determinar o número ideal de clusters (K) pode ser desafiador.
-    Sensibilidade à inicialização: O resultado do K-means pode variar dependendo dos centróides iniciais escolhidos.
-    Forma dos clusters: K-means assume que os clusters são convexos e isotrópicos, o que pode não ser sempre o caso.
-    Outliers: K-means é sensível a outliers.
+### Desvantagens
+>Escolha de K: Determinar o número ideal de clusters (K) pode ser desafiador.
+>Sensibilidade à inicialização: O resultado do K-means pode variar dependendo dos centróides iniciais escolhidos.
+>Forma dos clusters: K-means assume que os clusters são convexos e isotrópicos, o que pode não ser sempre o caso.
+>Outliers: K-means é sensível a outliers.
