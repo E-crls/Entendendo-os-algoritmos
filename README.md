@@ -35,7 +35,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
-<br>Regressão Linear 
+**<br>Regressão Linear 
 <br>Regressão Logística 
 <br>Máquinas de Vetores de Suporte (SVM) 
 <br>k-vizinhos mais próximos (k-NN) 
@@ -45,44 +45,44 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>AdaBoost 
 <br>Redes Neurais Artificiais (ANN) 
 <br>Redes Neurais Convolucionais (CNN) 
-<br>Redes Neurais Recorrentes (RNN) 
+<br>Redes Neurais Recorrentes (RNN) **
 
 ### Algoritmos de aprendizado não supervisionado: 
 
-<br>k-means 
+**<br>k-means 
 <br>Clustering hierárquico 
 <br>DBSCAN 
 <br>Modelo de Mistura Gaussiana (GMM) 
 <br>PCA (Principal Component Analysis) 
 <br>ICA (Independent Component Analysis) 
 <br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
-<br>UMAP (Uniform Manifold Approximation and Projection) 
+<br>UMAP (Uniform Manifold Approximation and Projection) **
 
 ### Algoritmos de aprendizado por reforço: 
 
-<br>Q-Learning 
+**<br>Q-Learning 
 <br>SARSA 
 <br>Deep Q-Network (DQN) 
 <br>Policy Gradients 
 <br>Actor-Critic 
 <br>Proximal Policy Optimization (PPO) 
-<br>Soft Actor-Critic (SAC) 
+<br>Soft Actor-Critic (SAC) **
 
 ### Algoritmos de otimização e busca: 
 
-<br>Gradient Descent 
+**<br>Gradient Descent 
 <br>Stochastic Gradient Descent 
-<br>Newton-Raphson 
+<br>Newton-Raphson **
 
 ### Algoritmos Genéticos 
 
-<br>Particle Swarm Optimization 
+**<br>Particle Swarm Optimization 
 <br>Simulated Annealing 
-<br>Hill Climbing 
+<br>Hill Climbing **
 
 ### Algoritmos de processamento de linguagem natural (NLP): 
 
-<br>TF-IDF 
+**<br>TF-IDF 
 <br>Word2Vec 
 <br>GloVe 
 <br>FastText 
@@ -90,55 +90,54 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>GPT 
 <br>ELMo 
 <br>Transformer 
-<br>Seq2Seq 
+<br>Seq2Seq **
 
 ### Algoritmos de recomendação: 
 
-<br>Collaborative Filtering 
+**<br>Collaborative Filtering 
 <br>Content-based Filtering 
 <br>Hybrid Filtering 
 <br>Matrix Factorization (SVD, NMF) 
-<br>Deep Learning-based Recommendations 
+<br>Deep Learning-based Recommendations **
 
 ### Algoritmos de detecção de anomalias: 
 
-<br>Isolation Forest 
+**<br>Isolation Forest 
 <br>Local Outlier Factor (LOF) 
 <br>One-Class SVM 
-<br>Autoencoders 
+<br>Autoencoders **
 
 ### Algoritmos de redução de dimensionalidade: 
 
-<br>PCA (Principal Component Analysis) 
+**<br>PCA (Principal Component Analysis) 
 <br>LDA (Linear Discriminant Analysis) 
 <br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
-<br>UMAP (Uniform Manifold Approximation and Projection) 
+<br>UMAP (Uniform Manifold Approximation and Projection) **
 
 ### Algoritmos de análise de séries temporais: 
 
-<br>ARIMA 
+**<br>ARIMA 
 <br>SARIMA 
 <br>Exponential Smoothing 
 <br>Prophet 
 <br>LSTM 
-<br>GRU 
+<br>GRU **
 
 ### Algoritmos de análise de redes e grafos: 
 
-<br>PageRank 
+**<br>PageRank 
 <br>Shortest Path (Dijkstra, A*, Bellman-Ford) 
 <br>Community Detection (Louvain, Girvan-Newman) 
 <br>Node2Vec 
-<br>Graph Convolutional Networks (GCN) 
+<br>Graph Convolutional Networks (GCN) **
 
 ## Todos os algoritmos 
 
 ### Algoritmos de aprendizado supervisionado: 
 
-<br>Regressão Linear: Modelo simples de aprendizado supervisionado para prever uma variável contínua a partir de uma ou mais variáveis independentes. 
-
-<br>Regressão Polinomial: Extensão da regressão linear que ajusta um polinômio aos dados. 
-<br>Regressão Ridge: Versão regularizada da regressão linear que penaliza coeficientes grandes para evitar o sobreajuste. 
+<br>**Regressão Linear**: Modelo simples de aprendizado supervisionado para prever uma variável contínua a partir de uma ou mais variáveis independentes. 
+<br>**Regressão Polinomial**: Extensão da regressão linear que ajusta um polinômio aos dados. 
+<br>**Regressão Ridge**: Versão regularizada da regressão linear que penaliza coeficientes grandes para evitar o sobreajuste. 
 <br>Regressão Lasso: Outra versão regularizada da regressão linear que penaliza a soma dos valores absolutos dos coeficientes para evitar o sobreajuste e promover a esparsidade. 
 <br>Regressão ElasticNet: Combinação das regularizações L1 e L2, usadas na regressão Lasso e Ridge, respectivamente. 
 <br>Regressão Logística: Modelo de classificação binária que estima a probabilidade de um evento ocorrer com base nas variáveis independentes. 
