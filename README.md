@@ -330,3 +330,59 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>System Dynamics: A dinâmica de sistemas é uma abordagem para modelar e simular o comportamento de sistemas complexos ao longo do tempo. Ela utiliza equações diferenciais, fluxos e estoques para representar as interações entre os elementos do sistema e analisar o impacto de políticas ou mudanças no sistema. Essa técnica é relevante em data science para estudar sistemas e prever o comportamento futuro com base em mudanças nos parâmetros do sistema. 
 <br>Discrete-event simulation (DES): A simulação de eventos discretos é uma técnica que modela a evolução de um sistema ao longo do tempo, representando eventos que ocorrem em momentos específicos e que alteram o estado do sistema. O DES é usado em data science para analisar sistemas em que os eventos ocorrem de forma discreta e aleatória, como filas de espera, processos de produção e sistemas de transporte. 
 <br>Cellular automata: Autômatos celulares são modelos matemáticos que representam sistemas dinâmicos e discretos, nos quais o espaço é dividido em células e cada célula evolui com base em regras simples e locais. Eles podem ser usados em data science para simular fenômenos espaciais e temporais, como crescimento populacional, difusão e propagação de doenças. 
+
+## Descrição
+## K-Means
+Descrição Simples
+
+    K-means é um algoritmo de aprendizado de máquina não supervisionado que é usado para agrupar dados semelhantes em clusters. Imagine que você tem um grande conjunto de dados, mas não sabe como eles se relacionam ou se agrupam; o K-means ajuda a descobrir essas relações.
+
+Descrição Técnica
+
+    O algoritmo K-means funciona através de um processo iterativo. Ele começa selecionando "k" pontos aleatórios, que são chamados de centróides. Cada ponto de dados é então atribuído ao centróide mais próximo. Depois disso, novos centróides são calculados como a média dos pontos de dados em cada cluster. Este processo é repetido até que os centróides parem de mudar significativamente ou um número máximo de iterações seja alcançado.
+
+O Que Faz
+
+    O K-means agrupa dados semelhantes em clusters. Ele encontra a melhor maneira de dividir os dados em "k" grupos, onde "k" é um parâmetro que você fornece ao algoritmo.
+
+Onde é Mais Aplicado
+
+O K-means é amplamente utilizado em muitos campos, incluindo:
+
+    Segmentação de clientes: empresas podem agrupar seus clientes em diferentes categorias com base em características como idade, renda, hábitos de compra, etc.
+    Análise de redes sociais: identificar comunidades ou grupos de usuários com interesses semelhantes.
+    Reconhecimento de imagens: por exemplo, para compressão de imagens ou segmentação.
+    Bioinformática: para o agrupamento de genes ou proteínas com funções semelhantes.
+
+Quando Usar
+
+    O K-means é útil quando você tem um grande conjunto de dados e deseja entender como esses dados podem ser agrupados. Ele é especialmente útil quando você não tem uma ideia clara de como os dados podem estar relacionados ou agrupados.
+
+Como Usar
+
+    Para usar o K-means, você precisa ter um conjunto de dados e uma escolha para "k", o número de clusters. Você então executa o algoritmo, que irá iterativamente mover os centróides e reatribuir pontos de dados aos clusters até que os centróides parem de se mover significativamente.
+
+Por Que Usar
+
+    O K-means é um algoritmo simples e eficaz para agrupamento de dados. Ele é fácil de entender e implementar, e pode ser muito eficaz para identificar padrões e estruturas nos dados.
+
+Recursos Necessários
+
+    O K-means é computacionalmente eficiente, mas pode exigir bastante memória se o conjunto de dados for muito grande. Além disso, a escolha de "k" pode ser difícil e pode exigir experimentação. Em termos de custo, a implementação do K-means geralmente não é muito cara, mas pode exigir tempo e experiência para interpretar e aplicar os resultados de maneira eficaz.
+
+Diferencial
+
+    O K-means é diferente de outros algoritmos de agrupamento porque minimiza a variância dentro do cluster, ao invés de minimizar a distância entre pontos. Isso pode resultar em clusters mais "coerentes" do que outros métodos.
+
+Vantagens
+
+    Simplicidade: O algoritmo é fácil de entender e implementar.
+    Eficiência: K-means é computacionalmente eficiente, o que o torna adequado para grandes conjuntos de dados.
+    Flexibilidade: K-means pode ser usado com qualquer tipo de dados que possa ser representado em um espaço multidimensional e onde a distância entre os pontos de dados possa ser calculada.
+
+Desvantagens
+
+    Escolha de K: Determinar o número ideal de clusters (K) pode ser desafiador.
+    Sensibilidade à inicialização: O resultado do K-means pode variar dependendo dos centróides iniciais escolhidos.
+    Forma dos clusters: K-means assume que os clusters são convexos e isotrópicos, o que pode não ser sempre o caso.
+    Outliers: K-means é sensível a outliers.
