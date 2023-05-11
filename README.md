@@ -17,7 +17,7 @@ Conhecimento é bom, mas conhecimento com facilidade de acesso é melhor ainda.
 
 ## Estrutura de explicação
 Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outros conforme o tempo:
->Descrição simples
+>Descrição simples<br>
 >Descrição técnica<br>
 >O que faz<br>
 >Onde é mais aplicado (Exemplos de aplicações mais usadas)<br>
