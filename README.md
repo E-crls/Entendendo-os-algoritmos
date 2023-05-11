@@ -17,17 +17,17 @@ Conhecimento é bom, mas conhecimento com facilidade de acesso é melhor ainda.
 
 ## Estrutura de explicação
 >Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outros conforme o tempo:
-Descrição simples
-Descrição técnica
-O que ele faz  
-Onde é mais aplicado (Exemplos de aplicações mais usadas) 
-Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?) 
-Como usar 
-Por que usar 
-Recursos necessários (custos para aplicar) 
-Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este) 
-Vantagens 
-Desvantagens
+<br>Descrição simples
+<br>Descrição técnica
+<br>O que ele faz  
+<br>Onde é mais aplicado (Exemplos de aplicações mais usadas) 
+<br>Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?) 
+<br>Como usar 
+<br>Por que usar 
+<br>Recursos necessários (custos para aplicar) 
+<br>Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este) 
+<br>Vantagens 
+<br>Desvantagens
 
 ## Validação das informações
 >Todas as informações aqui presentes estão sendo passadas por revisão constante. Sendo assim, se você identificar algum conteúdo errado, sinta-se livre para sugerir a correção.
@@ -35,98 +35,98 @@ Desvantagens
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
-Regressão Linear 
-Regressão Logística 
-Máquinas de Vetores de Suporte (SVM) 
-k-vizinhos mais próximos (k-NN) 
-Árvores de decisão 
-Random Forest 
-Gradient Boosting 
-AdaBoost 
-Redes Neurais Artificiais (ANN) 
-Redes Neurais Convolucionais (CNN) 
-Redes Neurais Recorrentes (RNN) 
+<br>Regressão Linear 
+<br>Regressão Logística 
+<br>Máquinas de Vetores de Suporte (SVM) 
+<br>k-vizinhos mais próximos (k-NN) 
+<br>Árvores de decisão 
+<br>Random Forest 
+<br>Gradient Boosting 
+<br>AdaBoost 
+<br>Redes Neurais Artificiais (ANN) 
+<br>Redes Neurais Convolucionais (CNN) 
+<br>Redes Neurais Recorrentes (RNN) 
 
 ### Algoritmos de aprendizado não supervisionado: 
 
-k-means 
-Clustering hierárquico 
-DBSCAN 
-Modelo de Mistura Gaussiana (GMM) 
-PCA (Principal Component Analysis) 
-ICA (Independent Component Analysis) 
-t-SNE (t-Distributed Stochastic Neighbor Embedding) 
-UMAP (Uniform Manifold Approximation and Projection) 
+<br>k-means 
+<br>Clustering hierárquico 
+<br>DBSCAN 
+<br>Modelo de Mistura Gaussiana (GMM) 
+<br>PCA (Principal Component Analysis) 
+<br>ICA (Independent Component Analysis) 
+<br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
+<br>UMAP (Uniform Manifold Approximation and Projection) 
 
 ### Algoritmos de aprendizado por reforço: 
 
-Q-Learning 
-SARSA 
-Deep Q-Network (DQN) 
-Policy Gradients 
-Actor-Critic 
-Proximal Policy Optimization (PPO) 
-Soft Actor-Critic (SAC) 
+<br>Q-Learning 
+<br>SARSA 
+<br>Deep Q-Network (DQN) 
+<br>Policy Gradients 
+<br>Actor-Critic 
+<br>Proximal Policy Optimization (PPO) 
+<br>Soft Actor-Critic (SAC) 
 
 ### Algoritmos de otimização e busca: 
 
-Gradient Descent 
-Stochastic Gradient Descent 
-Newton-Raphson 
+<br>Gradient Descent 
+<br>Stochastic Gradient Descent 
+<br>Newton-Raphson 
 
 ### Algoritmos Genéticos 
 
-Particle Swarm Optimization 
-Simulated Annealing 
-Hill Climbing 
+<br>Particle Swarm Optimization 
+<br>Simulated Annealing 
+<br>Hill Climbing 
 
 ### Algoritmos de processamento de linguagem natural (NLP): 
 
-TF-IDF 
-Word2Vec 
-GloVe 
-FastText 
-BERT 
-GPT 
-ELMo 
-Transformer 
-Seq2Seq 
+<br>TF-IDF 
+<br>Word2Vec 
+<br>GloVe 
+<br>FastText 
+<br>BERT 
+<br>GPT 
+<br>ELMo 
+<br>Transformer 
+<br>Seq2Seq 
 
 ### Algoritmos de recomendação: 
 
-Collaborative Filtering 
-Content-based Filtering 
-Hybrid Filtering 
-Matrix Factorization (SVD, NMF) 
-Deep Learning-based Recommendations 
+<br>Collaborative Filtering 
+<br>Content-based Filtering 
+<br>Hybrid Filtering 
+<br>Matrix Factorization (SVD, NMF) 
+<br>Deep Learning-based Recommendations 
 
 ### Algoritmos de detecção de anomalias: 
 
-Isolation Forest 
-Local Outlier Factor (LOF) 
-One-Class SVM 
-Autoencoders 
+<br>Isolation Forest 
+<br>Local Outlier Factor (LOF) 
+<br>One-Class SVM 
+<br>Autoencoders 
 
 ### Algoritmos de redução de dimensionalidade: 
 
-PCA (Principal Component Analysis) 
-LDA (Linear Discriminant Analysis) 
-t-SNE (t-Distributed Stochastic Neighbor Embedding) 
-UMAP (Uniform Manifold Approximation and Projection) 
+<br>PCA (Principal Component Analysis) 
+<br>LDA (Linear Discriminant Analysis) 
+<br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
+<br>UMAP (Uniform Manifold Approximation and Projection) 
 
 ### Algoritmos de análise de séries temporais: 
 
-ARIMA 
-SARIMA 
-Exponential Smoothing 
-Prophet 
-LSTM 
-GRU 
+<br>ARIMA 
+<br>SARIMA 
+<br>Exponential Smoothing 
+<br>Prophet 
+<br>LSTM 
+<br>GRU 
 
 ### Algoritmos de análise de redes e grafos: 
 
-PageRank 
-Shortest Path (Dijkstra, A*, Bellman-Ford) 
-Community Detection (Louvain, Girvan-Newman) 
-Node2Vec 
-Graph Convolutional Networks (GCN) 
+<br>PageRank 
+<br>Shortest Path (Dijkstra, A*, Bellman-Ford) 
+<br>Community Detection (Louvain, Girvan-Newman) 
+<br>Node2Vec 
+<br>Graph Convolutional Networks (GCN) 
