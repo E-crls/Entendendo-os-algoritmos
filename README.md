@@ -536,12 +536,12 @@ Você deve usar a análise de sentimento quando quiser entender o tom emocional 
 
 #### Como usar
 
-     Reúna os dados de texto que deseja analisar.
-     Pré-processe os dados (remova a pontuação, coloque todas as palavras em minúsculas, remova as palavras de parada, etc.).
-     Se você estiver usando uma abordagem de aprendizado supervisionado, precisará rotular manualmente alguns dados com categorias de sentimento para treinamento.
-     Treine seu modelo usando seus dados de treinamento.
-     Teste seu modelo usando seus dados de teste.
-     Aplique seu modelo a novos dados para prever o sentimento.
+Reúna os dados de texto que deseja analisar.
+Pré-processe os dados (remova a pontuação, coloque todas as palavras em minúsculas, remova as palavras de parada, etc.).
+Se você estiver usando uma abordagem de aprendizado supervisionado, precisará rotular manualmente alguns dados com categorias de sentimento para treinamento.
+Treine seu modelo usando seus dados de treinamento.
+Teste seu modelo usando seus dados de teste.
+Aplique seu modelo a novos dados para prever o sentimento.
 
 #### Parâmetros e seus efeitos
 
