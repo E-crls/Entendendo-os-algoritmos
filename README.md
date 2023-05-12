@@ -10,6 +10,11 @@
 >Data Science envolve querer entender as coisas e, no entanto, a área possui tantas e tantas ferramentas para isso que, naturalmente, ignoramos a maior parte dos algoritmos existentes. O propósito deste repositório é armazendar todas as informações possíveis de cada algoritmo de data science que existe. Cada algoritmo deve possuir sua própria descrição. Um projeto comunitário ambicioso, mas muito legal.
 
 ## Falta
+Verificar existencias
+Colocar descrição de mais algoritmos
+Deixar o index clicável
+Colocar imagens no início
+Colocar imagens ilustrativas nos algoritmos
 
 
 ## Contribua
