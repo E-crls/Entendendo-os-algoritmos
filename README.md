@@ -239,38 +239,41 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>**NMF (Non-negative Matrix Factorization)**: Método de decomposição de matriz que encontra duas matrizes de baixa dimensão cujo produto aproxima a matriz original, sendo aplicado em aprendizado de características, redução de dimensionalidade e extração de tópicos. Todas as entradas das matrizes são não negativas, refletindo a natureza aditiva dos dados em muitos domínios.
 ### Algoritmos de aprendizado por reforço: 
 
-<br>Q-Learning: Um algoritmo de aprendizado por reforço baseado em valores que estima a função de valor-estado-ação (Q) para tomar decisões ideais em um ambiente estocástico. 
-<br>SARSA: Um algoritmo similar ao Q-Learning, que se diferencia por atualizar a função Q com base na ação real tomada, em vez da ação ideal (on-policy). 
-<br>Deep Q-Network (DQN): Uma extensão do Q-Learning que utiliza redes neurais profundas para estimar a função de valor-estado-ação (Q) em problemas de grande escala. 
-<br>Double DQN: Uma melhoria do DQN que aborda o problema de superestimação do valor-estado-ação (Q) usando duas redes neurais separadas. 
-<br>Dueling DQN: Uma variação do DQN que utiliza uma arquitetura especial de rede neural para aprender separadamente os valores dos estados e as vantagens das ações. 
-<br>Policy Gradients: Um tipo de algoritmo de aprendizado por reforço que aprende diretamente a política de ações ótimas, em vez de estimar valores de estado-ação. 
-<br>REINFORCE: Um algoritmo de gradientes de política que utiliza a recompensa de episódios completos para atualizar os parâmetros da política. 
-<br>Actor-Critic: Um algoritmo de aprendizado por reforço que combina a abordagem de gradientes de política (ator) e a abordagem baseada em valor (crítico) para melhorar a estabilidade e a convergência. 
-<br>A2C (Advantage Actor-Critic): Uma variação do Actor-Critic que utiliza a função de vantagem para melhorar a estimativa de gradientes de política. 
-<br>A3C (Asynchronous Advantage Actor-Critic): Uma extensão do A2C que utiliza múltiplos agentes e ambientes paralelos para explorar melhor o espaço de estados e acelerar o treinamento. 
-<br>DDPG (Deep Deterministic Policy Gradient): Um algoritmo de aprendizado por reforço contínuo que combina a abordagem Actor-Critic com redes neurais profundas. 
-<br>Proximal Policy Optimization (PPO): Um algoritmo de gradientes de política que utiliza uma abordagem de otimização limitada para melhorar a estabilidade e a convergência do treinamento. 
-<br>Trust Region Policy Optimization (TRPO): Um algoritmo de gradientes de política que utiliza a otimização de região de confiança para garantir melhorias monotônicas na política durante o treinamento. 
-<br>Soft Actor-Critic (SAC): Um algoritmo de aprendizado por reforço contínuo que combina a abordagem Actor-Critic com a otimização de entropia para melhorar a exploração e a estabilidade. 
-<br>Rainbow DQN: Uma combinação de várias melhorias e extensões do DQN, incluindo Double DQN, Dueling DQN, Prioritized Experience Replay e outros. 
-<br>Monte Carlo Tree Search (MCTS): Um algoritmo de planejamento e busca baseado em simulações de Monte Carlo para problemas de decisão sequenciais.  
-<br>AlphaGo: Um algoritmo desenvolvido pela DeepMind que combina Redes Neurais Convolucionais (CNN), Monte Carlo Tree Search (MCTS) e aprendizado por reforço para jogar o jogo de tabuleiro Go. Ficou famoso ao derrotar o campeão mundial de Go, Lee Sedol, em 2016. 
-<br>AlphaZero: Uma evolução do AlphaGo que utiliza aprendizado por reforço auto-supervisionado e busca baseada em MCTS para aprender a jogar vários jogos de tabuleiro, incluindo Go, xadrez e shogi, a partir do zero, sem conhecimento prévio além das regras básicas. 
-<br>MuZero: Uma extensão do AlphaZero que combina aprendizado por reforço e planejamento baseado em modelos para aprender a jogar uma variedade de jogos sem conhecimento prévio do modelo dinâmico do ambiente, ou seja, aprendendo apenas a partir das interações com o ambiente. 
-<br>Algoritmos de otimização e busca: 
-<br>Gradient Descent: Um algoritmo de otimização que minimiza iterativamente uma função objetivo, movendo-se na direção do gradiente negativo. 
-<br>Stochastic Gradient Descent: Uma variação do Gradient Descent que atualiza os pesos usando apenas um subconjunto de amostras (ou uma amostra única) a cada iteração, tornando o processo mais rápido e menos suscetível a mínimos locais. 
-<br>Momentum: Uma técnica que acelera o Gradient Descent ao adicionar uma fração do vetor de atualização da etapa anterior à atualização atual, ajudando a superar mínimos locais e acelerando a convergência. 
-<br>Nesterov Accelerated Gradient: Uma modificação do algoritmo Momentum que oferece uma melhor convergência ao considerar a posição futura aproximada dos pesos antes de calcular o gradiente. 
-<br>RMSprop: Um algoritmo de otimização adaptativa que ajusta a taxa de aprendizado de acordo com a magnitude dos gradientes, ajudando a evitar oscilações e a acelerar a convergência. 
-<br>AdaGrad: Um algoritmo de otimização adaptativa que ajusta a taxa de aprendizado para cada parâmetro individualmente com base na soma dos gradientes quadrados anteriores. 
-<br>AdaDelta: Uma extensão do AdaGrad que busca resolver a redução monótona da taxa de aprendizado, adaptando a taxa de aprendizado com base em uma janela de gradientes passados. 
-<br>Adam: Um algoritmo de otimização adaptativa que combina os conceitos do Momentum e do RMSprop, ajustando a taxa de aprendizado e o momento de cada parâmetro individualmente. 
-<br>AdamW: Uma variação do algoritmo Adam que introduz uma correção na regularização de pesos, melhorando a convergência e o desempenho em tarefas de aprendizado profundo. 
-<br>FTRL: Um algoritmo de otimização online (Follow-The-Regularized-Leader) que é particularmente eficaz para problemas com alta dimensionalidade e esparsidade, como aprendizado de máquina em larga escala. 
-<br>Newton-Raphson: Um algoritmo de otimização baseado em métodos de segunda ordem que usa a matriz hessiana (segundas derivadas) da função objetivo para encontrar mínimos locais mais rapidamente do que o Gradient Descent. 
-<br>Broyden-Fletcher-Goldfarb-Shanno (BFGS): Um algoritmo de otimização quasi-Newton que usa aproximações da matriz hessiana para encontrar mínimos locais de uma função objetivo, sendo mais eficiente que o método de Newton-Raphson em termos de uso de memória e cálculos. 
+<br>**Q-Learning**: Um algoritmo de aprendizado por reforço baseado em valores que estima a função de valor-estado-ação (Q) para tomar decisões ideais em um ambiente estocástico.
+<br>**SARSA**: Um algoritmo similar ao Q-Learning, que se diferencia por atualizar a função Q com base na ação real tomada, em vez da ação ideal (on-policy).
+<br>**Deep Q-Network (DQN)**: Uma extensão do Q-Learning que utiliza redes neurais profundas para estimar a função de valor-estado-ação (Q) em problemas de grande escala.
+<br>**Double DQN**: Uma melhoria do DQN que aborda o problema de superestimação do valor-estado-ação (Q) usando duas redes neurais separadas.
+<br>**Dueling DQN**: Uma variação do DQN que utiliza uma arquitetura especial de rede neural para aprender separadamente os valores dos estados e as vantagens das ações.
+<br>**Policy Gradients**: Um tipo de algoritmo de aprendizado por reforço que aprende diretamente a política de ações ótimas, em vez de estimar valores de estado-ação.
+<br>**REINFORCE**: Um algoritmo de gradientes de política que utiliza a recompensa de episódios completos para atualizar os parâmetros da política.
+<br>**Actor-Critic**: Um algoritmo de aprendizado por reforço que combina a abordagem de gradientes de política (ator) e a abordagem baseada em valor (crítico) para melhorar a estabilidade e a convergência.
+<br>**A2C (Advantage Actor-Critic)**: Uma variação do Actor-Critic que utiliza a função de vantagem para melhorar a estimativa de gradientes de política.
+<br>**A3C (Asynchronous Advantage Actor-Critic)**: Uma extensão do A2C que utiliza múltiplos agentes e ambientes paralelos para explorar melhor o espaço de estados e acelerar o treinamento.
+<br>**DDPG (Deep Deterministic Policy Gradient)**: Um algoritmo de aprendizado por reforço contínuo que combina a abordagem Actor-Critic com redes neurais profundas.
+<br>**Proximal Policy Optimization (PPO)**: Um algoritmo de gradientes de política que utiliza uma abordagem de otimização limitada para melhorar a estabilidade e a convergência do treinamento.
+<br>**Trust Region Policy Optimization (TRPO)**: Um algoritmo de gradientes de política que utiliza a otimização de região de confiança para garantir melhorias monotônicas na política durante o treinamento.
+<br>**Soft Actor-Critic (SAC)**: Um algoritmo de aprendizado por reforço contínuo que combina a abordagem Actor-Critic com a otimização de entropia para melhorar a exploração e a estabilidade.
+<br>**Rainbow DQN**: Uma combinação de várias melhorias e extensões do DQN, incluindo Double DQN, Dueling DQN, Prioritized Experience Replay e outros.
+<br>**Monte Carlo Tree Search (MCTS)**: Um algoritmo de planejamento e busca baseado em simulações de Monte Carlo para problemas de decisão sequenciais.
+<br>**AlphaGo**: Um algoritmo desenvolvido pela DeepMind que combina Redes Neurais Convolucionais (CNN), Monte Carlo Tree Search (MCTS) e aprendizado por reforço para jogar o jogo de tabuleiro Go. Ficou famoso ao derrotar o campeão mundial de Go, Lee Sedol, em 2016.
+<br>**AlphaZero**: Uma evolução do AlphaGo que utiliza aprendizado por reforço auto-supervisionado e busca baseada em MCTS para aprender a jogar vários jogos de tabuleiro, incluindo Go, xadrez e shogi, a partir do zero, sem conhecimento prévio além das regras básicas.
+<br>**MuZero**: Uma extensão do AlphaZero que combina aprendizado por reforço e planejamento baseado em modelos para aprender a jogar uma variedade de jogos sem conhecimento prévio do modelo dinâmico do ambiente, ou seja, aprendendo apenas a partir das interações com o ambiente.
+
+### Algoritmos de otimização e busca:
+
+<br>**Gradient Descent**: Um algoritmo de otimização que minimiza iterativamente uma função objetivo, movendo-se na direção do gradiente negativo.
+<br>**Stochastic Gradient Descent**: Uma variação do Gradient Descent que atualiza os pesos usando apenas um subconjunto de amostras (ou uma amostra única) a cada iteração, tornando o processo mais rápido e menos suscetível a mínimos locais.
+<br>**Momentum**: Uma técnica que acelera o Gradient Descent ao adicionar uma fração do vetor de atualização da etapa anterior à atualização atual, ajudando a superar mínimos locais e acelerando a convergência.
+<br>**Nesterov Accelerated Gradient**: Uma modificação do algoritmo Momentum que oferece uma melhor convergência ao considerar a posição futura aproximada dos pesos antes de calcular o gradiente.
+<br>**RMSprop**: Um algoritmo de otimização adaptativa que ajusta a taxa de aprendizado de acordo com a magnitude dos gradientes, ajudando a evitar oscilações e a acelerar a convergência.
+<br>**AdaGrad**: Um algoritmo de otimização adaptativa que ajusta a taxa de aprendizado para cada parâmetro individualmente com base na soma dos gradientes quadrados anteriores.
+<br>**AdaDelta**: Uma extensão do AdaGrad que busca resolver a redução monótona da taxa de aprendizado, adaptando a taxa de aprendizado com base em uma janela de gradientes passados.
+<br>**Adam**: Um algoritmo de otimização adaptativa que combina os conceitos do Momentum e do RMSprop, ajustando a taxa de aprendizado e o momento de cada parâmetro individualmente.
+<br>**AdamW**: Uma variação do algoritmo Adam que introduz uma correção na regularização de pesos, melhorando a convergência e o desempenho em tarefas de aprendizado profundo.
+<br>**FTRL**: Um algoritmo de otimização online (Follow-The-Regularized-Leader) que é particularmente eficaz para problemas com alta dimensionalidade e esparsidade, como aprendizado de máquina em larga escala.
+<br>**Newton-Raphson**: Um algoritmo de otimização baseado em métodos de segunda ordem que usa a matriz hessiana (segundas derivadas) da função objetivo para encontrar mínimos locais mais rapidamente do que o Gradient Descent.
+<br>**Broyden-Fletcher-Goldfarb-Shanno (BFGS)**: Um algoritmo de otimização quasi-Newton que usa aproximações da matriz hessiana para encontrar mínimos locais de uma função objetivo, sendo mais eficiente que o método de Newton-Raphson em termos de uso de memória e cálculos.
+
 
 ### Algoritmos de Otimização Evolutiva 
 
