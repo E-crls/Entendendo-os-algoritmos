@@ -392,7 +392,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - **Discrete-event simulation (DES):** A simulação de eventos discretos é uma técnica que modela a evolução de um sistema ao longo do tempo, representando eventos que ocorrem em momentos específicos e que alteram o estado do sistema. O DES é usado em data science para analisar sistemas em que os eventos ocorrem de forma discreta e aleatória, como filas de espera, processos de produção e sistemas de transporte.
 - **Cellular automata:** Autômatos celulares são modelos matemáticos que representam sistemas dinâmicos e discretos, nos quais o espaço é dividido em células e cada célula evolui com base em regras simples e locais. Eles podem ser usados em data science para simular fenômenos espaciais e temporais, como crescimento populacional, difusão e propagação de doenças.
 ## Descrição
-### Kmeans
+## Kmeans
 #### Descrição Simples
 
 O algoritmo K-means é um método de agrupamento, que tem o objetivo de dividir n observações em k grupos, onde cada observação pertence ao grupo cuja média tem a menor distância.
@@ -512,7 +512,7 @@ O número de clusters precisa ser definido previamente. O K-means é sensível �
 >Avaliação: Avalie a qualidade do agrupamento. Isso pode ser feito usando métricas como a soma dos quadrados dentro do cluster (WCSS).
 >Interpretação: Interprete os clusters identificados. Cada cluster pode ser caracterizado pelo seu centróide, que é a média de todos os pontos de dados no cluster.
 
-### Análise de sentimentos
+## Análise de sentimentos
 #### Descrição Simples:
 A análise de sentimentos, muitas vezes chamada de "mineração de opinião", é uma maneira de interpretar e classificar emoções (positivas, negativas e neutras) em dados de texto usando técnicas de análise de texto. Ele pode ajudar as empresas a entender como seus clientes se sentem em relação a seus produtos ou serviços, analisando o feedback do cliente, as conversas nas mídias sociais e as análises de produtos.
 
