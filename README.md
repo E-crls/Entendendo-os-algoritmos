@@ -30,6 +30,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 >Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este)<br> 
 >Vantagens<br>
 >Desvantagens<br>
+>Pipeline de execução do algoritmo<br>
 É recomendável que estude os conceitos da sessão "Conceitos básicos" para entender conceitos comuns para o entendimento de modelos em Data Science
 
 ## Validação das informações
@@ -381,47 +382,216 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>Cellular automata: Autômatos celulares são modelos matemáticos que representam sistemas dinâmicos e discretos, nos quais o espaço é dividido em células e cada célula evolui com base em regras simples e locais. Eles podem ser usados em data science para simular fenômenos espaciais e temporais, como crescimento populacional, difusão e propagação de doenças. 
 
 ## Descrição
-## K-Means
-### Descrição Simples
-K-means é um algoritmo de aprendizado de máquina não supervisionado que é usado para agrupar dados semelhantes em clusters. Imagine que você tem um grande conjunto de dados, mas não sabe como eles se relacionam ou se agrupam; o K-means ajuda a descobrir essas relações.
+### Kmeans
+#### Descrição Simples
 
-### Descrição Técnica
-O algoritmo K-means funciona através de um processo iterativo. Ele começa selecionando "k" pontos aleatórios, que são chamados de centróides. Cada ponto de dados é então atribuído ao centróide mais próximo. Depois disso, novos centróides são calculados como a média dos pontos de dados em cada cluster. Este processo é repetido até que os centróides parem de mudar significativamente ou um número máximo de iterações seja alcançado.
+O algoritmo K-means é um método de agrupamento, que tem o objetivo de dividir n observações em k grupos, onde cada observação pertence ao grupo cuja média tem a menor distância.
 
-### O Que Faz
-O K-means agrupa dados semelhantes em clusters. Ele encontra a melhor maneira de dividir os dados em "k" grupos, onde "k" é um parâmetro que você fornece ao algoritmo.
+#### Descrição Técnica
 
-### Onde é Mais Aplicado
+Tecnicamente, o algoritmo K-means tenta minimizar a soma das distâncias quadráticas entre os pontos e o centróide (a média aritmética) de cada cluster. O algoritmo segue os seguintes passos:
 
-O K-means é amplamente utilizado em muitos campos, incluindo:
->Segmentação de clientes: empresas podem agrupar seus clientes em diferentes categorias com base em características como idade, renda, hábitos de compra, etc.
->Análise de redes sociais: identificar comunidades ou grupos de usuários com interesses semelhantes.
->Reconhecimento de imagens: por exemplo, para compressão de imagens ou segmentação.
->Bioinformática: para o agrupamento de genes ou proteínas com funções semelhantes.
+    Escolhe-se um número K de clusters.
+    Seleciona-se aleatoriamente K pontos de dados como centróides iniciais.
+    Atribui-se cada ponto ao centróide mais próximo.
+    Recalcula-se o centróide de cada cluster (a média de todos os pontos de dados pertencentes a esse cluster).
+    Repete-se os passos 3 e 4 até que os centróides não mudem significativamente ou se atinja um número predefinido de iterações.
+K-means é um algoritmo de agrupamento particional que divide um conjunto de n-observações em k-grupos, onde cada observação pertence ao grupo com a média mais próxima. A "média" aqui é o centroide, que é a média de todos os pontos em cada cluster.
 
-### Quando Usar
-O K-means é útil quando você tem um grande conjunto de dados e deseja entender como esses dados podem ser agrupados. Ele é especialmente útil quando você não tem uma ideia clara de como os dados podem estar relacionados ou agrupados.
+#### O que faz
+K-means agrupa pontos de dados semelhantes com base nas suas características. Ele tenta fazer com que os pontos dentro de um cluster sejam o mais semelhantes possível, enquanto os clusters são o mais diferentes possível. O algoritmo K-means é como um organizador de festas que precisa arranjar convidados em mesas de acordo com as semelhanças entre eles, sem saber nada sobre quem são. Ele agrupa os dados em K grupos distintos (as mesas), onde K é pré-definido. Imagine que você tem um monte de pontos num gráfico e você quer organizar esses pontos em grupos onde os pontos de cada grupo estão mais próximos uns dos outros do que dos pontos de outros grupos. O K-means faz exatamente isso.
 
-### Como Usar
+#### Suposições feitas pelo algoritmo
 
-Para usar o K-means, você precisa ter um conjunto de dados e uma escolha para "k", o número de clusters. Você então executa o algoritmo, que irá iterativamente mover os centróides e reatribuir pontos de dados aos clusters até que os centróides parem de se mover significativamente.
+O K-means assume que os clusters são convexos e isotrópicos, o que significa que eles têm forma esférica e igual em todas as direções, respectivamente. Também assume que todos os clusters têm aproximadamente o mesmo número de observações. 
+O K-means assume que os clusters são esféricos e de igual tamanho, o que significa que todas as direções são igualmente importantes para cada cluster. Ele também supõe que a variância dos dados distribuídos em cada dimensão é a mesma.
 
-### Por Que Usar
-O K-means é um algoritmo simples e eficaz para agrupamento de dados. Ele é fácil de entender e implementar, e pode ser muito eficaz para identificar padrões e estruturas nos dados.
+#### Como o algoritmo lida com diferentes tipos de dados
 
-### Recursos Necessários
-O K-means é computacionalmente eficiente, mas pode exigir bastante memória se o conjunto de dados for muito grande. Além disso, a escolha de "k" pode ser difícil e pode exigir experimentação. Em termos de custo, a implementação do K-means geralmente não é muito cara, mas pode exigir tempo e experiência para interpretar e aplicar os resultados de maneira eficaz.
+O K-means funciona melhor com dados numéricos, pois se baseia em medidas de distância euclidiana. Ele não lida diretamente com dados categóricos ou textuais. Nesses casos, é necessário usar técnicas de pré-processamento para transformar esses dados em um formato numérico que o K-means possa usar.
+O K-means funciona melhor com dados numéricos, pois o cálculo dos centróides é baseado em médias. Dados categóricos ou textuais não são apropriados para K-means, embora existam variantes do K-means que podem lidar com esses tipos de dados.
 
-### Diferencial
-O K-means é diferente de outros algoritmos de agrupamento porque minimiza a variância dentro do cluster, ao invés de minimizar a distância entre pontos. Isso pode resultar em clusters mais "coerentes" do que outros métodos.
+#### Onde é mais aplicado
 
-### Vantagens
->Simplicidade: O algoritmo é fácil de entender e implementar.
->Eficiência: K-means é computacionalmente eficiente, o que o torna adequado para grandes conjuntos de dados.
->Flexibilidade: K-means pode ser usado com qualquer tipo de dados que possa ser representado em um espaço multidimensional e onde a distância entre os pontos de dados possa ser calculada.
+K-means é amplamente usado em uma variedade de aplicações, incluindo segmentação de mercado, detecção de anomalias, categorização de documentos e compressão de imagens.
+O K-means é amplamente usado em várias aplicações como análise de mercado, agrupamento de documentos, segmentação de imagens, e análise de redes sociais.
 
-### Desvantagens
->Escolha de K: Determinar o número ideal de clusters (K) pode ser desafiador.
->Sensibilidade à inicialização: O resultado do K-means pode variar dependendo dos centróides iniciais escolhidos.
->Forma dos clusters: K-means assume que os clusters são convexos e isotrópicos, o que pode não ser sempre o caso.
->Outliers: K-means é sensível a outliers.
+#### Quando usar
+
+K-means é útil quando você tem um conjunto de dados e deseja identificar grupos de dados semelhantes. No entanto, você precisa ter uma ideia do número de grupos que espera encontrar.
+Use o K-means quando você tem uma grande quantidade de dados não rotulados e deseja identificar padrões ou estruturas subjacentes.
+
+#### Por que usar
+
+É um algoritmo simples, rápido e eficiente. Ele é particularmente útil quando se lida com grandes conjuntos de dados.
+É uma ferramenta útil para explorar os dados e identificar padrões que podem não ser imediatamente aparentes. Ele é fácil de entender, rápido de executar e eficiente em termos computacionais.
+
+#### Como usar
+
+O uso principal envolve a escolha de um número K de clusters, seguido pelo treinamento do algoritmo nos dados. Após o treinamento, o algoritmo pode ser usado para prever a qual cluster um novo ponto de dados pertence.
+Para usar o K-means, primeiro você precisa definir o número de clusters (K). O algoritmo então inicia atribuindo aleatoriamente cada ponto de dado a um cluster. Ele então calcula o centróide de cada cluster e reatribui cada ponto de dado ao cluster com o centróide mais próximo. Este processo é repetido até que os clusters não mudem significativamente.
+
+#### Parâmetros do algoritmo
+
+O principal parâmetro do K-means é o número K de clusters. A escolha do valor de K pode ter um impacto significativo nos resultados. Um valor muito baixo de K pode levar a um underfitting, onde os clusters são muito gerais, enquanto um valor muito alto pode levar a um overfitting, onde os clusters são muito específicos.
+O principal parâmetro do K-means é o número de clusters (K). Escolher o valor certo para K pode ser desafiador e pode afetar significativamente os resultados.
+
+#### Como lida com dados faltantes ou outliers
+
+O K-means não lida bem com dados faltantes e outliers. Os outliers podem distorcer a média e, assim, a posição do centróide, tornando o cluster menos representativo. Da mesma forma, os dados faltantes podem causar problemas, pois o K-means depende de todas as características para calcular a distância. É recomendável tratar os outliers e os dados faltantes antes de aplicar o K-means.
+K-means não lida bem com outliers ou dados faltantes. Outliers podem distorcer os centróides e os dados faltantes podem levar a resultados inconsistentes.
+
+#### Sensibilidade à escala dos dados
+
+O algoritmo K-means é sensível à escala dos dados. Diferentes escalas para diferentes características podem levar a clusters que são baseados principalmente na característica com a maior escala. Normalmente, é uma boa prática normalizar os dados antes de usar o K-means.
+Sim, o K-means é sensível à escala dos dados. Dados em diferentes escalas podem resultar em clusters diferentes. Recomenda-se normalizar ou padronizar os dados antes de usar o K-means.
+
+#### Propensão a overfitting ou underfitting
+
+O K-means pode ser propenso a overfitting se o número de clusters escolhido for muito grande. Por outro lado, pode ser propenso a underfitting se o número de clusters for muito pequeno. O método do cotovelo é frequentemente usado para escolher um bom número de clusters, procurando um "cotovelo" na curva de erro.
+O K-means pode sofrer de overfitting se o número de clusters (K) for muito grande, ou de underfitting se K for muito pequeno. Não existe uma regra fixa para escolher o melhor valor para K, muitas vezes é uma questão de tentativa e erro.
+
+#### Complexidade computacional
+
+O algoritmo K-means tem uma complexidade computacional de O(tnk*I), onde n é o número total de dados, k é o número de clusters, I é o número de iterações e t é o número de atributos. Portanto, pode ser computacionalmente caro para conjuntos de dados muito grandes ou um número muito grande de clusters.
+A complexidade computacional do K-means é geralmente O(t * k * n * d), onde t é o número de iterações, k é o número de clusters, n é o número de pontos de dados, e d é o número de atributos. Embora seja eficiente para um grande número de dados, ele pode ser computacionalmente caro se o número de clusters for muito grande.
+
+#### Interpretabilidade do modelo
+
+Os modelos K-means são relativamente fáceis de interpretar. Cada cluster pode ser caracterizado pela média de seus pontos. No entanto, a interpretação pode ser desafiadora se o número de características for muito grande.
+O modelo K-means é relativamente fácil de interpretar, pois os dados são simplesmente divididos em diferentes grupos. Cada cluster pode ser caracterizado pelo seu centróide.
+
+#### Validação ou avaliação do algoritmo
+
+As métricas comuns para avaliar o K-means incluem a soma dos quadrados dentro do cluster (WCSS), a silhueta e o índice de Davies-Bouldin. Essas métricas avaliam a coesão interna dos clusters e a separação entre eles.
+Uma métrica comum para avaliar o desempenho do K-means é a soma dos quadrados dentro do cluster (WCSS). Um método para escolher o número de clusters é o "método do cotovelo", que envolve plotar a WCSS para diferentes valores de K e escolher o ponto de inflexão no gráfico.
+
+#### Recursos necessários
+
+O K-means é um algoritmo relativamente eficiente e não requer recursos computacionais significativos para conjuntos de dados de tamanho moderado. No entanto, para conjuntos de dados muito grandes ou um número muito grande de clusters, o K-means pode ser computacionalmente caro.
+O K-means é um algoritmo relativamente leve em termos de recursos computacionais. No entanto, para conjuntos de dados muito grandes, pode ser necessário um poder computacional significativo.
+
+#### Diferencial
+
+O K-means é simples e eficaz, mas difere de outros métodos de agrupamento que podem lidar com clusters de formas não esféricas e diferentes densidades.
+O K-means é simples e eficaz. Diferentemente de alguns outros algoritmos de agrupamento, ele pode ser facilmente escalado para grandes conjuntos de dados.
+ 
+#### Vantagens
+
+    Simplicidade e facilidade de implementação.
+    Eficiência computacional.
+    Útil para pré-processamento e redução de dimensionalidade.
+É simples de entender e implementar, e é eficaz em grandes conjuntos de dados. Ele também é eficiente em termos computacionais.
+
+#### Desvantagens
+
+    Sensibilidade à inicialização (embora a versão K-means++ ajude a mitigar isso).
+    Sensibilidade à escala dos dados.
+    A necessidade de escolher o número de clusters a priori.
+    Assumir que os clusters são convexos e isotrópicos pode ser limitante em alguns casos.
+O número de clusters precisa ser definido previamente. O K-means é sensível à inicialização, ou seja, pontos de partida aleatórios podem levar a resultados diferentes. Além disso, ele não lida bem com clusters de forma não esférica ou com tamanhos de clusters variáveis. Ele também não lida bem com outliers e dados faltantes.
+
+#### Pipeline de execução do algoritmo K-means:
+
+>Preparação dos Dados: Os dados devem ser limpos e pré-processados. Isso pode envolver a remoção de outliers, o preenchimento de dados faltantes e a normalização dos dados para que todos os recursos estejam na mesma escala.
+>Definir o Número de Clusters (K): O número de clusters que você deseja que o K-means identifique deve ser definido. Isso pode ser feito com base no conhecimento do domínio ou usando técnicas como o método do cotovelo.
+>Inicialização: Selecione K pontos de dados aleatórios como centróides iniciais.
+>Atribuição: Atribua cada ponto de dado ao cluster cujo centróide está mais próximo.
+>Atualização de Centróides: Calcule os novos centróides como a média dos pontos de dados atribuídos a cada cluster.
+>Iteração: Repita os passos 4 e 5 até que os centróides não mudem significativamente ou após um número fixo de iterações.
+>Avaliação: Avalie a qualidade do agrupamento. Isso pode ser feito usando métricas como a soma dos quadrados dentro do cluster (WCSS).
+>Interpretação: Interprete os clusters identificados. Cada cluster pode ser caracterizado pelo seu centróide, que é a média de todos os pontos de dados no cluster.
+
+### Análise de sentimentos
+#### Descrição Simples:
+A análise de sentimentos, muitas vezes chamada de "mineração de opinião", é uma maneira de interpretar e classificar emoções (positivas, negativas e neutras) em dados de texto usando técnicas de análise de texto. Ele pode ajudar as empresas a entender como seus clientes se sentem em relação a seus produtos ou serviços, analisando o feedback do cliente, as conversas nas mídias sociais e as análises de produtos.
+
+#### Descrição técnica
+
+Tecnicamente, a análise de sentimento é uma tarefa de processamento de linguagem natural (NLP) que usa aprendizado de máquina (ML) ou modelos de aprendizado profundo para classificar o texto em categorias de sentimento. Mais comumente, essas categorias são positivas, negativas e neutras. Alguns sistemas avançados também detectam emoções como "feliz", "triste", "irritado" e assim por diante.
+
+#### O que faz
+
+Leva dados de texto como entrada e classifica o sentimento do texto como saída. Por exemplo, pode ser um tweet como entrada e saída, independentemente de o tweet ter um sentimento positivo, negativo ou neutro.
+
+#### Suposições feitas pelo algoritmo
+
+A principal suposição é que os dados de texto contêm sentimentos que podem ser classificados em categorias distintas. Ele também assume que os dados de treinamento representam com precisão os sentimentos encontrados nos dados do mundo real.
+
+#### Como ele lida com diferentes tipos de dados
+
+A análise de sentimento trabalha principalmente com dados textuais. Dados numéricos e categóricos não são usados diretamente na análise de sentimento, mas podem fornecer contexto adicional.
+
+#### Onde é mais aplicado
+
+A análise de sentimento é amplamente utilizada nos negócios para monitoramento de marcas, atendimento ao cliente, análise de produtos e pesquisa de mercado. Também é usado na política para avaliar a opinião pública e na pesquisa em ciências sociais.
+
+#### Quando usar
+
+Você deve usar a análise de sentimento quando quiser entender o tom emocional dos dados da linguagem escrita, como publicações em redes sociais, avaliações de clientes ou respostas de pesquisas.
+
+#### Por que usar
+
+É útil para entender o feedback do cliente em escala, monitorar o sentimento da marca e detectar mudanças na opinião pública.
+
+#### Como usar
+
+     Reúna os dados de texto que deseja analisar.
+     Pré-processe os dados (remova a pontuação, coloque todas as palavras em minúsculas, remova as palavras de parada, etc.).
+     Se você estiver usando uma abordagem de aprendizado supervisionado, precisará rotular manualmente alguns dados com categorias de sentimento para treinamento.
+     Treine seu modelo usando seus dados de treinamento.
+     Teste seu modelo usando seus dados de teste.
+     Aplique seu modelo a novos dados para prever o sentimento.
+
+#### Parâmetros e seus efeitos
+
+Nos modelos de ML, os parâmetros podem incluir o tipo de algoritmo (como SVM, Naive Bayes), a arquitetura (para redes neurais) ou parâmetros como a taxa de aprendizado. A escolha dos parâmetros pode afetar significativamente o desempenho do modelo.
+
+#### Tratamento de dados ausentes e outliers
+
+A análise de sentimento não lida diretamente com dados ausentes, pois trabalha principalmente com texto. Outliers (como declarações sarcásticas ou irônicas) muitas vezes podem ser mal classificados.
+
+#### Sensibilidade da escala
+
+O algoritmo não é sensível à escala dos dados, mas os requisitos computacionais podem aumentar com conjuntos de dados maiores.
+
+#### Sobreajuste ou subajuste
+
+Como qualquer algoritmo de aprendizado de máquina, os modelos de análise de sentimento podem ser superajustados ou subajustados. O overfitting ocorre quando o modelo é muito complexo e começa a aprender o ruído dos dados de treinamento. O underfitting acontece quando o modelo é muito simples para aprender os padrões subjacentes.
+
+#### Complexidade computacional
+
+A complexidade depende do algoritmo usado. Modelos básicos como Naive Bayes são menos intensivos computacionalmente do que modelos de aprendizado profundo.
+
+#### Interpretabilidade
+
+Modelos como Árvores de Decisão ou Regressão Logística são mais interpretáveis do que Redes Neurais. Você pode entender quais palavras estão contribuindo mais para o sentimento com o primeiro, mas é mais difícil com o último.
+
+#### Validação e Avaliação
+
+Os modelos podem ser avaliados usando métricas como exatidão, precisão, recuperação e pontuação F1. A validação cruzada é frequentemente usada para fornecer uma medida mais robusta de desempenho.
+
+#### Recursos Necessários
+
+Os custos para aplicar a análise de sentimento podem variar muito. Eles podem incluir o custo de coleta e armazenamento de dados, recursos computacionais e, possivelmente, o custo de rotulagem manual para aprendizado supervisionado.
+
+#### Diferencial
+
+Em comparação com outras tarefas de PNL, a análise de sentimento se concentra especificamente na compreensão do tom emocional do texto. Está menos preocupado em extrair fatos (como na extração de informações) ou entender o significado das frases (como na tradução automática).
+
+#### Benefícios
+
+A análise de sentimento pode fornecer informações valiosas sobre como as pessoas se sentem sobre um determinado tópico, marca ou produto. Ele pode ajudar as empresas a melhorar seus produtos e serviços com base no feedback dos clientes.
+
+#### Desvantagens
+
+A análise de sentimentos pode ter dificuldades com coisas como sarcasmo, gírias ou erros de digitação. Também pode ter dificuldade com textos que contenham sentimentos positivos e negativos.
+
+#### Pipeline de execução do algoritmo
+
+Coleta de dados de texto: podem ser dados de mídias sociais, avaliações de clientes, etc.
+Pré-processamento de dados: Isso inclui a limpeza dos dados, a remoção de palavras de parada e, possivelmente, a execução de lematização ou lematização.
+Extração de recursos: isso pode ser tão simples quanto um modelo de saco de palavras ou mais complexo como a incorporação de palavras.
+Treinamento de modelo: é aqui que você treina seu aprendizado de máquina ou modelo de aprendizado profundo em seus dados de treinamento rotulados.
+Avaliação: você avalia seu modelo em um conjunto de dados de teste separado para ver o desempenho dele.
+Implantação: Uma vez satisfeito com seu desempenho, você implanta seu modelo para começar a analisar novos dados.
