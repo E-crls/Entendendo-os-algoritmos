@@ -186,97 +186,97 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ### Algoritmos de aprendizado supervisionado: 
 
-<br>**Regressão Linear**: Modelo simples de aprendizado supervisionado para prever uma variável contínua a partir de uma ou mais variáveis independentes. 
-<br>**Regressão Polinomial**: Extensão da regressão linear que ajusta um polinômio aos dados. 
-<br>**Regressão Ridge**: Versão regularizada da regressão linear que penaliza coeficientes grandes para evitar o sobreajuste. 
-<br>**Regressão Lasso**: Outra versão regularizada da regressão linear que penaliza a soma dos valores absolutos dos coeficientes para evitar o sobreajuste e promover a esparsidade.
-<br>**Regressão ElasticNet**: Combinação das regularizações L1 e L2, usadas na regressão Lasso e Ridge, respectivamente.
-<br>**Regressão Logística**: Modelo de classificação binária que estima a probabilidade de um evento ocorrer com base nas variáveis independentes.
-<br>**K-vizinhos mais próximos (k-NN)**: Algoritmo baseado em instâncias que classifica um objeto com base na maioria dos rótulos de seus k vizinhos mais próximos.
-<br>**Máquinas de Vetores de Suporte (SVM)**: Modelo que encontra o hiperplano que melhor separa as classes no espaço de entrada, maximizando a margem entre elas.
-<br>**Árvores de decisão**: Modelo que aprende regras de decisão a partir dos dados de treinamento, representadas na forma de uma estrutura de árvore.
-<br>**Random Forest**: Ensemble de árvores de decisão que agrega as previsões de várias árvores treinadas com diferentes subconjuntos de dados e atributos.
-<br>**Gradient Boosting**: Método de ensemble que combina modelos fracos (geralmente árvores de decisão) de forma sequencial, ajustando cada modelo para os resíduos do modelo anterior.
-<br>**XGBoost**: Implementação otimizada e escalável do Gradient Boosting, com suporte a paralelização e regularização.
-<br>**LightGBM**: Método de Gradient Boosting baseado em árvores que cresce verticalmente, escolhendo o nó com o maior ganho de informação para divisão em vez de crescer horizontalmente.
-<br>**CatBoost**: Algoritmo de Gradient Boosting projetado para lidar com dados categóricos automaticamente, evitando a necessidade de codificação manual.
-<br>**Naive Bayes**: Modelo probabilístico simples baseado no Teorema de Bayes que assume independência entre os atributos.
-<br>**Redes Neurais Artificiais (ANN)**: Modelo computacional inspirado no cérebro humano, composto por neurônios artificiais interconectados.
-<br>**Redes Neurais Convolucionais (CNN)**: Tipo de ANN projetada para processar dados em grade, como imagens, usando camadas convolucionais para detectar características locais.
-<br>**Redes Neurais Recorrentes (RNN)**: Tipo de ANN projetada para lidar com sequências de dados, onde a saída de um neurônio em um determinado passo de tempo é alimentada de volta como entrada no próximo passo de tempo.
-<br>**Long Short-Term Memory (LSTM)**: Variação de RNN que inclui células de memória para lidar com problemas de dependências de longo prazo e evitar o desaparecimento ou explosão do gradiente.
-<br>**Gated Recurrent Units (GRU)**: Variação de RNN semelhante ao LSTM, mas com uma arquitetura mais simples e menor número de portões de controle.
-<br>**Transformer**: Modelo de atenção baseado em autoatenção, projetado para lidar com sequências de dados sem a necessidade de recorrência ou convoluções.
-<br>**BERT (Bidirectional Encoder Representations from Transformers)**: Modelo pré-treinado de aprendizado profundo baseado em Transformer para processamento de linguagem natural que considera o contexto bidirecional.
-<br>**GPT (Generative Pre-trained Transformer)**: Modelo pré-treinado de aprendizado profundo baseado em Transformer projetado para geração de texto e outras tarefas de processamento de linguagem natural.
-<br>**RoBERTa (Robustly Optimized BERT Pretraining Approach)**: Variação do BERT que introduz melhorias no pré-treinamento e ajuste fino, resultando em um melhor desempenho.
-<br>**DistilBERT**: Versão mais leve e rápida do BERT, obtida por destilar conhecimento do modelo BERT original em uma arquitetura menor.
-<br>**T5 (Text-to-Text Transfer Transformer)**: Modelo baseado em Transformer que aborda todas as tarefas de processamento de linguagem natural como um problema de tradução de texto para texto.
-<br>**ALBERT (A Lite BERT)**: Variação do BERT que usa fatorização de parâmetros e compartilhamento de parâmetros entre camadas para reduzir o tamanho do modelo e o tempo de treinamento.
-<br>**XLNet**: Modelo de linguagem baseado em Transformer que combina a autoatenção bidirecional do BERT com a auto-regressão do GPT para lidar com o contexto e a permutação das palavras.
+- **Regressão Linear**: Modelo simples de aprendizado supervisionado para prever uma variável contínua a partir de uma ou mais variáveis independentes. 
+- **Regressão Polinomial**: Extensão da regressão linear que ajusta um polinômio aos dados. 
+- **Regressão Ridge**: Versão regularizada da regressão linear que penaliza coeficientes grandes para evitar o sobreajuste. 
+- **Regressão Lasso**: Outra versão regularizada da regressão linear que penaliza a soma dos valores absolutos dos coeficientes para evitar o sobreajuste e promover a esparsidade.
+- **Regressão ElasticNet**: Combinação das regularizações L1 e L2, usadas na regressão Lasso e Ridge, respectivamente.
+- **Regressão Logística**: Modelo de classificação binária que estima a probabilidade de um evento ocorrer com base nas variáveis independentes.
+- **K-vizinhos mais próximos (k-NN)**: Algoritmo baseado em instâncias que classifica um objeto com base na maioria dos rótulos de seus k vizinhos mais próximos.
+- **Máquinas de Vetores de Suporte (SVM)**: Modelo que encontra o hiperplano que melhor separa as classes no espaço de entrada, maximizando a margem entre elas.
+- **Árvores de decisão**: Modelo que aprende regras de decisão a partir dos dados de treinamento, representadas na forma de uma estrutura de árvore.
+- **Random Forest**: Ensemble de árvores de decisão que agrega as previsões de várias árvores treinadas com diferentes subconjuntos de dados e atributos.
+- **Gradient Boosting**: Método de ensemble que combina modelos fracos (geralmente árvores de decisão) de forma sequencial, ajustando cada modelo para os resíduos do modelo anterior.
+- **XGBoost**: Implementação otimizada e escalável do Gradient Boosting, com suporte a paralelização e regularização.
+- **LightGBM**: Método de Gradient Boosting baseado em árvores que cresce verticalmente, escolhendo o nó com o maior ganho de informação para divisão em vez de crescer horizontalmente.
+- **CatBoost**: Algoritmo de Gradient Boosting projetado para lidar com dados categóricos automaticamente, evitando a necessidade de codificação manual.
+- **Naive Bayes**: Modelo probabilístico simples baseado no Teorema de Bayes que assume independência entre os atributos.
+- **Redes Neurais Artificiais (ANN)**: Modelo computacional inspirado no cérebro humano, composto por neurônios artificiais interconectados.
+- **Redes Neurais Convolucionais (CNN)**: Tipo de ANN projetada para processar dados em grade, como imagens, usando camadas convolucionais para detectar características locais.
+- **Redes Neurais Recorrentes (RNN)**: Tipo de ANN projetada para lidar com sequências de dados, onde a saída de um neurônio em um determinado passo de tempo é alimentada de volta como entrada no próximo passo de tempo.
+- **Long Short-Term Memory (LSTM)**: Variação de RNN que inclui células de memória para lidar com problemas de dependências de longo prazo e evitar o desaparecimento ou explosão do gradiente.
+- **Gated Recurrent Units (GRU)**: Variação de RNN semelhante ao LSTM, mas com uma arquitetura mais simples e menor número de portões de controle.
+- **Transformer**: Modelo de atenção baseado em autoatenção, projetado para lidar com sequências de dados sem a necessidade de recorrência ou convoluções.
+- **BERT (Bidirectional Encoder Representations from Transformers)**: Modelo pré-treinado de aprendizado profundo baseado em Transformer para processamento de linguagem natural que considera o contexto bidirecional.
+- **GPT (Generative Pre-trained Transformer)**: Modelo pré-treinado de aprendizado profundo baseado em Transformer projetado para geração de texto e outras tarefas de processamento de linguagem natural.
+- **RoBERTa (Robustly Optimized BERT Pretraining Approach)**: Variação do BERT que introduz melhorias no pré-treinamento e ajuste fino, resultando em um melhor desempenho.
+- **DistilBERT**: Versão mais leve e rápida do BERT, obtida por destilar conhecimento do modelo BERT original em uma arquitetura menor.
+- **T5 (Text-to-Text Transfer Transformer)**: Modelo baseado em Transformer que aborda todas as tarefas de processamento de linguagem natural como um problema de tradução de texto para texto.
+- **ALBERT (A Lite BERT)**: Variação do BERT que usa fatorização de parâmetros e compartilhamento de parâmetros entre camadas para reduzir o tamanho do modelo e o tempo de treinamento.
+- **XLNet**: Modelo de linguagem baseado em Transformer que combina a autoatenção bidirecional do BERT com a auto-regressão do GPT para lidar com o contexto e a permutação das palavras.
 
 ### Algoritmos de aprendizado não supervisionado: 
 
-<br>**k-means**: Algoritmo de clustering que agrupa pontos de dados em k grupos com base na similaridade das características, minimizando a soma das distâncias quadráticas dentro dos grupos.
-<br>**Clustering hierárquico**: Método de agrupamento que cria uma hierarquia de clusters, permitindo uma visualização em forma de dendrograma.
-<br>**DBSCAN**: Algoritmo de clustering baseado em densidade que agrupa pontos de dados próximos uns dos outros e identifica outliers com base na densidade.
-<br>**OPTICS**: Algoritmo de clustering baseado em densidade similar ao DBSCAN, mas que lida melhor com variações na densidade dos clusters.
-<br>**Modelo de Mistura Gaussiana (GMM)**: Algoritmo de clustering baseado em modelos probabilísticos que estima a distribuição de uma mistura de múltiplas distribuições gaussianas.
-<br>**PCA (Principal Component Analysis)**: Técnica de redução de dimensionalidade que transforma os dados em novos eixos, maximizando a variância e minimizando a perda de informações.
-<br>**ICA (Independent Component Analysis)**: Técnica de redução de dimensionalidade que busca componentes independentes não gaussianos nos dados.
-<br>**Kernel PCA**: Versão não linear do PCA que utiliza funções de kernel para mapear os dados em um espaço de características de maior dimensão antes de aplicar o PCA.
-<br>**t-SNE (t-Distributed Stochastic Neighbor Embedding)**: Técnica de redução de dimensionalidade não linear que preserva a estrutura local e global, projetando os dados em um espaço de menor dimensão, geralmente usado para visualização.
-<br>**UMAP (Uniform Manifold Approximation and Projection)**: Técnica de redução de dimensionalidade não linear que preserva a estrutura local e global, similar ao t-SNE, mas mais rápido e escalável.
-<br>**Autoencoders**: Redes neurais artificiais treinadas para reconstruir seus próprios inputs, aprendendo uma representação de menor dimensão dos dados no processo.
-<br>**Variational Autoencoders (VAE)**: Tipo de autoencoder que modela uma distribuição probabilística sobre os dados e aprende a gerar novos dados a partir dessa distribuição.
-<br>**Restricted Boltzmann Machines (RBM)**: Redes neurais bipartidas com camadas visíveis e ocultas, utilizadas para aprendizado de características e redução de dimensionalidade.
-<br>**Deep Belief Networks (DBN)**: Redes neurais profundas compostas por múltiplas camadas de RBMs empilhadas, utilizadas para aprendizado de características e redução de dimensionalidade.
-<br>**Generative Adversarial Networks (GAN)**: Modelo de aprendizado profundo composto por duas redes neurais (gerador e discriminador) que competem uma contra a outra para gerar dados realistas a partir de uma distribuição de entrada.
-<br>**CycleGAN**: Variação do GAN para transformação de imagens entre domínios diferentes sem a necessidade de pares de treinamento correspondentes.
-<br>**StyleGAN**: Variação do GAN projetado para separar a informação de estilo e conteúdo de imagens, permitindo a geração de imagens com estilo específico.
-<br>**Word2Vec**: Modelo de aprendizado de representações vetoriais de palavras em um espaço de menor dimensão, capturando a semântica e as relações sintáticas entre as palavras com base no contexto em que aparecem.
-<br>**GloVe (Global Vectors for Word Representation)**: Modelo de aprendizado de representações vetoriais de palavras baseado na co-ocorrência de palavras em um corpus, capturando informações contextuais e semânticas.
-<br>**FastText**: Modelo de aprendizado de representações vetoriais de palavras que leva em consideração subpalavras ou n-gramas de caracteres, permitindo uma melhor representação de palavras raras e fora do vocabulário.
-<br>**ELMo (Embeddings from Language Models)**: Modelo de aprendizado profundo que gera representações vetoriais de palavras contextualizadas, levando em conta o contexto da palavra dentro de uma frase ou texto.
-<br>**Doc2Vec**: Extensão do modelo Word2Vec para aprendizado de representações vetoriais de documentos inteiros, levando em consideração a ordem das palavras e o contexto global do documento.
-<br>**LDA (Latent Dirichlet Allocation)**: Modelo probabilístico de tópicos que descobre a estrutura temática latente em uma coleção de documentos, atribuindo tópicos a documentos e palavras a tópicos.
-<br>**NMF (Non-negative Matrix Factorization)**: Método de decomposição de matriz que encontra duas matrizes de baixa dimensão cujo produto aproxima a matriz original, sendo aplicado em aprendizado de características, redução de dimensionalidade e extração de tópicos. Todas as entradas das matrizes são não negativas, refletindo a natureza aditiva dos dados em muitos domínios.
+- **k-means**: Algoritmo de clustering que agrupa pontos de dados em k grupos com base na similaridade das características, minimizando a soma das distâncias quadráticas dentro dos grupos.
+- **Clustering hierárquico**: Método de agrupamento que cria uma hierarquia de clusters, permitindo uma visualização em forma de dendrograma.
+- **DBSCAN**: Algoritmo de clustering baseado em densidade que agrupa pontos de dados próximos uns dos outros e identifica outliers com base na densidade.
+- **OPTICS**: Algoritmo de clustering baseado em densidade similar ao DBSCAN, mas que lida melhor com variações na densidade dos clusters.
+- **Modelo de Mistura Gaussiana (GMM)**: Algoritmo de clustering baseado em modelos probabilísticos que estima a distribuição de uma mistura de múltiplas distribuições gaussianas.
+- **PCA (Principal Component Analysis)**: Técnica de redução de dimensionalidade que transforma os dados em novos eixos, maximizando a variância e minimizando a perda de informações.
+- **ICA (Independent Component Analysis)**: Técnica de redução de dimensionalidade que busca componentes independentes não gaussianos nos dados.
+- **Kernel PCA**: Versão não linear do PCA que utiliza funções de kernel para mapear os dados em um espaço de características de maior dimensão antes de aplicar o PCA.
+- **t-SNE (t-Distributed Stochastic Neighbor Embedding)**: Técnica de redução de dimensionalidade não linear que preserva a estrutura local e global, projetando os dados em um espaço de menor dimensão, geralmente usado para visualização.
+- **UMAP (Uniform Manifold Approximation and Projection)**: Técnica de redução de dimensionalidade não linear que preserva a estrutura local e global, similar ao t-SNE, mas mais rápido e escalável.
+- **Autoencoders**: Redes neurais artificiais treinadas para reconstruir seus próprios inputs, aprendendo uma representação de menor dimensão dos dados no processo.
+- **Variational Autoencoders (VAE)**: Tipo de autoencoder que modela uma distribuição probabilística sobre os dados e aprende a gerar novos dados a partir dessa distribuição.
+- **Restricted Boltzmann Machines (RBM)**: Redes neurais bipartidas com camadas visíveis e ocultas, utilizadas para aprendizado de características e redução de dimensionalidade.
+- **Deep Belief Networks (DBN)**: Redes neurais profundas compostas por múltiplas camadas de RBMs empilhadas, utilizadas para aprendizado de características e redução de dimensionalidade.
+- **Generative Adversarial Networks (GAN)**: Modelo de aprendizado profundo composto por duas redes neurais (gerador e discriminador) que competem uma contra a outra para gerar dados realistas a partir de uma distribuição de entrada.
+- **CycleGAN**: Variação do GAN para transformação de imagens entre domínios diferentes sem a necessidade de pares de treinamento correspondentes.
+- **StyleGAN**: Variação do GAN projetado para separar a informação de estilo e conteúdo de imagens, permitindo a geração de imagens com estilo específico.
+- **Word2Vec**: Modelo de aprendizado de representações vetoriais de palavras em um espaço de menor dimensão, capturando a semântica e as relações sintáticas entre as palavras com base no contexto em que aparecem.
+- **GloVe (Global Vectors for Word Representation)**: Modelo de aprendizado de representações vetoriais de palavras baseado na co-ocorrência de palavras em um corpus, capturando informações contextuais e semânticas.
+- **FastText**: Modelo de aprendizado de representações vetoriais de palavras que leva em consideração subpalavras ou n-gramas de caracteres, permitindo uma melhor representação de palavras raras e fora do vocabulário.
+- **ELMo (Embeddings from Language Models)**: Modelo de aprendizado profundo que gera representações vetoriais de palavras contextualizadas, levando em conta o contexto da palavra dentro de uma frase ou texto.
+- **Doc2Vec**: Extensão do modelo Word2Vec para aprendizado de representações vetoriais de documentos inteiros, levando em consideração a ordem das palavras e o contexto global do documento.
+- **LDA (Latent Dirichlet Allocation)**: Modelo probabilístico de tópicos que descobre a estrutura temática latente em uma coleção de documentos, atribuindo tópicos a documentos e palavras a tópicos.
+- **NMF (Non-negative Matrix Factorization)**: Método de decomposição de matriz que encontra duas matrizes de baixa dimensão cujo produto aproxima a matriz original, sendo aplicado em aprendizado de características, redução de dimensionalidade e extração de tópicos. Todas as entradas das matrizes são não negativas, refletindo a natureza aditiva dos dados em muitos domínios.
 ### Algoritmos de aprendizado por reforço: 
 
-<br>**Q-Learning**: Um algoritmo de aprendizado por reforço baseado em valores que estima a função de valor-estado-ação (Q) para tomar decisões ideais em um ambiente estocástico.
-<br>**SARSA**: Um algoritmo similar ao Q-Learning, que se diferencia por atualizar a função Q com base na ação real tomada, em vez da ação ideal (on-policy).
-<br>**Deep Q-Network (DQN)**: Uma extensão do Q-Learning que utiliza redes neurais profundas para estimar a função de valor-estado-ação (Q) em problemas de grande escala.
-<br>**Double DQN**: Uma melhoria do DQN que aborda o problema de superestimação do valor-estado-ação (Q) usando duas redes neurais separadas.
-<br>**Dueling DQN**: Uma variação do DQN que utiliza uma arquitetura especial de rede neural para aprender separadamente os valores dos estados e as vantagens das ações.
-<br>**Policy Gradients**: Um tipo de algoritmo de aprendizado por reforço que aprende diretamente a política de ações ótimas, em vez de estimar valores de estado-ação.
-<br>**REINFORCE**: Um algoritmo de gradientes de política que utiliza a recompensa de episódios completos para atualizar os parâmetros da política.
-<br>**Actor-Critic**: Um algoritmo de aprendizado por reforço que combina a abordagem de gradientes de política (ator) e a abordagem baseada em valor (crítico) para melhorar a estabilidade e a convergência.
-<br>**A2C (Advantage Actor-Critic)**: Uma variação do Actor-Critic que utiliza a função de vantagem para melhorar a estimativa de gradientes de política.
-<br>**A3C (Asynchronous Advantage Actor-Critic)**: Uma extensão do A2C que utiliza múltiplos agentes e ambientes paralelos para explorar melhor o espaço de estados e acelerar o treinamento.
-<br>**DDPG (Deep Deterministic Policy Gradient)**: Um algoritmo de aprendizado por reforço contínuo que combina a abordagem Actor-Critic com redes neurais profundas.
-<br>**Proximal Policy Optimization (PPO)**: Um algoritmo de gradientes de política que utiliza uma abordagem de otimização limitada para melhorar a estabilidade e a convergência do treinamento.
-<br>**Trust Region Policy Optimization (TRPO)**: Um algoritmo de gradientes de política que utiliza a otimização de região de confiança para garantir melhorias monotônicas na política durante o treinamento.
-<br>**Soft Actor-Critic (SAC)**: Um algoritmo de aprendizado por reforço contínuo que combina a abordagem Actor-Critic com a otimização de entropia para melhorar a exploração e a estabilidade.
-<br>**Rainbow DQN**: Uma combinação de várias melhorias e extensões do DQN, incluindo Double DQN, Dueling DQN, Prioritized Experience Replay e outros.
-<br>**Monte Carlo Tree Search (MCTS)**: Um algoritmo de planejamento e busca baseado em simulações de Monte Carlo para problemas de decisão sequenciais.
-<br>**AlphaGo**: Um algoritmo desenvolvido pela DeepMind que combina Redes Neurais Convolucionais (CNN), Monte Carlo Tree Search (MCTS) e aprendizado por reforço para jogar o jogo de tabuleiro Go. Ficou famoso ao derrotar o campeão mundial de Go, Lee Sedol, em 2016.
-<br>**AlphaZero**: Uma evolução do AlphaGo que utiliza aprendizado por reforço auto-supervisionado e busca baseada em MCTS para aprender a jogar vários jogos de tabuleiro, incluindo Go, xadrez e shogi, a partir do zero, sem conhecimento prévio além das regras básicas.
-<br>**MuZero**: Uma extensão do AlphaZero que combina aprendizado por reforço e planejamento baseado em modelos para aprender a jogar uma variedade de jogos sem conhecimento prévio do modelo dinâmico do ambiente, ou seja, aprendendo apenas a partir das interações com o ambiente.
+- **Q-Learning**: Um algoritmo de aprendizado por reforço baseado em valores que estima a função de valor-estado-ação (Q) para tomar decisões ideais em um ambiente estocástico.
+- **SARSA**: Um algoritmo similar ao Q-Learning, que se diferencia por atualizar a função Q com base na ação real tomada, em vez da ação ideal (on-policy).
+- **Deep Q-Network (DQN)**: Uma extensão do Q-Learning que utiliza redes neurais profundas para estimar a função de valor-estado-ação (Q) em problemas de grande escala.
+- **Double DQN**: Uma melhoria do DQN que aborda o problema de superestimação do valor-estado-ação (Q) usando duas redes neurais separadas.
+- **Dueling DQN**: Uma variação do DQN que utiliza uma arquitetura especial de rede neural para aprender separadamente os valores dos estados e as vantagens das ações.
+- **Policy Gradients**: Um tipo de algoritmo de aprendizado por reforço que aprende diretamente a política de ações ótimas, em vez de estimar valores de estado-ação.
+- **REINFORCE**: Um algoritmo de gradientes de política que utiliza a recompensa de episódios completos para atualizar os parâmetros da política.
+- **Actor-Critic**: Um algoritmo de aprendizado por reforço que combina a abordagem de gradientes de política (ator) e a abordagem baseada em valor (crítico) para melhorar a estabilidade e a convergência.
+- **A2C (Advantage Actor-Critic)**: Uma variação do Actor-Critic que utiliza a função de vantagem para melhorar a estimativa de gradientes de política.
+- **A3C (Asynchronous Advantage Actor-Critic)**: Uma extensão do A2C que utiliza múltiplos agentes e ambientes paralelos para explorar melhor o espaço de estados e acelerar o treinamento.
+- **DDPG (Deep Deterministic Policy Gradient)**: Um algoritmo de aprendizado por reforço contínuo que combina a abordagem Actor-Critic com redes neurais profundas.
+- **Proximal Policy Optimization (PPO)**: Um algoritmo de gradientes de política que utiliza uma abordagem de otimização limitada para melhorar a estabilidade e a convergência do treinamento.
+- **Trust Region Policy Optimization (TRPO)**: Um algoritmo de gradientes de política que utiliza a otimização de região de confiança para garantir melhorias monotônicas na política durante o treinamento.
+- **Soft Actor-Critic (SAC)**: Um algoritmo de aprendizado por reforço contínuo que combina a abordagem Actor-Critic com a otimização de entropia para melhorar a exploração e a estabilidade.
+- **Rainbow DQN**: Uma combinação de várias melhorias e extensões do DQN, incluindo Double DQN, Dueling DQN, Prioritized Experience Replay e outros.
+- **Monte Carlo Tree Search (MCTS)**: Um algoritmo de planejamento e busca baseado em simulações de Monte Carlo para problemas de decisão sequenciais.
+- **AlphaGo**: Um algoritmo desenvolvido pela DeepMind que combina Redes Neurais Convolucionais (CNN), Monte Carlo Tree Search (MCTS) e aprendizado por reforço para jogar o jogo de tabuleiro Go. Ficou famoso ao derrotar o campeão mundial de Go, Lee Sedol, em 2016.
+- **AlphaZero**: Uma evolução do AlphaGo que utiliza aprendizado por reforço auto-supervisionado e busca baseada em MCTS para aprender a jogar vários jogos de tabuleiro, incluindo Go, xadrez e shogi, a partir do zero, sem conhecimento prévio além das regras básicas.
+- **MuZero**: Uma extensão do AlphaZero que combina aprendizado por reforço e planejamento baseado em modelos para aprender a jogar uma variedade de jogos sem conhecimento prévio do modelo dinâmico do ambiente, ou seja, aprendendo apenas a partir das interações com o ambiente.
 
 ### Algoritmos de otimização e busca:
 
-<br>**Gradient Descent**: Um algoritmo de otimização que minimiza iterativamente uma função objetivo, movendo-se na direção do gradiente negativo.
-<br>**Stochastic Gradient Descent**: Uma variação do Gradient Descent que atualiza os pesos usando apenas um subconjunto de amostras (ou uma amostra única) a cada iteração, tornando o processo mais rápido e menos suscetível a mínimos locais.
-<br>**Momentum**: Uma técnica que acelera o Gradient Descent ao adicionar uma fração do vetor de atualização da etapa anterior à atualização atual, ajudando a superar mínimos locais e acelerando a convergência.
-<br>**Nesterov Accelerated Gradient**: Uma modificação do algoritmo Momentum que oferece uma melhor convergência ao considerar a posição futura aproximada dos pesos antes de calcular o gradiente.
-<br>**RMSprop**: Um algoritmo de otimização adaptativa que ajusta a taxa de aprendizado de acordo com a magnitude dos gradientes, ajudando a evitar oscilações e a acelerar a convergência.
-<br>**AdaGrad**: Um algoritmo de otimização adaptativa que ajusta a taxa de aprendizado para cada parâmetro individualmente com base na soma dos gradientes quadrados anteriores.
-<br>**AdaDelta**: Uma extensão do AdaGrad que busca resolver a redução monótona da taxa de aprendizado, adaptando a taxa de aprendizado com base em uma janela de gradientes passados.
-<br>**Adam**: Um algoritmo de otimização adaptativa que combina os conceitos do Momentum e do RMSprop, ajustando a taxa de aprendizado e o momento de cada parâmetro individualmente.
-<br>**AdamW**: Uma variação do algoritmo Adam que introduz uma correção na regularização de pesos, melhorando a convergência e o desempenho em tarefas de aprendizado profundo.
-<br>**FTRL**: Um algoritmo de otimização online (Follow-The-Regularized-Leader) que é particularmente eficaz para problemas com alta dimensionalidade e esparsidade, como aprendizado de máquina em larga escala.
-<br>**Newton-Raphson**: Um algoritmo de otimização baseado em métodos de segunda ordem que usa a matriz hessiana (segundas derivadas) da função objetivo para encontrar mínimos locais mais rapidamente do que o Gradient Descent.
-<br>**Broyden-Fletcher-Goldfarb-Shanno (BFGS)**: Um algoritmo de otimização quasi-Newton que usa aproximações da matriz hessiana para encontrar mínimos locais de uma função objetivo, sendo mais eficiente que o método de Newton-Raphson em termos de uso de memória e cálculos.
+- **Gradient Descent**: Um algoritmo de otimização que minimiza iterativamente uma função objetivo, movendo-se na direção do gradiente negativo.
+- **Stochastic Gradient Descent**: Uma variação do Gradient Descent que atualiza os pesos usando apenas um subconjunto de amostras (ou uma amostra única) a cada iteração, tornando o processo mais rápido e menos suscetível a mínimos locais.
+- **Momentum**: Uma técnica que acelera o Gradient Descent ao adicionar uma fração do vetor de atualização da etapa anterior à atualização atual, ajudando a superar mínimos locais e acelerando a convergência.
+- **Nesterov Accelerated Gradient**: Uma modificação do algoritmo Momentum que oferece uma melhor convergência ao considerar a posição futura aproximada dos pesos antes de calcular o gradiente.
+- **RMSprop**: Um algoritmo de otimização adaptativa que ajusta a taxa de aprendizado de acordo com a magnitude dos gradientes, ajudando a evitar oscilações e a acelerar a convergência.
+- **AdaGrad**: Um algoritmo de otimização adaptativa que ajusta a taxa de aprendizado para cada parâmetro individualmente com base na soma dos gradientes quadrados anteriores.
+- **AdaDelta**: Uma extensão do AdaGrad que busca resolver a redução monótona da taxa de aprendizado, adaptando a taxa de aprendizado com base em uma janela de gradientes passados.
+- **Adam**: Um algoritmo de otimização adaptativa que combina os conceitos do Momentum e do RMSprop, ajustando a taxa de aprendizado e o momento de cada parâmetro individualmente.
+- **AdamW**: Uma variação do algoritmo Adam que introduz uma correção na regularização de pesos, melhorando a convergência e o desempenho em tarefas de aprendizado profundo.
+- **FTRL**: Um algoritmo de otimização online (Follow-The-Regularized-Leader) que é particularmente eficaz para problemas com alta dimensionalidade e esparsidade, como aprendizado de máquina em larga escala.
+- **Newton-Raphson**: Um algoritmo de otimização baseado em métodos de segunda ordem que usa a matriz hessiana (segundas derivadas) da função objetivo para encontrar mínimos locais mais rapidamente do que o Gradient Descent.
+- **Broyden-Fletcher-Goldfarb-Shanno (BFGS)**: Um algoritmo de otimização quasi-Newton que usa aproximações da matriz hessiana para encontrar mínimos locais de uma função objetivo, sendo mais eficiente que o método de Newton-Raphson em termos de uso de memória e cálculos.
 
 
 ### Algoritmos de Otimização Evolutiva 
