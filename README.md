@@ -30,9 +30,55 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 >Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este)<br> 
 >Vantagens<br>
 >Desvantagens<br>
+É recomendável que estude os conceitos da sessão "Conceitos básicos" para entender conceitos comuns para o entendimento de modelos em Data Science
 
 ## Validação das informações
 >Todas as informações aqui presentes estão sendo passadas por revisão constante. Sendo assim, se você identificar algum conteúdo errado, sinta-se livre para sugerir a correção.
+
+## Índice
+### Principais algoritmos
+#### Algoritmos de aprendizado supervisionado
+#### Algoritmos de aprendizado não supervisionado
+#### Algoritmos de aprendizado por reforço
+#### Algoritmos de otimização e busca
+#### Algoritmos Genéticos
+#### Algoritmos de processamento de linguagem natural (NLP)
+#### Algoritmos de recomendação
+#### Algoritmos de detecção de anomalias
+#### Algoritmos de redução de dimensionalidade
+#### Algoritmos de análise de redes e grafos
+### Todos os algoritmos
+#### Algoritmos de aprendizado supervisionado
+#### Algoritmos de aprendizado não supervisionado
+#### Algoritmos de aprendizado por reforço
+#### Algoritmos de otimização e busca
+#### Algoritmos de Otimização Evolutiva
+#### Algoritmos de processamento de linguagem natural (NLP)
+#### Algoritmos de recomendação
+#### Algoritmos de detecção de anomalias
+#### Algoritmos de redução de dimensionalidade
+#### Simulação e modelagem de cenários
+### Conceitos básicos
+#### Overfitting
+#### Underfitting
+#### Bias-Variance Tradeoff
+#### Regularização
+#### Cross-Validation
+#### Outliers
+#### Imputação
+#### Normalização e Padronização
+#### One-Hot Code
+#### Feature Engineering
+#### Feature Selection
+#### Gradiente Descendente
+#### Aprendizado Supervisionado
+#### Aprendizado Não Supervisionado
+#### Aprendizado por Reforço
+#### Redes Neurais
+#### Ensemble Learning
+#### Hiperparâmetros e Tuning de Hiperparâmetros
+#### Conceitos de Classificação e Regressão
+
 
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
