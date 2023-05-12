@@ -15,6 +15,8 @@ Colocar descrição de mais algoritmos
 Deixar o index clicável
 Colocar imagens no início
 Colocar imagens ilustrativas nos algoritmos
+Colocar possíveis fontes de pesquisa
+Colocar possíveis prompts de pesquisa
 
 
 ## Contribua
