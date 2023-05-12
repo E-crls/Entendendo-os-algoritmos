@@ -185,59 +185,58 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>**Regressão Linear**: Modelo simples de aprendizado supervisionado para prever uma variável contínua a partir de uma ou mais variáveis independentes. 
 <br>**Regressão Polinomial**: Extensão da regressão linear que ajusta um polinômio aos dados. 
 <br>**Regressão Ridge**: Versão regularizada da regressão linear que penaliza coeficientes grandes para evitar o sobreajuste. 
-<br>Regressão Lasso: Outra versão regularizada da regressão linear que penaliza a soma dos valores absolutos dos coeficientes para evitar o sobreajuste e promover a esparsidade. 
-<br>Regressão ElasticNet: Combinação das regularizações L1 e L2, usadas na regressão Lasso e Ridge, respectivamente. 
-<br>Regressão Logística: Modelo de classificação binária que estima a probabilidade de um evento ocorrer com base nas variáveis independentes. 
-<br>K-vizinhos mais próximos (k-NN): Algoritmo baseado em instâncias que classifica um objeto com base na maioria dos rótulos de seus k vizinhos mais próximos. 
-<br>Máquinas de Vetores de Suporte (SVM): Modelo que encontra o hiperplano que melhor separa as classes no espaço de entrada, maximizando a margem entre elas. 
-<br>Árvores de decisão: Modelo que aprende regras de decisão a partir dos dados de treinamento, representadas na forma de uma estrutura de árvore. 
-<br>Random Forest: Ensemble de árvores de decisão que agrega as previsões de várias árvores treinadas com diferentes subconjuntos de dados e atributos. 
-<br>Gradient Boosting: Método de ensemble que combina modelos fracos (geralmente árvores de decisão) de forma sequencial, ajustando cada modelo para os resíduos do modelo anterior. 
-<br>XGBoost: Implementação otimizada e escalável do Gradient Boosting, com suporte a paralelização e regularização. 
-<br>LightGBM: Método de Gradient Boosting baseado em árvores que cresce verticalmente, escolhendo o nó com o maior ganho de informação para divisão em vez de crescer horizontalmente. 
-<br>CatBoost: Algoritmo de Gradient Boosting projetado para lidar com dados categóricos automaticamente, evitando a necessidade de codificação manual. 
-<br>Naive Bayes: Modelo probabilístico simples baseado no Teorema de Bayes que assume independência entre os atributos. 
-<br>Redes Neurais Artificiais (ANN): Modelo computacional inspirado no cérebro humano, composto por neurônios artificiais interconectados. 
-<br>Redes Neurais Convolucionais (CNN): Tipo de ANN projetada para processar dados em grade, como imagens, usando camadas convolucionais para detectar características locais. 
-<br>Redes Neurais Recorrentes (RNN): Tipo de ANN projetada para lidar com sequências de dados, onde a saída de um neurônio em um determinado passo de tempo é alimentada de volta como entrada no próximo passo de tempo. 
-<br>Long Short-Term Memory (LSTM): Variação de RNN que inclui células de memória para lidar com problemas de dependências de longo prazo e evitar o desaparecimento ou explosão do gradiente. 
-<br>Gated Recurrent Units (GRU): Variação de RNN semelhante ao LSTM, mas com uma arquitetura mais simples e menor número de portões de controle. 
-<br>Transformer: Modelo de atenção baseado em autoatenção, projetado para lidar com sequências de dados sem a necessidade de recorrência ou convoluções. 
-<br>BERT (Bidirectional Encoder Representations from Transformers): Modelo pré-treinado de aprendizado profundo baseado em Transformer para processamento de linguagem natural que considera o contexto bidirecional. 
-<br>GPT (Generative Pre-trained Transformer): Modelo pré-treinado de aprendizado profundo baseado em Transformer projetado para geração de texto e outras tarefas de processamento de linguagem natural. 
-<br>RoBERTa (Robustly Optimized BERT Pretraining Approach): Variação do BERT que introduz melhorias no pré-treinamento e ajuste fino, resultando em um melhor desempenho. 
-<br>DistilBERT: Versão mais leve e rápida do BERT, obtida por destilar conhecimento do modelo BERT original em uma arquitetura menor. 
-<br>T5 (Text-to-Text Transfer Transformer): Modelo baseado em Transformer que aborda todas as tarefas de processamento de linguagem natural como um problema de tradução de texto para texto. 
-<br>ALBERT (A Lite BERT): Variação do BERT que usa fatorização de parâmetros e compartilhamento de parâmetros entre camadas para reduzir o tamanho do modelo e o tempo de treinamento. 
-<br>XLNet: Modelo de linguagem baseado em Transformer que combina a autoatenção bidirecional do BERT com a auto-regressão do GPT para lidar com o contexto e a permutação das palavras. 
+<br>**Regressão Lasso**: Outra versão regularizada da regressão linear que penaliza a soma dos valores absolutos dos coeficientes para evitar o sobreajuste e promover a esparsidade.
+<br>**Regressão ElasticNet**: Combinação das regularizações L1 e L2, usadas na regressão Lasso e Ridge, respectivamente.
+<br>**Regressão Logística**: Modelo de classificação binária que estima a probabilidade de um evento ocorrer com base nas variáveis independentes.
+<br>**K-vizinhos mais próximos (k-NN)**: Algoritmo baseado em instâncias que classifica um objeto com base na maioria dos rótulos de seus k vizinhos mais próximos.
+<br>**Máquinas de Vetores de Suporte (SVM)**: Modelo que encontra o hiperplano que melhor separa as classes no espaço de entrada, maximizando a margem entre elas.
+<br>**Árvores de decisão**: Modelo que aprende regras de decisão a partir dos dados de treinamento, representadas na forma de uma estrutura de árvore.
+<br>**Random Forest**: Ensemble de árvores de decisão que agrega as previsões de várias árvores treinadas com diferentes subconjuntos de dados e atributos.
+<br>**Gradient Boosting**: Método de ensemble que combina modelos fracos (geralmente árvores de decisão) de forma sequencial, ajustando cada modelo para os resíduos do modelo anterior.
+<br>**XGBoost**: Implementação otimizada e escalável do Gradient Boosting, com suporte a paralelização e regularização.
+<br>**LightGBM**: Método de Gradient Boosting baseado em árvores que cresce verticalmente, escolhendo o nó com o maior ganho de informação para divisão em vez de crescer horizontalmente.
+<br>**CatBoost**: Algoritmo de Gradient Boosting projetado para lidar com dados categóricos automaticamente, evitando a necessidade de codificação manual.
+<br>**Naive Bayes**: Modelo probabilístico simples baseado no Teorema de Bayes que assume independência entre os atributos.
+<br>**Redes Neurais Artificiais (ANN)**: Modelo computacional inspirado no cérebro humano, composto por neurônios artificiais interconectados.
+<br>**Redes Neurais Convolucionais (CNN)**: Tipo de ANN projetada para processar dados em grade, como imagens, usando camadas convolucionais para detectar características locais.
+<br>**Redes Neurais Recorrentes (RNN)**: Tipo de ANN projetada para lidar com sequências de dados, onde a saída de um neurônio em um determinado passo de tempo é alimentada de volta como entrada no próximo passo de tempo.
+<br>**Long Short-Term Memory (LSTM)**: Variação de RNN que inclui células de memória para lidar com problemas de dependências de longo prazo e evitar o desaparecimento ou explosão do gradiente.
+<br>**Gated Recurrent Units (GRU)**: Variação de RNN semelhante ao LSTM, mas com uma arquitetura mais simples e menor número de portões de controle.
+<br>**Transformer**: Modelo de atenção baseado em autoatenção, projetado para lidar com sequências de dados sem a necessidade de recorrência ou convoluções.
+<br>**BERT (Bidirectional Encoder Representations from Transformers)**: Modelo pré-treinado de aprendizado profundo baseado em Transformer para processamento de linguagem natural que considera o contexto bidirecional.
+<br>**GPT (Generative Pre-trained Transformer)**: Modelo pré-treinado de aprendizado profundo baseado em Transformer projetado para geração de texto e outras tarefas de processamento de linguagem natural.
+<br>**RoBERTa (Robustly Optimized BERT Pretraining Approach)**: Variação do BERT que introduz melhorias no pré-treinamento e ajuste fino, resultando em um melhor desempenho.
+<br>**DistilBERT**: Versão mais leve e rápida do BERT, obtida por destilar conhecimento do modelo BERT original em uma arquitetura menor.
+<br>**T5 (Text-to-Text Transfer Transformer)**: Modelo baseado em Transformer que aborda todas as tarefas de processamento de linguagem natural como um problema de tradução de texto para texto.
+<br>**ALBERT (A Lite BERT)**: Variação do BERT que usa fatorização de parâmetros e compartilhamento de parâmetros entre camadas para reduzir o tamanho do modelo e o tempo de treinamento.
+<br>**XLNet**: Modelo de linguagem baseado em Transformer que combina a autoatenção bidirecional do BERT com a auto-regressão do GPT para lidar com o contexto e a permutação das palavras.
 
 ### Algoritmos de aprendizado não supervisionado: 
 
-<br>k-means: Algoritmo de clustering que agrupa pontos de dados em k grupos com base na similaridade das características, minimizando a soma das distâncias quadráticas dentro dos grupos. 
-<br>Clustering hierárquico: Método de agrupamento que cria uma hierarquia de clusters, permitindo uma visualização em forma de dendrograma. 
-<br>DBSCAN: Algoritmo de clustering baseado em densidade que agrupa pontos de dados próximos uns dos outros e identifica outliers com base na densidade. 
-<br>OPTICS: Algoritmo de clustering baseado em densidade similar ao DBSCAN, mas que lida melhor com variações na densidade dos clusters. 
-<br>Modelo de Mistura Gaussiana (GMM): Algoritmo de clustering baseado em modelos probabilísticos que estima a distribuição de uma mistura de múltiplas distribuições gaussianas. 
-<br>PCA (Principal Component Analysis): Técnica de redução de dimensionalidade que transforma os dados em novos eixos, maximizando a variância e minimizando a perda de informações. 
-<br>ICA (Independent Component Analysis): Técnica de redução de dimensionalidade que busca componentes independentes não gaussianos nos dados. 
-<br>Kernel PCA: Versão não linear do PCA que utiliza funções de kernel para mapear os dados em um espaço de características de maior dimensão antes de aplicar o PCA. 
-<br>t-SNE (t-Distributed Stochastic Neighbor Embedding): Técnica de redução de dimensionalidade não linear que preserva a estrutura local e global, projetando os dados em um espaço de menor dimensão, geralmente usado para visualização. 
-<br>UMAP (Uniform Manifold Approximation and Projection): Técnica de redução de dimensionalidade não linear que preserva a estrutura local e global, similar ao t-SNE, mas mais rápido e escalável. 
-<br>Autoencoders: Redes neurais artificiais treinadas para reconstruir seus próprios inputs, aprendendo uma representação de menor dimensão dos dados no processo. 
-<br>Variational Autoencoders (VAE): Tipo de autoencoder que modela uma distribuição probabilística sobre os dados e aprende a gerar novos dados a partir dessa distribuição. 
-<br>Restricted Boltzmann Machines (RBM): Redes neurais bipartidas com camadas visíveis e ocultas, utilizadas para aprendizado de características e redução de dimensionalidade. 
-<br>Deep Belief Networks (DBN): Redes neurais profundas compostas por múltiplas camadas de RBMs empilhadas, utilizadas para aprendizado de características e redução de dimensionalidade. 
-<br>Generative Adversarial Networks (GAN): Modelo de aprendizado profundo composto por duas redes neurais (gerador e discriminador) que competem uma contra a outra para gerar dados realistas a partir de uma distribuição de entrada. 
-<br>CycleGAN: Variação do GAN para transformação de imagens entre domínios diferentes sem a necessidade de pares de treinamento correspondentes. 
-<br>StyleGAN: Variação do GAN projetado para separar a informação de estilo e conteúdo de imagens, permitindo a geração de imagens com estilo específico.  
-<br>Word2Vec: Modelo de aprendizado de representações vetoriais de palavras em um espaço de menor dimensão, capturando a semântica e as relações sintáticas entre as palavras com base no contexto em que aparecem. 
-<br>GloVe (Global Vectors for Word Representation): Modelo de aprendizado de representações vetoriais de palavras baseado na co-ocorrência de palavras em um corpus, capturando informações contextuais e semânticas. 
-<br>FastText: Modelo de aprendizado de representações vetoriais de palavras que leva em consideração subpalavras ou n-gramas de caracteres, permitindo uma melhor representação de palavras raras e fora do vocabulário. 
-<br>ELMo (Embeddings from Language Models): Modelo de aprendizado profundo que gera representações vetoriais de palavras contextualizadas, levando em conta o contexto da palavra dentro de uma frase ou texto. 
-<br>Doc2Vec: Extensão do modelo Word2Vec para aprendizado de representações vetoriais de documentos inteiros, levando em consideração a ordem das palavras e o contexto global do documento. 
-<br>LDA (Latent Dirichlet Allocation): Modelo probabilístico de tópicos que descobre a estrutura temática latente em uma coleção de documentos, atribuindo tópicos a documentos e palavras a tópicos. 
-<br>NMF (Non-negative Matrix Factorization): Método de decomposição de matriz que encontra duas matrizes de baixa dimensão cujo produto aproxima a matriz original, sendo aplicado em aprendizado de características, redução de dimensionalidade e extração de tópicos. Todas as entradas das matrizes são não negativas, refletindo a natureza aditiva dos dados em muitos domínios. 
-
+<br>**k-means**: Algoritmo de clustering que agrupa pontos de dados em k grupos com base na similaridade das características, minimizando a soma das distâncias quadráticas dentro dos grupos.
+<br>**Clustering hierárquico**: Método de agrupamento que cria uma hierarquia de clusters, permitindo uma visualização em forma de dendrograma.
+<br>**DBSCAN**: Algoritmo de clustering baseado em densidade que agrupa pontos de dados próximos uns dos outros e identifica outliers com base na densidade.
+<br>**OPTICS**: Algoritmo de clustering baseado em densidade similar ao DBSCAN, mas que lida melhor com variações na densidade dos clusters.
+<br>**Modelo de Mistura Gaussiana (GMM)**: Algoritmo de clustering baseado em modelos probabilísticos que estima a distribuição de uma mistura de múltiplas distribuições gaussianas.
+<br>**PCA (Principal Component Analysis)**: Técnica de redução de dimensionalidade que transforma os dados em novos eixos, maximizando a variância e minimizando a perda de informações.
+<br>**ICA (Independent Component Analysis)**: Técnica de redução de dimensionalidade que busca componentes independentes não gaussianos nos dados.
+<br>**Kernel PCA**: Versão não linear do PCA que utiliza funções de kernel para mapear os dados em um espaço de características de maior dimensão antes de aplicar o PCA.
+<br>**t-SNE (t-Distributed Stochastic Neighbor Embedding)**: Técnica de redução de dimensionalidade não linear que preserva a estrutura local e global, projetando os dados em um espaço de menor dimensão, geralmente usado para visualização.
+<br>**UMAP (Uniform Manifold Approximation and Projection)**: Técnica de redução de dimensionalidade não linear que preserva a estrutura local e global, similar ao t-SNE, mas mais rápido e escalável.
+<br>**Autoencoders**: Redes neurais artificiais treinadas para reconstruir seus próprios inputs, aprendendo uma representação de menor dimensão dos dados no processo.
+<br>**Variational Autoencoders (VAE)**: Tipo de autoencoder que modela uma distribuição probabilística sobre os dados e aprende a gerar novos dados a partir dessa distribuição.
+<br>**Restricted Boltzmann Machines (RBM)**: Redes neurais bipartidas com camadas visíveis e ocultas, utilizadas para aprendizado de características e redução de dimensionalidade.
+<br>**Deep Belief Networks (DBN)**: Redes neurais profundas compostas por múltiplas camadas de RBMs empilhadas, utilizadas para aprendizado de características e redução de dimensionalidade.
+<br>**Generative Adversarial Networks (GAN)**: Modelo de aprendizado profundo composto por duas redes neurais (gerador e discriminador) que competem uma contra a outra para gerar dados realistas a partir de uma distribuição de entrada.
+<br>**CycleGAN**: Variação do GAN para transformação de imagens entre domínios diferentes sem a necessidade de pares de treinamento correspondentes.
+<br>**StyleGAN**: Variação do GAN projetado para separar a informação de estilo e conteúdo de imagens, permitindo a geração de imagens com estilo específico.
+<br>**Word2Vec**: Modelo de aprendizado de representações vetoriais de palavras em um espaço de menor dimensão, capturando a semântica e as relações sintáticas entre as palavras com base no contexto em que aparecem.
+<br>**GloVe (Global Vectors for Word Representation)**: Modelo de aprendizado de representações vetoriais de palavras baseado na co-ocorrência de palavras em um corpus, capturando informações contextuais e semânticas.
+<br>**FastText**: Modelo de aprendizado de representações vetoriais de palavras que leva em consideração subpalavras ou n-gramas de caracteres, permitindo uma melhor representação de palavras raras e fora do vocabulário.
+<br>**ELMo (Embeddings from Language Models)**: Modelo de aprendizado profundo que gera representações vetoriais de palavras contextualizadas, levando em conta o contexto da palavra dentro de uma frase ou texto.
+<br>**Doc2Vec**: Extensão do modelo Word2Vec para aprendizado de representações vetoriais de documentos inteiros, levando em consideração a ordem das palavras e o contexto global do documento.
+<br>**LDA (Latent Dirichlet Allocation)**: Modelo probabilístico de tópicos que descobre a estrutura temática latente em uma coleção de documentos, atribuindo tópicos a documentos e palavras a tópicos.
+<br>**NMF (Non-negative Matrix Factorization)**: Método de decomposição de matriz que encontra duas matrizes de baixa dimensão cujo produto aproxima a matriz original, sendo aplicado em aprendizado de características, redução de dimensionalidade e extração de tópicos. Todas as entradas das matrizes são não negativas, refletindo a natureza aditiva dos dados em muitos domínios.
 ### Algoritmos de aprendizado por reforço: 
 
 <br>Q-Learning: Um algoritmo de aprendizado por reforço baseado em valores que estima a função de valor-estado-ação (Q) para tomar decisões ideais em um ambiente estocástico. 
