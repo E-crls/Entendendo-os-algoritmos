@@ -37,48 +37,47 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ## Índice
 ### Principais algoritmos
-#### Algoritmos de aprendizado supervisionado
-#### Algoritmos de aprendizado não supervisionado
-#### Algoritmos de aprendizado por reforço
-#### Algoritmos de otimização e busca
-#### Algoritmos Genéticos
-#### Algoritmos de processamento de linguagem natural (NLP)
-#### Algoritmos de recomendação
-#### Algoritmos de detecção de anomalias
-#### Algoritmos de redução de dimensionalidade
-#### Algoritmos de análise de redes e grafos
+<br>Algoritmos de aprendizado supervisionado
+<br>Algoritmos de aprendizado não supervisionado
+<br>Algoritmos de aprendizado por reforço
+<br>Algoritmos de otimização e busca
+<br>Algoritmos Genéticos
+<br>Algoritmos de processamento de linguagem natural (NLP)
+<br>Algoritmos de recomendação
+<br>Algoritmos de detecção de anomalias
+<br>Algoritmos de redução de dimensionalidade
+<br>Algoritmos de análise de redes e grafos
 ### Todos os algoritmos
-#### Algoritmos de aprendizado supervisionado
-#### Algoritmos de aprendizado não supervisionado
-#### Algoritmos de aprendizado por reforço
-#### Algoritmos de otimização e busca
-#### Algoritmos de Otimização Evolutiva
-#### Algoritmos de processamento de linguagem natural (NLP)
-#### Algoritmos de recomendação
-#### Algoritmos de detecção de anomalias
-#### Algoritmos de redução de dimensionalidade
-#### Simulação e modelagem de cenários
+<br>Algoritmos de aprendizado supervisionado
+<br>Algoritmos de aprendizado não supervisionado
+<br>Algoritmos de aprendizado por reforço
+<br>Algoritmos de otimização e busca
+<br>Algoritmos de Otimização Evolutiva
+<br>Algoritmos de processamento de linguagem natural (NLP)
+<br>Algoritmos de recomendação
+<br>Algoritmos de detecção de anomalias
+<br>Algoritmos de redução de dimensionalidade
+<br>Simulação e modelagem de cenários
 ### Conceitos básicos
-#### Overfitting
-#### Underfitting
-#### Bias-Variance Tradeoff
-#### Regularização
-#### Cross-Validation
-#### Outliers
-#### Imputação
-#### Normalização e Padronização
-#### One-Hot Code
-#### Feature Engineering
-#### Feature Selection
-#### Gradiente Descendente
-#### Aprendizado Supervisionado
-#### Aprendizado Não Supervisionado
-#### Aprendizado por Reforço
-#### Redes Neurais
-#### Ensemble Learning
-#### Hiperparâmetros e Tuning de Hiperparâmetros
-#### Conceitos de Classificação e Regressão
-
+<br>Overfitting
+<br>Underfitting
+<br>Bias-Variance Tradeoff
+<br>Regularização
+<br>Cross-Validation
+<br>Outliers
+<br>Imputação
+<br>Normalização e Padronização
+<br>One-Hot Code
+<br>Feature Engineering
+<br>Feature Selection
+<br>Gradiente Descendente
+<br>Aprendizado Supervisionado
+<br>Aprendizado Não Supervisionado
+<br>Aprendizado por Reforço
+<br>Redes Neurais
+<br>Ensemble Learning
+<br>Hiperparâmetros e Tuning de Hiperparâmetros
+<br>Conceitos de Classificação e Regressão
 
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
