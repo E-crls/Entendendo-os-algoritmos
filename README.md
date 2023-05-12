@@ -15,7 +15,7 @@
 >   Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.
 >   Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
 
-Conhecimento é bom, mas conhecimento com facilidade de acesso é melhor ainda.
+Conhecimento é bom, mas conhecimento centralizado e com facilidade de acesso é melhor ainda.
 
 ## Estrutura de explicação
 Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outros conforme o tempo:
