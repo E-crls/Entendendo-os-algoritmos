@@ -19,12 +19,12 @@ Colocar possíveis fontes de pesquisa
 Colocar possíveis prompts de pesquisa
 
 ## Método de estudo
->  1º Jogue o nome do moedlo no google e leia o básico
->  2º Jogue o nome do modelo no youtube e assista o básico
->  3º Procure artigos no medium sobre o modelo
->  4º Procure no google, youtube ou medium exemplos de aplicação do modelo
->  5º Procure no chatgpt as respostas das dúvidas específicas que obteve no decorrer do estudo
->  5º Tente resolver algum problema com o algoritmo no kaggle
+>  1º Jogue o nome do moedlo no google e leia o básico<br>
+>  2º Jogue o nome do modelo no youtube e assista o básico<br>
+>  3º Procure artigos no medium sobre o modelo<br>
+>  4º Procure no google, youtube ou medium exemplos de aplicação do modelo<br>
+>  5º Procure no chatgpt as respostas das dúvidas específicas que obteve no decorrer do estudo<br>
+>  5º Tente resolver algum problema com o algoritmo no kaggle<br>
 
 ## Contribua
 > A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.
