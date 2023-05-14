@@ -17,6 +17,7 @@ Colocar imagens no início
 Colocar imagens ilustrativas nos algoritmos
 Colocar possíveis fontes de pesquisa
 Colocar possíveis prompts de pesquisa
+Colocar tópico "Problemas que data science tenta resolver"
 
 ## Método de estudo
 >  1º Jogue o nome do moedlo no google e leia o básico<br>
@@ -54,6 +55,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 >Todas as informações aqui presentes estão sendo passadas por revisão constante. Sendo assim, se você identificar algum conteúdo errado, sinta-se livre para sugerir a correção.
 
 ## Índice
+### Problemas que Data Science tenta resolver (E suas possíveis soluções)
 ### Principais algoritmos
 <br>Algoritmos de aprendizado supervisionado
 <br>Algoritmos de aprendizado não supervisionado
@@ -521,37 +523,203 @@ O número de clusters precisa ser definido previamente. O K-means é sensível �
 >Avaliação: Avalie a qualidade do agrupamento. Isso pode ser feito usando métricas como a soma dos quadrados dentro do cluster (WCSS).
 >Interpretação: Interprete os clusters identificados. Cada cluster pode ser caracterizado pelo seu centróide, que é a média de todos os pontos de dados no cluster.
 
+## Regressão Linear
+#### Descrição Simples
+
+#### Descrição técnica
+A regressão linear é um modelo estatístico que tenta prever uma variável de saída (dependente) com base em uma ou mais variáveis de entrada (independentes). Ela faz isso ajustando uma linha de melhor ajuste para os dados.
+
+#### O que faz
+A regressão linear tenta modelar a relação entre duas (regressão linear simples) ou mais (regressão linear múltipla) variáveis, estabelecendo uma equação linear entre elas.
+
+#### Suposições feitas pelo algoritmo
+Linearidade: A relação entre as variáveis independentes e a variável dependente é linear.<br>
+Independência: As observações são independentes entre si.<br>
+Homoscedasticidade: A variância dos erros é constante em todos os níveis das variáveis independentes.<br>
+Normalidade: Os erros (a diferença entre os valores observados e os valores previstos) seguem uma distribuição normal.<br>
+
+#### Como ele lida com diferentes tipos de dados
+A regressão linear lida bem com dados numéricos. No entanto, para dados categóricos, eles devem ser convertidos em variáveis dummy, que são variáveis binárias que indicam a presença de uma categoria específica. A regressão linear não pode lidar diretamente com dados textuais.
+A regressão linear lida bem com dados numéricos. Para dados categóricos, eles precisam ser convertidos em variáveis dummy (0 ou 1) para poderem ser usados. Dados textuais geralmente não são utilizados em modelos de regressão linear, a menos que sejam transformados em algum tipo de representação numérica.
+
+#### Onde é mais aplicado
+A regressão linear é amplamente utilizada em muitos campos, incluindo economia, biologia, ciências sociais, engenharia e muitos outros. É comumente usada para prever valores contínuos, como preços de casas, salários, vendas, etc.
+
+#### Quando usar
+Você deve usar a regressão linear quando acredita que existe uma relação linear entre a variável dependente e as variáveis independentes e deseja quantificar essa relação. Ela também é útil quando você quer entender o impacto de uma variável na outra.
+
+#### Por que usar
+A regressão linear é um método simples, mas poderoso, para prever variáveis contínuas. É fácil de entender, implementar e interpretar.
+
+#### Como usar
+Para usar a regressão linear, você precisa primeiro coletar e preparar seus dados. Em seguida, você divide seus dados em um conjunto de treinamento e um conjunto de teste. Em seguida, você ajusta o modelo de regressão linear ao conjunto de treinamento e usa o modelo para fazer previsões no conjunto de teste.
+
+#### Parâmetros e seus efeitos
+Na regressão linear, os parâmetros são os coeficientes da equação linear. Eles são estimados a partir dos dados e indicam a força e a direção da relação entre as variáveis independentes e a variável dependente.
+Na regressão linear simples, os parâmetros são o coeficiente angular e o termo de intercepção. Na regressão linear múltipla, há um coeficiente para cada variável independente. Esses parâmetros determinam a inclinação da linha de regressão e onde ela intercepta o eixo y. Eles são determinados durante o processo de treinamento para minimizar a soma dos quadrados dos resíduos (a diferença entre os valores observados e previstos).
+
+#### Como lida com dados faltantes ou outliers
+A regressão linear por si só não lida bem com dados faltantes ou outliers. Você geralmente precisa tratar esses problemas antes de ajustar o modelo. Para dados faltantes, você pode usar métodos como a imputação média ou a imputação baseada em modelos. Para outliers, você pode usar métodos como a remoção de outliers ou a transformação de variáveis.
+
+#### Sensibilidade à escala dos dados
+A regressão linear é sensível à escala dos dados. Por exemplo, se uma variável independente é medida em milhares e outra em milhões, a primeira pode ter um coeficiente muito maior que a segunda, mesmo que a segunda seja mais importante. Isso pode ser resolvido através da normalização ou padronização dos dados.
+
+#### Propensão a overfitting ou underfitting
+A regressão linear pode sofrer de underfitting se a relação entre as variáveis independentes e a dependente não for linear ou se houver variáveis importantes ausentes no modelo. Em relação ao overfitting, geralmente é menos propenso a acontecer em modelos de regressão linear simples, mas pode ocorrer em modelos de regressão linear múltipla com muitas variáveis.
+
+#### Complexidade computacional do algoritmo
+A complexidade computacional da regressão linear é O(n), onde n é o número de observações. Isso significa que a regressão linear é computacionalmente eficiente e pode lidar com grandes conjuntos de dados.
+
+#### Interpretabilidade do modelo
+A regressão linear tem alta interpretabilidade. Os coeficientes do modelo podem ser interpretados como a mudança na variável dependente para uma unidade de mudança na variável independente correspondente, mantendo todas as outras variáveis independentes constantes.
+
+#### Validação ou avaliação do algoritmo
+A validação ou avaliação do modelo de regressão linear pode ser feita através de várias métricas, incluindo o R-quadrado, erro quadrático médio, erro absoluto médio, entre outros.
+
+#### Recursos necessários
+Os recursos necessários para aplicar a regressão linear são relativamente baixos. Você precisa de um conjunto de dados e de um software capaz de ajustar um modelo de regressão linear, como Python, R, SAS, SPSS, etc.
+
+#### Diferencial
+A regressão linear se diferencia de outros algoritmos por sua simplicidade, interpretabilidade e eficiência computacional. É um dos poucos algoritmos que fornece uma relação clara e quantificável entre as variáveis.
+
+#### Vantagens
+Simples de entender e implementar.<br>
+Alta interpretabilidade.<br>
+Baixo custo computacional.<br>
+    
+#### Desvantagens
+Supõe que a relação entre as variáveis é linear.<br>
+Sensível a outliers.<br>
+Pode sofrer de multicolinearidade (quando as variáveis independentes estão altamente correlacionadas).<br>
+
+#### Pipeline de execução do algoritmo
+>Coleta de dados.
+>Preparação dos dados (tratamento de valores faltantes, conversão de variáveis categóricas, etc.).
+>Divisão dos dados em conjunto de treinamento e de teste.
+>Ajuste do modelo de regressão linear ao conjunto de treinamento.
+>Avaliação do modelo no conjunto de teste.
+>Interpretação dos resultados.
+>Se necessário, ajuste dos parâmetros e repetição dos passos 4 a 6.
+
+## Regressão logística
+#### Descrição Simples
+
+#### Descrição técnica
+A regressão logística é um algoritmo de aprendizado de máquina supervisionado usado para classificação. Ao contrário da regressão linear, que produz uma saída contínua, a regressão logística transforma sua saída usando a função logística para retornar uma probabilidade que pode ser mapeada para duas ou mais classes discretas.
+
+#### O que faz
+A regressão logística calcula a probabilidade de um evento ocorrer como função de outros fatores. Esta probabilidade é dada como um valor entre 0 e 1.
+
+#### Suposições feitas pelo algoritmo
+A variável dependente deve ser categórica (binária) na natureza binária.<br>
+Os preditores independentes devem ser independentes um do outro (ou seja, evitar multicolinearidade).<br>
+O tamanho da amostra deve ser grande o suficiente.<br>
+    
+#### Como ele lida com diferentes tipos de dados
+A regressão logística lida principalmente com variáveis numéricas. As variáveis categóricas devem ser transformadas em numéricas (como usando codificação one-hot). Para dados textuais, técnicas como TF-IDF ou embedding podem ser usadas para transformar o texto em números.
+
+#### Onde é mais aplicado
+Em medicina, para determinar os fatores que influenciam uma doença.<br>
+No setor financeiro, para prever se um cliente irá inadimplir um empréstimo.<br>
+Em machine learning, para classificação binária ou multiclasse.<br>
+    
+#### Quando usar
+Use a regressão logística quando sua variável de resposta for categórica ou binária. Ela é útil quando você quer prever a presença ou ausência de uma característica.
+
+#### Por que usar
+A regressão logística é simples, rápida, eficiente para conjuntos de dados de pequena escala e tem um bom desempenho quando o conjunto de dados é linearmente separável.
+
+#### Como usar
+Você pode usar a regressão logística por meio de bibliotecas como sklearn em Python. A primeira etapa é importar a classe LogisticRegression, instanciar um objeto LogisticRegression e chamar o método fit com os dados de treinamento. Em seguida, você pode usar o método predict para fazer previsões.
+
+#### Parâmetros e seus efeitos
+Alguns parâmetros importantes são:
+
+>Regularization (C): Controla a inversa da força de regularização e pode ajudar a evitar overfitting.
+>Solver: Especifica o algoritmo a ser usado na otimização (por exemplo, 'liblinear', 'newton-cg', 'lbfgs', 'sag', 'saga').
+>Multi_class: Determina a estratégia para lidar com várias classes (por exemplo, 'ovr', 'multinomial', 'auto').
+    
+#### Como lida com dados faltantes ou outliers
+A regressão logística não lida diretamente com dados ausentes ou outliers. Os dados ausentes devem ser tratados antes de alimentar o algoritmo, seja através da exclusão dos registros ou através da imputação dos valores ausentes. Outliers também devem ser tratados antes de usar o modelo, pois eles podem distorcer a função de decisão do modelo.
+
+#### Sensibilidade à escala dos dados
+Sim, a regressão logística é sensível à escala dos dados. Recursos com escalas muito diferentes podem afetar o desempenho do modelo. Portanto, é comum aplicar a normalização ou a padronização dos dados antes de usar a regressão logística.
+
+#### Propensão a overfitting ou underfitting
+A regressão logística pode sofrer de overfitting se houver muitos recursos e a regularização não for usada. Da mesma forma, pode sofrer de underfitting se houver poucos recursos. A regularização é uma técnica usada para prevenir o overfitting, adicionando uma penalidade ao tamanho dos coeficientes.
+
+#### Complexidade computacional do algoritmo
+A complexidade computacional da regressão logística é O(n), onde n é o número de recursos. No entanto, isso pode variar dependendo da implementação e do solver usado.
+
+#### Interpretabilidade do modelo
+Os coeficientes da regressão logística representam o logaritmo das chances para a variável dependente. Eles são facilmente interpretáveis e uma alteração em 1 unidade em um recurso resultará em uma alteração no logaritmo das chances multiplicado pelo coeficiente correspondente, mantendo todos os outros recursos constantes.
+
+#### Validação ou avaliação do algoritmo
+As métricas de avaliação comuns para a regressão logística incluem a precisão, o recall, o F1-score e a área sob a curva ROC (AUC-ROC). A validação cruzada também é comumente usada para avaliar a eficácia do modelo.
+
+#### Recursos necessários
+A regressão logística é um algoritmo relativamente leve e rápido que não requer muitos recursos computacionais.
+
+#### Diferencial
+A principal diferença entre a regressão logística e outros algoritmos de classificação, como a árvore de decisão ou o SVM, é que a regressão logística fornece probabilidades, tornando-a útil quando não apenas a classificação, mas também a probabilidade de classificação é necessária.
+
+#### Vantagens
+>Rápido e eficiente para pequenos conjuntos de dados.
+>Fornece probabilidades além das previsões de classe.
+>Funciona bem com recursos categóricos quando são corretamente codificados.
+>Os coeficientes do modelo são interpretáveis.
+    
+#### Desvantagens
+>Não pode lidar com dados ausentes ou outliers; esses devem ser tratados antes de alimentar o modelo.
+>A regressão logística assume que os recursos são independentes um do outro, o que nem sempre é verdade na realidade (isso é conhecido como multicolinearidade).
+>Não lida bem com recursos não lineares. Transformações ou métodos adicionais podem ser necessários para lidar com relacionamentos não lineares.
+
+#### Pipeline de execução do algoritmo
+>Preparação dos dados: Inclui lidar com dados ausentes, outliers e codificação de variáveis categóricas.
+>Normalização ou padronização dos dados: Porque a regressão logística é sensível à escala dos dados.
+>Treinamento do modelo: Usando um conjunto de dados de treinamento para ajustar os parâmetros do modelo.
+>Avaliação do modelo: Usando um conjunto de dados de teste e métricas relevantes para avaliar o desempenho do modelo.
+>Ajuste do modelo: Ajustar os hiperparâmetros ou adicionar regularização para evitar overfitting, se necessário.
+>Previsão: Usando o modelo treinado para fazer previsões em novos dados.
+    
 ## Análise de sentimentos
 #### Descrição Simples:
 A análise de sentimentos, muitas vezes chamada de "mineração de opinião", é uma maneira de interpretar e classificar emoções (positivas, negativas e neutras) em dados de texto usando técnicas de análise de texto. Ele pode ajudar as empresas a entender como seus clientes se sentem em relação a seus produtos ou serviços, analisando o feedback do cliente, as conversas nas mídias sociais e as análises de produtos.
 
+
 #### Descrição técnica
 
 Tecnicamente, a análise de sentimento é uma tarefa de processamento de linguagem natural (NLP) que usa aprendizado de máquina (ML) ou modelos de aprendizado profundo para classificar o texto em categorias de sentimento. Mais comumente, essas categorias são positivas, negativas e neutras. Alguns sistemas avançados também detectam emoções como "feliz", "triste", "irritado" e assim por diante.
+Análise de sentimentos é um campo de estudo que analisa a opinião das pessoas, suas emoções ou atitudes em relação a diferentes tópicos. Essa análise é feita principalmente por meio do processamento de linguagem natural (NLP) e técnicas de aprendizado de máquina.
 
 #### O que faz
 
 Leva dados de texto como entrada e classifica o sentimento do texto como saída. Por exemplo, pode ser um tweet como entrada e saída, independentemente de o tweet ter um sentimento positivo, negativo ou neutro.
+O algoritmo de análise de sentimentos classifica os dados de texto (como tweets, comentários, avaliações de produtos etc.) em categorias de sentimentos, como positivo, negativo ou neutro.
 
 #### Suposições feitas pelo algoritmo
 
 A principal suposição é que os dados de texto contêm sentimentos que podem ser classificados em categorias distintas. Ele também assume que os dados de treinamento representam com precisão os sentimentos encontrados nos dados do mundo real.
+As suposições variam dependendo do algoritmo específico usado para análise de sentimentos. No entanto, uma suposição comum é que as palavras usadas em um texto são indicativas do sentimento expresso. Por exemplo, a presença de palavras positivas indica um sentimento positivo.
 
 #### Como ele lida com diferentes tipos de dados
 
 A análise de sentimento trabalha principalmente com dados textuais. Dados numéricos e categóricos não são usados diretamente na análise de sentimento, mas podem fornecer contexto adicional.
+A análise de sentimentos é projetada principalmente para dados textuais. Embora não seja aplicável diretamente a dados numéricos ou categóricos, esses dados podem ser usados para enriquecer a análise. Por exemplo, a data e a hora de uma postagem podem ajudar a entender o contexto do sentimento.
 
 #### Onde é mais aplicado
 
 A análise de sentimento é amplamente utilizada nos negócios para monitoramento de marcas, atendimento ao cliente, análise de produtos e pesquisa de mercado. Também é usado na política para avaliar a opinião pública e na pesquisa em ciências sociais.
+A análise de sentimentos é usada em várias áreas, incluindo análise de mídia social, avaliação de produtos, análise de mercado, análise de atendimento ao cliente, e em saúde para análise de sentimentos dos pacientes.
 
 #### Quando usar
 
-Você deve usar a análise de sentimento quando quiser entender o tom emocional dos dados da linguagem escrita, como publicações em redes sociais, avaliações de clientes ou respostas de pesquisas.
+Você deve usar a análise de sentimento quando quiser entender o tom emocional dos dados da linguagem escrita, como publicações em redes sociais, avaliações de clientes ou respostas de pesquisas e quando quiser entender a opinião, atitude ou emoção em torno de um tópico específico.
 
 #### Por que usar
 
 É útil para entender o feedback do cliente em escala, monitorar o sentimento da marca e detectar mudanças na opinião pública.
+A análise de sentimentos pode fornecer insights valiosos sobre a percepção do público sobre produtos, serviços ou tópicos, ajudando a tomar decisões informadas.
 
 #### Como usar
 
@@ -561,14 +729,17 @@ Se você estiver usando uma abordagem de aprendizado supervisionado, precisará 
 Treine seu modelo usando seus dados de treinamento.
 Teste seu modelo usando seus dados de teste.
 Aplique seu modelo a novos dados para prever o sentimento.
+Você precisa de um conjunto de dados de texto para análise. Com o uso de bibliotecas como NLTK, TextBlob, ou transformers em Python, é possível treinar um modelo para classificar os sentimentos.
 
 #### Parâmetros e seus efeitos
 
 Nos modelos de ML, os parâmetros podem incluir o tipo de algoritmo (como SVM, Naive Bayes), a arquitetura (para redes neurais) ou parâmetros como a taxa de aprendizado. A escolha dos parâmetros pode afetar significativamente o desempenho do modelo.
+Dependendo do modelo específico, os parâmetros podem incluir o tipo de tokenização, o tipo de modelo de aprendizado de máquina (por exemplo, Naive Bayes, SVM, deep learning), o tamanho do vocabulário, entre outros. Eles afetam a precisão da classificação do sentimento.
 
 #### Tratamento de dados ausentes e outliers
 
 A análise de sentimento não lida diretamente com dados ausentes, pois trabalha principalmente com texto. Outliers (como declarações sarcásticas ou irônicas) muitas vezes podem ser mal classificados.
+Normalmente, os dados de texto não têm o conceito de "dados faltantes" da mesma maneira que os dados numéricos. No entanto, os outliers podem ser gerenciados por meio de técnicas de pré-processamento de texto, como remoção de stop words, stemming, e lematização.
 
 #### Sensibilidade da escala
 
@@ -577,34 +748,42 @@ O algoritmo não é sensível à escala dos dados, mas os requisitos computacion
 #### Sobreajuste ou subajuste
 
 Como qualquer algoritmo de aprendizado de máquina, os modelos de análise de sentimento podem ser superajustados ou subajustados. O overfitting ocorre quando o modelo é muito complexo e começa a aprender o ruído dos dados de treinamento. O underfitting acontece quando o modelo é muito simples para aprender os padrões subjacentes.
+Como qualquer modelo de aprendizado de máquina, a análise de sentimentos pode sofrer de overfitting ou underfitting. A regularização, validação cruzada e ajuste de hiperparâmetros são técnicas que podem ser usadas para lidar com esses problemas.
 
 #### Complexidade computacional
 
 A complexidade depende do algoritmo usado. Modelos básicos como Naive Bayes são menos intensivos computacionalmente do que modelos de aprendizado profundo.
+Depende do algoritmo específico e do tamanho do conjunto de dados. Modelos mais simples como Naive Bayes podem ser mais rápidos para treinar e prever, enquanto modelos mais complexos como redes neurais profundas podem ser mais computacionalmente intensivos.
 
 #### Interpretabilidade
 
 Modelos como Árvores de Decisão ou Regressão Logística são mais interpretáveis do que Redes Neurais. Você pode entender quais palavras estão contribuindo mais para o sentimento com o primeiro, mas é mais difícil com o último.
+A interpretabilidade pode ser desafiadora, especialmente com modelos mais complexos. No entanto, em geral, a análise de sentimentos pode ser considerada bastante interpretável, pois os sentimentos são classificados com base na presença de palavras-chave ou frases.
 
 #### Validação e Avaliação
 
 Os modelos podem ser avaliados usando métricas como exatidão, precisão, recuperação e pontuação F1. A validação cruzada é frequentemente usada para fornecer uma medida mais robusta de desempenho.
+As métricas comuns de avaliação incluem precisão, recall, F1-score, e a matriz de confusão. A escolha da métrica depende do problema e das necessidades específicas.
 
 #### Recursos Necessários
 
 Os custos para aplicar a análise de sentimento podem variar muito. Eles podem incluir o custo de coleta e armazenamento de dados, recursos computacionais e, possivelmente, o custo de rotulagem manual para aprendizado supervisionado.
+O custo de aplicar a análise de sentimentos depende das ferramentas e infraestrutura usadas. O Python, por exemplo, oferece várias bibliotecas gratuitas e de código aberto para análise de sentimentos.
 
 #### Diferencial
 
 Em comparação com outras tarefas de PNL, a análise de sentimento se concentra especificamente na compreensão do tom emocional do texto. Está menos preocupado em extrair fatos (como na extração de informações) ou entender o significado das frases (como na tradução automática).
+A análise de sentimentos difere de outras técnicas de análise de texto por se concentrar especificamente na identificação e classificação de sentimentos expressos no texto.
 
-#### Benefícios
+#### Vantagens
 
 A análise de sentimento pode fornecer informações valiosas sobre como as pessoas se sentem sobre um determinado tópico, marca ou produto. Ele pode ajudar as empresas a melhorar seus produtos e serviços com base no feedback dos clientes.
+A análise de sentimentos fornece uma maneira quantitativa de entender opiniões e emoções, pode processar grandes volumes de dados rapidamente, e pode revelar insights que podem não ser óbvios em uma análise manual.
 
 #### Desvantagens
 
 A análise de sentimentos pode ter dificuldades com coisas como sarcasmo, gírias ou erros de digitação. Também pode ter dificuldade com textos que contenham sentimentos positivos e negativos.
+A análise de sentimentos pode ser desafiadora em textos onde a ironia ou o sarcasmo são usados, pois eles podem ser interpretados incorretamente. Além disso, a precisão do modelo depende da qualidade dos dados de treinamento.
 
 #### Pipeline de execução do algoritmo
 
