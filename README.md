@@ -533,17 +533,26 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 ## k-means
 #### Descrição Simples
 
-O algoritmo K-means é um método de agrupamento, que tem o objetivo de dividir n observações em k grupos, onde cada observação pertence ao grupo cuja média tem a menor distância.
+Imagine que você acabou de se mudar para uma grande cidade e está maravilhado com a diversidade de locais que pode explorar. No entanto, a cidade é tão vasta e variada que você se sente sobrecarregado. Você tem informações sobre diferentes lugares, mas não consegue entender como agrupá-los ou por onde começar. Aqui entra o nosso herói, o algoritmo K-means.<br>
 
+O K-means é como um guia sábio e intuitivo que pega todas as informações que você tem sobre os locais da cidade e as organiza de maneira eficiente. Como ele faz isso? O K-means pede que você decida quantos grupos (ou no jargão técnico, "clusters") você quer formar. Digamos que você escolheu 5. O K-means, então, coloca 5 marcadores aleatórios no mapa da cidade. Esses são os "centróides" dos nossos futuros grupos.<br>
+
+Agora, o K-means começa a trabalhar sua mágica. Ele olha para o primeiro local e o atribui ao marcador mais próximo. Ele faz isso para todos os locais, até que todos eles sejam atribuídos a um dos 5 marcadores. Nesse ponto, temos 5 grupos formados, mas espera, ainda não acabamos!<br>
+
+O K-means é meticuloso e quer garantir que fez o melhor trabalho possível. Então, ele recalcula a posição de cada marcador, colocando-o no centro de todos os locais que foram atribuídos a ele. Agora temos novos centros para os nossos grupos. O K-means, em seguida, repete o processo de atribuir cada local ao marcador mais próximo. Esse processo é repetido várias vezes até que os marcadores parem de se mover.<br>
+
+E pronto! Agora temos 5 grupos bem definidos na cidade, cada um com seu próprio caráter e charme, graças ao nosso guia, o algoritmo K-means. E a beleza disso? Essa mesma lógica pode ser aplicada a qualquer tipo de informação, não apenas locais em uma cidade. Pode ser usado para segmentar clientes, organizar dados astronômicos, classificar documentos e muito mais!<br>
+
+O K-means é uma ferramenta incrivelmente poderosa, capaz de encontrar padrões e agrupamentos em grandes conjuntos de dados de maneira eficiente e intuitiva. Então, da próxima vez que você estiver perdido em um mar de informações, lembre-se do K-means, seu guia pessoal para a descoberta de padrões em dados!<br>
 #### Descrição Técnica
 
 Tecnicamente, o algoritmo K-means tenta minimizar a soma das distâncias quadráticas entre os pontos e o centróide (a média aritmética) de cada cluster. O algoritmo segue os seguintes passos:
 
-    Escolhe-se um número K de clusters.
-    Seleciona-se aleatoriamente K pontos de dados como centróides iniciais.
-    Atribui-se cada ponto ao centróide mais próximo.
-    Recalcula-se o centróide de cada cluster (a média de todos os pontos de dados pertencentes a esse cluster).
-    Repete-se os passos 3 e 4 até que os centróides não mudem significativamente ou se atinja um número predefinido de iterações.
+>Escolhe-se um número K de clusters.
+>Seleciona-se aleatoriamente K pontos de dados como centróides iniciais.
+>Atribui-se cada ponto ao centróide mais próximo.
+>Recalcula-se o centróide de cada cluster (a média de todos os pontos de dados pertencentes a esse cluster).
+>Repete-se os passos 3 e 4 até que os centróides não mudem significativamente ou se atinja um número predefinido de iterações.
 K-means é um algoritmo de agrupamento particional que divide um conjunto de n-observações em k-grupos, onde cada observação pertence ao grupo com a média mais próxima. A "média" aqui é o centroide, que é a média de todos os pontos em cada cluster.
 
 #### O que faz
@@ -626,17 +635,17 @@ O K-means é simples e eficaz. Diferentemente de alguns outros algoritmos de agr
  
 #### Vantagens
 
-    Simplicidade e facilidade de implementação.
-    Eficiência computacional.
-    Útil para pré-processamento e redução de dimensionalidade.
+>Simplicidade e facilidade de implementação.
+>Eficiência computacional.
+>Útil para pré-processamento e redução de dimensionalidade.
 É simples de entender e implementar, e é eficaz em grandes conjuntos de dados. Ele também é eficiente em termos computacionais.
 
 #### Desvantagens
 
-    Sensibilidade à inicialização (embora a versão K-means++ ajude a mitigar isso).
-    Sensibilidade à escala dos dados.
-    A necessidade de escolher o número de clusters a priori.
-    Assumir que os clusters são convexos e isotrópicos pode ser limitante em alguns casos.
+>Sensibilidade à inicialização (embora a versão K-means++ ajude a mitigar isso).
+>Sensibilidade à escala dos dados.
+>A necessidade de escolher o número de clusters a priori.
+>Assumir que os clusters são convexos e isotrópicos pode ser limitante em alguns casos.
 O número de clusters precisa ser definido previamente. O K-means é sensível à inicialização, ou seja, pontos de partida aleatórios podem levar a resultados diferentes. Além disso, ele não lida bem com clusters de forma não esférica ou com tamanhos de clusters variáveis. Ele também não lida bem com outliers e dados faltantes.
 
 #### Pipeline de execução do algoritmo K-means:
