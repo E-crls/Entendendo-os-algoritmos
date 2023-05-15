@@ -57,16 +57,6 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 ## Índice
 ### Problemas que Data Science tenta resolver (E suas possíveis soluções)
 ### Principais algoritmos
-<br>Algoritmos de aprendizado supervisionado
-<br>Algoritmos de aprendizado não supervisionado
-<br>Algoritmos de aprendizado por reforço
-<br>Algoritmos de otimização e busca
-<br>Algoritmos Genéticos
-<br>Algoritmos de processamento de linguagem natural (NLP)
-<br>Algoritmos de recomendação
-<br>Algoritmos de detecção de anomalias
-<br>Algoritmos de redução de dimensionalidade
-<br>Algoritmos de análise de redes e grafos
 1. [Algoritmos de aprendizado supervisionado](#algoritmos-de-aprendizado-supervisionado)
 2. [Algoritmos de aprendizado não supervisionado](#algoritmos-de-aprendizado-não-supervisionado)
 3. [Algoritmos de aprendizado por reforço](#algoritmos-de-aprendizado-por-reforço)
@@ -79,36 +69,36 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 10. [Algoritmos de análise de redes e grafos](#algoritmos-de-análise-de-redes-e-grafos)
 
 ### Todos os algoritmos
-<br>Algoritmos de aprendizado supervisionado
-<br>Algoritmos de aprendizado não supervisionado
-<br>Algoritmos de aprendizado por reforço
-<br>Algoritmos de otimização e busca
-<br>Algoritmos de Otimização Evolutiva
-<br>Algoritmos de processamento de linguagem natural (NLP)
-<br>Algoritmos de recomendação
-<br>Algoritmos de detecção de anomalias
-<br>Algoritmos de redução de dimensionalidade
-<br>Simulação e modelagem de cenários
+1. [Algoritmos de aprendizado supervisionado](#algoritmos-de-aprendizado-supervisionado)
+2. [Algoritmos de aprendizado não supervisionado](#algoritmos-de-aprendizado-não-supervisionado)
+3. [Algoritmos de aprendizado por reforço](#algoritmos-de-aprendizado-por-reforço)
+4. [Algoritmos de otimização e busca](#algoritmos-de-otimização-e-busca)
+5. [Algoritmos de Otimização Evolutiva](#algoritmos-de-otimização-evolutiva)
+6. [Algoritmos de processamento de linguagem natural (NLP)](#algoritmos-de-processamento-de-linguagem-natural-nlp)
+7. [Algoritmos de recomendação](#algoritmos-de-recomendação)
+8. [Algoritmos de detecção de anomalias](#algoritmos-de-detecção-de-anomalias)
+9. [Algoritmos de redução de dimensionalidade](#algoritmos-de-redução-de-dimensionalidade)
+10. [Simulação e modelagem de cenários](#simulação-e-modelagem-de-cenários)
 ### Conceitos básicos
-<br>Overfitting
-<br>Underfitting
-<br>Bias-Variance Tradeoff
-<br>Regularização
-<br>Cross-Validation
-<br>Outliers
-<br>Imputação
-<br>Normalização e Padronização
-<br>One-Hot Code
-<br>Feature Engineering
-<br>Feature Selection
-<br>Gradiente Descendente
-<br>Aprendizado Supervisionado
-<br>Aprendizado Não Supervisionado
-<br>Aprendizado por Reforço
-<br>Redes Neurais
-<br>Ensemble Learning
-<br>Hiperparâmetros e Tuning de Hiperparâmetros
-<br>Conceitos de Classificação e Regressão
+1. [Overfitting](#overfitting)
+2. [Underfitting](#underfitting)
+3. [Bias-Variance Tradeoff](#bias-variance-tradeoff)
+4. [Regularização](#regularização)
+5. [Cross-Validation](#cross-validation)
+6. [Outliers](#outliers)
+7. [Imputação](#imputação)
+8. [Normalização e Padronização](#normalização-e-padronização)
+9. [One-Hot Code](#one-hot-code)
+10. [Feature Engineering](#feature-engineering)
+11. [Feature Selection](#feature-selection)
+12. [Gradiente Descendente](#gradiente-descendente)
+13. [Aprendizado Supervisionado](#aprendizado-supervisionado)
+14. [Aprendizado Não Supervisionado](#aprendizado-não-supervisionado)
+15. [Aprendizado por Reforço](#aprendizado-por-reforço)
+16. [Redes Neurais](#redes-neurais)
+17. [Ensemble Learning](#ensemble-learning)
+18. [Hiperparâmetros e Tuning de Hiperparâmetros](#hiperparâmetros-e-tuning-de-hiperparâmetros)
+19. [Conceitos de Classificação e Regressão](#conceitos-de-classificação-e-regressão)
 
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
