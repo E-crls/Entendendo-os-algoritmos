@@ -150,54 +150,56 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ### Algoritmos de processamento de linguagem natural (NLP)
 
-<br>TF-IDF 
-<br>Word2Vec 
-<br>GloVe 
-<br>FastText 
-<br>BERT 
-<br>GPT 
-<br>ELMo 
-<br>Transformer 
-<br>Seq2Seq
+1. [TF-IDF](#tf-idf)
+2. [Word2Vec](#word2vec)
+3. [GloVe](#glove)
+4. [FastText](#fasttext)
+5. [BERT](#bert)
+6. [GPT](#gpt)
+7. [ELMo](#elmo)
+8. [Transformer](#transformer)
+9. [Seq2Seq](#seq2seq)
 
 ### Algoritmos de recomendação
 
-<br>Collaborative Filtering 
-<br>Content-based Filtering 
-<br>Hybrid Filtering 
-<br>Matrix Factorization (SVD, NMF) 
-<br>Deep Learning-based Recommendations
+1. [Collaborative Filtering](#collaborative-filtering)
+2. [Content-based Filtering](#content-based-filtering)
+3. [Hybrid Filtering](#hybrid-filtering)
+4. [Matrix Factorization (SVD, NMF)](#matrix-factorization-svd-nmf)
+5. [Deep Learning-based Recommendations](#deep-learning-based-recommendations)
 
 ### Algoritmos de detecção de anomalias
 
-<br>Isolation Forest 
-<br>Local Outlier Factor (LOF) 
-<br>One-Class SVM 
-<br>Autoencoders
+1. [Isolation Forest](#isolation-forest)
+2. [Local Outlier Factor (LOF)](#local-outlier-factor-lof)
+3. [One-Class SVM](#one-class-svm)
+4. [Autoencoders](#autoencoders)
 
 ### Algoritmos de redução de dimensionalidade
 
-<br>PCA (Principal Component Analysis) 
-<br>LDA (Linear Discriminant Analysis) 
-<br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
-<br>UMAP (Uniform Manifold Approximation and Projection)
+1. [PCA (Principal Component Analysis)](#pca-principal-component-analysis)
+2. [LDA (Linear Discriminant Analysis)](#lda-linear-discriminant-analysis)
+3. [t-SNE (t-Distributed Stochastic Neighbor Embedding)](#t-sne-t-distributed-stochastic-neighbor-embedding)
+4. [UMAP (Uniform Manifold Approximation and Projection)](#umap-uniform-manifold-approximation-and-projection)
 
 ### Algoritmos de análise de séries temporais
 
-<br>ARIMA 
-<br>SARIMA 
-<br>Exponential Smoothing 
-<br>Prophet 
-<br>LSTM 
-<br>GRU
+1. [ARIMA](#arima)
+2. [SARIMA](#sarima)
+3. [Exponential Smoothing](#exponential-smoothing)
+4. [Prophet](#prophet)
+5. [LSTM](#lstm)
+6. [GRU](#gru)
+
 
 ### Algoritmos de análise de redes e grafos: 
 
-<br>PageRank 
-<br>Shortest Path (Dijkstra, A*, Bellman-Ford) 
-<br>Community Detection (Louvain, Girvan-Newman) 
-<br>Node2Vec 
-<br>Graph Convolutional Networks (GCN)
+1. [PageRank](#pagerank)
+2. [Shortest Path (Dijkstra, A*, Bellman-Ford)](#shortest-path-dijkstra-a-bellman-ford)
+3. [Community Detection (Louvain, Girvan-Newman)](#community-detection-louvain-girvan-newman)
+4. [Node2Vec](#node2vec)
+5. [Graph Convolutional Networks (GCN)](#graph-convolutional-networks-gcn)
+
 
 ## Todos os algoritmos 
 
