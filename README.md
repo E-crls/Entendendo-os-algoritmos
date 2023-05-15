@@ -55,6 +55,29 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ## Índice
 ### Problemas que Data Science tenta resolver (E suas possíveis soluções)
+1. [Negócios e Economia](#negócios-e-economia)
+2. [Saúde](#saúde)
+3. [Ciências Sociais](#ciências-sociais)
+4. [Engenharia e Manufatura](#engenharia-e-manufatura)
+5. [Ciência Ambiental](#ciência-ambiental)
+6. [Educação](#educação)
+7. [Logística e Transporte](#logística-e-transporte)
+8. [Energia](#energia)
+9. [Segurança](#segurança)
+10. [Marketing](#marketing)
+11. [Finanças](#finanças)
+12. [Tecnologia da Informação](#tecnologia-da-informação)
+13. [Agricultura](#agricultura)
+14. [Varejo](#varejo)
+15. [Recursos Humanos](#recursos-humanos)
+16. [Imobiliário](#imobiliário)
+17. [Mídia e Entretenimento](#mídia-e-entretenimento)
+18. [Esportes](#esportes)
+19. [Ciência e Pesquisa](#ciência-e-pesquisa)
+20. [Governo e Política](#governo-e-política)
+21. [Turismo](#turismo)
+22. [Telecomunicações](#telecomunicações)
+23. [Seguros](#seguros)
 
 ### Principais algoritmos
 1. [Algoritmos de aprendizado supervisionado](#algoritmos-de-aprendizado-supervisionado)
@@ -99,6 +122,106 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 17. [Ensemble Learning](#ensemble-learning)
 18. [Hiperparâmetros e Tuning de Hiperparâmetros](#hiperparâmetros-e-tuning-de-hiperparâmetros)
 19. [Conceitos de Classificação e Regressão](#conceitos-de-classificação-e-regressão)
+
+# Problemas que Data Science tenta resolver (E suas possíveis soluções)
+## Negócios e Economia
+- [Prever vendas futuras](#prever-vendas-futuras)
+- [Melhorar a eficiência da cadeia de suprimentos](#melhorar-a-eficiência-da-cadeia-de-suprimentos)
+- [Entender a opinião dos clientes](#entender-a-opinião-dos-clientes)
+- [Antecipar falências empresariais](#antecipar-falências-empresariais)
+- [Identificar atividades fraudulentas](#identificar-atividades-fraudulentas)
+- [Ajustar preços em tempo real](#ajustar-preços-em-tempo-real)
+## Saúde
+- [Prever o risco de doenças](#prever-o-risco-de-doenças)
+- [Analisar informações genéticas](#analisar-informações-genéticas)
+- [Melhorar tratamentos médicos](#melhorar-tratamentos-médicos)
+- [Interpretar imagens médicas](#interpretar-imagens-médicas)
+- [Gerenciar recursos hospitalares](#gerenciar-recursos-hospitalares)
+## Ciências Sociais
+- [Monitorar sentimentos e opiniões públicas](#monitorar-sentimentos-e-opiniões-públicas)
+- [Prever resultados eleitorais](#prever-resultados-eleitorais)
+- [Avaliar o impacto das políticas públicas](#avaliar-o-impacto-das-políticas-públicas)
+- [Detectar notícias falsas e desinformação](#detectar-notícias-falsas-e-desinformação)
+## Engenharia e Manufatura
+- [Aprimorar processos de fabricação](#aprimorar-processos-de-fabricação)
+- [Detectar falhas em equipamentos](#detectar-falhas-em-equipamentos)
+- [Planejar manutenção preventiva](#planejar-manutenção-preventiva)
+- [Desenvolver e aprimorar produtos](#desenvolver-e-aprimorar-produtos)
+## Ciência Ambiental
+- [Prever mudanças climáticas](#prever-mudanças-climáticas)
+- [Modelar a dinâmica populacional de espécies](#modelar-a-dinâmica-populacional-de-espécies)
+- [Antecipar desastres naturais](#antecipar-desastres-naturais)
+## Educação
+- [Prever desempenho acadêmico](#prever-desempenho-acadêmico)
+- [Avaliar a eficácia dos métodos de ensino](#avaliar-a-eficácia-dos-métodos-de-ensino)
+- [Identificar estudantes em risco de evasão](#identificar-estudantes-em-risco-de-evasão)
+## Logística e Transporte
+- [Otimizar rotas de transporte](#otimizar-rotas-de-transporte)
+- [Prever a demanda por transporte](#prever-a-demanda-por-transporte)
+- [Planejar e gerenciar frotas de veículos](#planejar-e-gerenciar-frotas-de-veículos)
+## Energia
+- [Prever a demanda por energia](#prever-a-demanda-por-energia)
+- [Maximizar a produção de energia renovável](#maximizar-a-produção-de-energia-renovável)
+## Segurança
+- [Analisar padrões de atividade criminosa](#analisar-padrões-de-atividade-criminosa)
+- [Detectar atividades suspeitas](#detectar-atividades-suspeitas)
+- [Prevenir ataques cibernéticos](#prevenir-ataques-cibernéticos)
+## Marketing
+- [Segmentar o público-alvo](#segmentar-o-público-alvo)
+- [Avaliar a eficácia das campanhas de marketing](#avaliar-a-eficácia-das-campanhas-de-marketing)
+- [Recomendar produtos aos clientes](#recomendar-produtos-aos-clientes)
+## Finanças
+- [Avaliar riscos de crédito](#avaliar-riscos-de-crédito)
+- [Prever movimentos do mercado de ações](#prever-movimentos-do-mercado-de-ações)
+- [Otimizar portfólios de investimento](#otimizar-portfólios-de-investimento)
+## Tecnologia da Informação
+- [Gerenciar grandes volumes de dados](#gerenciar-grandes-volumes-de-dados)
+- [Analisar registros de servidores](#analisar-registros-de-servidores)
+- [Prever falhas em sistemas de TI](#prever-falhas-em-sistemas-de-ti)
+## Agricultura
+- [Maximizar a produção agrícola](#maximizar-a-produção-agrícola)
+- [Antecipar doenças em plantações](#antecipar-doenças-em-plantações)
+- [Monitorar condições de cultivo](#monitorar-condições-de-cultivo)
+## Varejo
+- [Otimizar a gestão de estoques](#otimizar-a-gestão-de-estoques)
+- [Identificar padrões de comportamento de compra](#identificar-padrões-de-comportamento-de-compra)
+- [Personalizar a experiência de compra para cada cliente](#personalizar-a-experiência-de-compra-para-cada-cliente)
+## Recursos Humanos
+- [Analisar a retenção de funcionários](#analisar-a-retenção-de-funcionários)
+- [Melhorar o processo de contratação](#melhorar-o-processo-de-contratação)
+- [Identificar necessidades de treinamento e desenvolvimento de funcionários](#identificar-necessidades-de-treinamento-e-desenvolvimento-de-funcionários)
+## Imobiliário
+- [Prever preços de imóveis](#prever-preços-de-imóveis)
+- [Analisar tendências do mercado imobiliário](#analisar-tendências-do-mercado-imobiliário)
+- [Identificar locais propícios para o desenvolvimento imobiliário](#identificar-locais-propícios-para-o-desenvolvimento-imobiliário)
+## Mídia e Entretenimento
+- [Recomendar conteúdo personalizado para usuários](#recomendar-conteúdo-personalizado-para-usuários)
+- [Analisar tendências de consumo de mídia](#analisar-tendências-de-consumo-de-mídia)
+- [Prever o sucesso de filmes ou programas de TV](#prever-o-sucesso-de-filmes-ou-programas-de-tv)
+## Esportes
+- [Analisar o desempenho dos atletas](#analisar-o-desempenho-dos-atletas)
+- [Prever resultados de competições esportivas](#prever-resultados-de-competições-esportivas)
+- [Analisar estratégias de jogo](#analisar-estratégias-de-jogo)
+## Ciência e Pesquisa
+- [Identificar novas tendências e padrões em dados científicos](#identificar-novas-tendências-e-padrões-em-dados-científicos)
+- [Acelerar descobertas por meio da análise de grandes volumes de dados](#acelerar-descobertas-por-meio-da-análise-de-grandes-volumes-de-dados)
+- [Apoiar a reproducibilidade em pesquisas científicas](#apoiar-a-reproducibilidade-em-pesquisas-científicas)
+## Governo e Política
+- [Analisar tendências de opinião pública](#analisar-tendências-de-opinião-pública)
+- [Prever os impactos de políticas governamentais](#prever-os-impactos-de-políticas-governamentais)
+- [Otimizar a entrega de serviços públicos](#otimizar-a-entrega-de-serviços-públicos)
+## Turismo
+- [Prever tendências turísticas](#prever-tendências-turísticas)
+- [Personalizar experiências de viagem](#personalizar-experiências-de-viagem)
+- [Otimizar a precificação de hotéis e voos](#otimizar-a-precificação-de-hotéis-e-voos)
+## Telecomunicações
+- [Prever falhas de rede](#prever-falhas-de-rede)
+- [Analisar padrões de uso dos clientes](#analisar-padrões-de-uso-dos-clientes)
+- [Otimizar a infraestrutura de rede](#otimizar-a-infraestrutura-de-rede)
+## Seguros
+- [Avaliar riscos para a precificação de seguros](#avaliar-riscos-para-a-precificação-de-seguros)
+- [Detectar fraudes em sinistros](#detectar-fraudes-em-sinistros)
+- [Personalizar prêmios de seguros para cada cliente](#personalizar-prêmios-de-seguros-para-cada-cliente)
 
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
