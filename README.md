@@ -102,8 +102,8 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
-[Regressão Linear](#regressão-Linear)<br>
-Regressão Logística
+<br>[Regressão Linear](#regressão-Linear)
+<br>[Regressão Logística](#regressão-logística)
 <br>Máquinas de Vetores de Suporte (SVM) 
 <br>k-vizinhos mais próximos (k-NN) 
 <br>Árvores de decisão 
