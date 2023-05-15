@@ -12,7 +12,6 @@
 ## Falta
 Verificar existencias
 Colocar descrição de mais algoritmos
-Deixar o index clicável
 Colocar imagens no início
 Colocar imagens ilustrativas nos algoritmos
 Colocar possíveis fontes de pesquisa
@@ -30,8 +29,8 @@ Colocar tópico "Problemas que data science tenta resolver"
 ## Contribua
 > A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.
 > Como funciona: 
->   Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.
->   Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
+> Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.
+> Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
 
 Conhecimento é bom, mas conhecimento centralizado e com facilidade de acesso é melhor ainda.
 
@@ -52,10 +51,11 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 É recomendável que estude os conceitos da sessão "Conceitos básicos" para entender conceitos comuns para o entendimento de modelos em Data Science
 
 ## Validação das informações
->Todas as informações aqui presentes estão sendo passadas por revisão constante. Sendo assim, se você identificar algum conteúdo errado, sinta-se livre para sugerir a correção.
+>Todas as informações aqui presentes estão sendo passadas por revisão constante. Sendo assim, se você identificar algum conteúdo errado, sinta-se livre para apontar ele ou sugerir a correção.
 
 ## Índice
 ### Problemas que Data Science tenta resolver (E suas possíveis soluções)
+
 ### Principais algoritmos
 1. [Algoritmos de aprendizado supervisionado](#algoritmos-de-aprendizado-supervisionado)
 2. [Algoritmos de aprendizado não supervisionado](#algoritmos-de-aprendizado-não-supervisionado)
