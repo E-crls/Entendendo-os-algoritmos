@@ -177,10 +177,10 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ### Algoritmos de redução de dimensionalidade
 
-**<br>PCA (Principal Component Analysis) 
+<br>PCA (Principal Component Analysis) 
 <br>LDA (Linear Discriminant Analysis) 
 <br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
-<br>UMAP (Uniform Manifold Approximation and Projection) **
+<br>UMAP (Uniform Manifold Approximation and Projection)
 
 ### Algoritmos de análise de séries temporais
 
