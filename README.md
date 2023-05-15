@@ -67,6 +67,17 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>Algoritmos de detecção de anomalias
 <br>Algoritmos de redução de dimensionalidade
 <br>Algoritmos de análise de redes e grafos
+1. [Algoritmos de aprendizado supervisionado](#algoritmos-de-aprendizado-supervisionado)
+2. [Algoritmos de aprendizado não supervisionado](#algoritmos-de-aprendizado-não-supervisionado)
+3. [Algoritmos de aprendizado por reforço](#algoritmos-de-aprendizado-por-reforço)
+4. [Algoritmos de otimização e busca](#algoritmos-de-otimização-e-busca)
+5. [Algoritmos Genéticos](#algoritmos-genéticos)
+6. [Algoritmos de processamento de linguagem natural (NLP)](#algoritmos-de-processamento-de-linguagem-natural-nlp)
+7. [Algoritmos de recomendação](#algoritmos-de-recomendação)
+8. [Algoritmos de detecção de anomalias](#algoritmos-de-detecção-de-anomalias)
+9. [Algoritmos de redução de dimensionalidade](#algoritmos-de-redução-de-dimensionalidade)
+10. [Algoritmos de análise de redes e grafos](#algoritmos-de-análise-de-redes-e-grafos)
+
 ### Todos os algoritmos
 <br>Algoritmos de aprendizado supervisionado
 <br>Algoritmos de aprendizado não supervisionado
