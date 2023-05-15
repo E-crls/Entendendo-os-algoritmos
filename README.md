@@ -528,8 +528,9 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - **System Dynamics:** A dinâmica de sistemas é uma abordagem para modelar e simular o comportamento de sistemas complexos ao longo do tempo. Ela utiliza equações diferenciais, fluxos e estoques para representar as interações entre os elementos do sistema e analisar o impacto de políticas ou mudanças no sistema. Essa técnica é relevante em data science para estudar sistemas e prever o comportamento futuro com base em mudanças nos parâmetros do sistema.
 - **Discrete-event simulation (DES):** A simulação de eventos discretos é uma técnica que modela a evolução de um sistema ao longo do tempo, representando eventos que ocorrem em momentos específicos e que alteram o estado do sistema. O DES é usado em data science para analisar sistemas em que os eventos ocorrem de forma discreta e aleatória, como filas de espera, processos de produção e sistemas de transporte.
 - **Cellular automata:** Autômatos celulares são modelos matemáticos que representam sistemas dinâmicos e discretos, nos quais o espaço é dividido em células e cada célula evolui com base em regras simples e locais. Eles podem ser usados em data science para simular fenômenos espaciais e temporais, como crescimento populacional, difusão e propagação de doenças.
-## Descrição
-## Kmeans
+
+# Descrições
+## k-means
 #### Descrição Simples
 
 O algoritmo K-means é um método de agrupamento, que tem o objetivo de dividir n observações em k grupos, onde cada observação pertence ao grupo cuja média tem a menor distância.
@@ -651,6 +652,13 @@ O número de clusters precisa ser definido previamente. O K-means é sensível �
 
 ## Regressão Linear
 #### Descrição Simples
+Imagine que você é um astrônomo e você está observando as estrelas. Você percebe que há um padrão nelas, elas não estão dispostas aleatoriamente no céu. Parece que, à medida que uma estrela fica mais brilhante, ela também tende a ser mais azul. Você quer quantificar essa relação, mas como você faz isso? Você tem uma infinidade de estrelas, cada uma com seu próprio brilho e cor. Por onde começar?<br>
+
+Aqui entra a mágica da regressão linear. A regressão linear é como um super-herói matemático que entra em cena para salvar o dia. Ela pega todas as suas estrelas - seus dados - e encontra a melhor "linha de tendência" que descreve a relação entre a cor e o brilho. Esta linha é o seu modelo, uma representação simplificada da realidade que lhe permite fazer previsões. Se você conhece a cor de uma estrela, pode usar a linha para prever o seu brilho. E o melhor de tudo é que a regressão linear não apenas encontra essa linha para você, mas também lhe diz quão confiável é. Ela lhe dá uma medida de incerteza, para que você saiba se pode ou não confiar na sua previsão.<br>
+
+E sabe o que é realmente incrível? A regressão linear não se limita a estrelas. Ela pode ser usada em qualquer lugar onde você queira entender a relação entre duas coisas. Os economistas a usam para prever o crescimento do PIB com base em taxas de juros. Os meteorologistas a usam para prever a temperatura com base na pressão atmosférica. Os médicos a usam para prever a progressão de uma doença com base em resultados de exames. A lista é infinita.<br>
+
+A regressão linear é uma ferramenta poderosa porque é simples, mas incrivelmente versátil. Ela nos ajuda a encontrar ordem no caos, a entender as complexas teias de causa e efeito que tecem o mundo ao nosso redor. Então, da próxima vez que você olhar para as estrelas, pense na regressão linear. Ela é a heroína invisível que nos ajuda a desvendar os segredos do universo.
 
 #### Descrição técnica
 A regressão linear é um modelo estatístico que tenta prever uma variável de saída (dependente) com base em uma ou mais variáveis de entrada (independentes). Ela faz isso ajustando uma linha de melhor ajuste para os dados.
@@ -729,7 +737,17 @@ Pode sofrer de multicolinearidade (quando as variáveis independentes estão alt
 
 ## Regressão logística
 #### Descrição Simples
+Imagine que você está numa festa com centenas de convidados e recebeu a tarefa de descobrir, apenas olhando para eles, quais pessoas são vegetarianas. Você não pode perguntar diretamente a eles, mas pode observar algumas características, como se elas estão comendo salada, se estão perto da churrasqueira ou se estão comendo uma fatia de pizza.<br>
 
+Esse é o tipo de problema que a regressão logística é capaz de resolver! Ela é uma ferramenta poderosa usada em aprendizado de máquina e inteligência artificial, capaz de "aprender" a partir de exemplos, e fazer previsões sobre dados desconhecidos.<br>
+
+Vamos voltar ao nosso cenário da festa. Primeiro, pegamos um grupo de convidados cujas preferências alimentares já conhecemos. Usamos esses dados para "treinar" nosso modelo de regressão logística, ensinando-o sobre as características que podem indicar se alguém é vegetariano ou não. A partir dessas informações, o modelo "aprende" a correlação entre as características e a probabilidade de alguém ser vegetariano.<br>
+
+Agora, o toque de mágica acontece quando apresentamos a esse modelo pessoas das quais não conhecemos as preferências alimentares. O modelo, com base no que aprendeu, irá prever a probabilidade de cada convidado ser vegetariano. Ele pode dizer, por exemplo, que a probabilidade de uma pessoa que está comendo salada e está longe da churrasqueira ser vegetariana é de 80%.<br>
+
+Agora, você pode estar pensando: "Ok, mas por que isso é tão especial?" A beleza da regressão logística é que ela é capaz de lidar com problemas complexos, onde várias características podem influenciar o resultado. Por exemplo, uma pessoa que está comendo salada mas está perto da churrasqueira pode ser um vegetariano ou pode ser um amante de churrasco que só está comendo salada porque gosta de equilíbrio na dieta. É aqui que a regressão logística brilha, pois é capaz de entender e modelar esses contextos complexos.<br>
+
+Por último, a regressão logística é fascinante por sua versatilidade. Ela é utilizada em uma infinidade de campos, desde a medicina, na previsão de doenças, até bancos para prever a probabilidade de um cliente não pagar um empréstimo. Sempre que você vê um sistema fazendo uma previsão do tipo "sim" ou "não" baseado em várias características, provavelmente há uma regressão logística trabalhando nos bastidores. E agora, você já sabe um pouco mais sobre essa incrível ferramenta!<br>
 #### Descrição técnica
 A regressão logística é um algoritmo de aprendizado de máquina supervisionado usado para classificação. Ao contrário da regressão linear, que produz uma saída contínua, a regressão logística transforma sua saída usando a função logística para retornar uma probabilidade que pode ser mapeada para duas ou mais classes discretas.
 
