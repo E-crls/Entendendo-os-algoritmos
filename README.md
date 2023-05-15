@@ -103,52 +103,52 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
-<br>[Regressão Linear](#regressão-Linear)
-<br>[Regressão Logística](#regressão-logística)
-<br>Máquinas de Vetores de Suporte (SVM) 
-<br>k-vizinhos mais próximos (k-NN) 
-<br>Árvores de decisão 
-<br>Random Forest 
-<br>Gradient Boosting 
-<br>AdaBoost 
-<br>Redes Neurais Artificiais (ANN) 
-<br>Redes Neurais Convolucionais (CNN) 
-<br>Redes Neurais Recorrentes (RNN)
+1. [Regressão Linear](#regressão-linear)
+2. [Regressão Logística](#regressão-logística)
+3. [Máquinas de Vetores de Suporte (SVM)](#máquinas-de-vetores-de-suporte-svm)
+4. [k-vizinhos mais próximos (k-NN)](#k-vizinhos-mais-próximos-k-nn)
+5. [Árvores de decisão](#árvores-de-decisão)
+6. [Random Forest](#random-forest)
+7. [Gradient Boosting](#gradient-boosting)
+8. [AdaBoost](#adaboost)
+9. [Redes Neurais Artificiais (ANN)](#redes-neurais-artificiais-ann)
+10. [Redes Neurais Convolucionais (CNN)](#redes-neurais-convolucionais-cnn)
+11. [Redes Neurais Recorrentes (RNN)](#redes-neurais-recorrentes-rnn)
 
-### Algoritmos de aprendizado não supervisionado: 
+### Algoritmos de aprendizado não supervisionado
 
-<br>k-means 
-<br>Clustering hierárquico 
-<br>DBSCAN 
-<br>Modelo de Mistura Gaussiana (GMM) 
-<br>PCA (Principal Component Analysis) 
-<br>ICA (Independent Component Analysis) 
-<br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
-<br>UMAP (Uniform Manifold Approximation and Projection)
+1. [k-means](#k-means)
+2. [Clustering hierárquico](#clustering-hierárquico)
+3. [DBSCAN](#dbscan)
+4. [Modelo de Mistura Gaussiana (GMM)](#modelo-de-mistura-gaussiana-gmm)
+5. [PCA (Principal Component Analysis)](#pca-principal-component-analysis)
+6. [ICA (Independent Component Analysis)](#ica-independent-component-analysis)
+7. [t-SNE (t-Distributed Stochastic Neighbor Embedding)](#t-sne-t-distributed-stochastic-neighbor-embedding)
+8. [UMAP (Uniform Manifold Approximation and Projection)](#umap-uniform-manifold-approximation-and-projection)
 
-### Algoritmos de aprendizado por reforço: 
+### Algoritmos de aprendizado por reforço
 
-<br>Q-Learning 
-<br>SARSA 
-<br>Deep Q-Network (DQN) 
-<br>Policy Gradients 
-<br>Actor-Critic 
-<br>Proximal Policy Optimization (PPO) 
-<br>Soft Actor-Critic (SAC)
+1. [Q-Learning](#q-learning)
+2. [SARSA](#sarsa)
+3. [Deep Q-Network (DQN)](#deep-q-network-dqn)
+4. [Policy Gradients](#policy-gradients)
+5. [Actor-Critic](#actor-critic)
+6. [Proximal Policy Optimization (PPO)](#proximal-policy-optimization-ppo)
+7. [Soft Actor-Critic (SAC)](#soft-actor-critic-sac)
 
-### Algoritmos de otimização e busca: 
+### Algoritmos de otimização e busca
 
-<br>Gradient Descent 
-<br>Stochastic Gradient Descent 
-<br>Newton-Raphson
+1. [Gradient Descent](#gradient-descent)
+2. [Stochastic Gradient Descent](#stochastic-gradient-descent)
+3. [Newton-Raphson](#newton-raphson)
 
 ### Algoritmos Genéticos 
 
-<br>Particle Swarm Optimization 
-<br>Simulated Annealing 
-<br>Hill Climbing
+1. [Particle Swarm Optimization](#particle-swarm-optimization)
+2. [Simulated Annealing](#simulated-annealing)
+3. [Hill Climbing](#hill-climbing)
 
-### Algoritmos de processamento de linguagem natural (NLP): 
+### Algoritmos de processamento de linguagem natural (NLP)
 
 <br>TF-IDF 
 <br>Word2Vec 
@@ -160,7 +160,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>Transformer 
 <br>Seq2Seq
 
-### Algoritmos de recomendação: 
+### Algoritmos de recomendação
 
 <br>Collaborative Filtering 
 <br>Content-based Filtering 
@@ -168,21 +168,21 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 <br>Matrix Factorization (SVD, NMF) 
 <br>Deep Learning-based Recommendations
 
-### Algoritmos de detecção de anomalias: 
+### Algoritmos de detecção de anomalias
 
 <br>Isolation Forest 
 <br>Local Outlier Factor (LOF) 
 <br>One-Class SVM 
 <br>Autoencoders
 
-### Algoritmos de redução de dimensionalidade: 
+### Algoritmos de redução de dimensionalidade
 
 **<br>PCA (Principal Component Analysis) 
 <br>LDA (Linear Discriminant Analysis) 
 <br>t-SNE (t-Distributed Stochastic Neighbor Embedding) 
 <br>UMAP (Uniform Manifold Approximation and Projection) **
 
-### Algoritmos de análise de séries temporais: 
+### Algoritmos de análise de séries temporais
 
 <br>ARIMA 
 <br>SARIMA 
@@ -201,7 +201,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ## Todos os algoritmos 
 
-### Algoritmos de aprendizado supervisionado: 
+### Algoritmos de aprendizado supervisionado
 
 - **Regressão Linear**: Modelo simples de aprendizado supervisionado para prever uma variável contínua a partir de uma ou mais variáveis independentes. 
 - **Regressão Polinomial**: Extensão da regressão linear que ajusta um polinômio aos dados. 
@@ -232,7 +232,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - **ALBERT (A Lite BERT)**: Variação do BERT que usa fatorização de parâmetros e compartilhamento de parâmetros entre camadas para reduzir o tamanho do modelo e o tempo de treinamento.
 - **XLNet**: Modelo de linguagem baseado em Transformer que combina a autoatenção bidirecional do BERT com a auto-regressão do GPT para lidar com o contexto e a permutação das palavras.
 
-### Algoritmos de aprendizado não supervisionado: 
+### Algoritmos de aprendizado não supervisionado
 
 - **k-means**: Algoritmo de clustering que agrupa pontos de dados em k grupos com base na similaridade das características, minimizando a soma das distâncias quadráticas dentro dos grupos.
 - **Clustering hierárquico**: Método de agrupamento que cria uma hierarquia de clusters, permitindo uma visualização em forma de dendrograma.
@@ -258,7 +258,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - **Doc2Vec**: Extensão do modelo Word2Vec para aprendizado de representações vetoriais de documentos inteiros, levando em consideração a ordem das palavras e o contexto global do documento.
 - **LDA (Latent Dirichlet Allocation)**: Modelo probabilístico de tópicos que descobre a estrutura temática latente em uma coleção de documentos, atribuindo tópicos a documentos e palavras a tópicos.
 - **NMF (Non-negative Matrix Factorization)**: Método de decomposição de matriz que encontra duas matrizes de baixa dimensão cujo produto aproxima a matriz original, sendo aplicado em aprendizado de características, redução de dimensionalidade e extração de tópicos. Todas as entradas das matrizes são não negativas, refletindo a natureza aditiva dos dados em muitos domínios.
-### Algoritmos de aprendizado por reforço: 
+### Algoritmos de aprendizado por reforço
 
 - **Q-Learning**: Um algoritmo de aprendizado por reforço baseado em valores que estima a função de valor-estado-ação (Q) para tomar decisões ideais em um ambiente estocástico.
 - **SARSA**: Um algoritmo similar ao Q-Learning, que se diferencia por atualizar a função Q com base na ação real tomada, em vez da ação ideal (on-policy).
