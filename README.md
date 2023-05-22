@@ -17,6 +17,9 @@ Colocar imagens ilustrativas nos algoritmos e nos problemas<br>
 Colocar possíveis fontes de pesquisa<br>
 Colocar possíveis prompts de pesquisa<br>
 Colocar tópico "Problemas que data science tenta resolver"<br>
+Colocar explicação dos conceitos básicos<br>
+Colocar descrição técnica mais detalhada<br>
+
 
 ## Método de estudo
 >  1º Jogue o nome do modelo no google e leia o básico<br>
@@ -241,7 +244,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ### Algoritmos de aprendizado não supervisionado
 
-1. [k-means](#k-means)
+1. [k-means](#k-means)🟩
 2. [Clustering hierárquico](#clustering-hierárquico)
 3. [DBSCAN](#dbscan)
 4. [Modelo de Mistura Gaussiana (GMM)](#modelo-de-mistura-gaussiana-gmm)
