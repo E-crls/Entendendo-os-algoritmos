@@ -132,12 +132,12 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - [Prever vendas futuras](#prever-vendas-futuras)
 - [Melhorar a eficiência da cadeia de suprimentos](#melhorar-a-eficiência-da-cadeia-de-suprimentos)
 - [Entender a opinião dos clientes](#entender-a-opinião-dos-clientes)
-- [Antecipar falências empresariais](#antecipar-falências-empresariais)
-- [Identificar atividades fraudulentas](#identificar-atividades-fraudulentas)
+- [Antecipar falências empresariais](#antecipar-falências-empresariais)🟩?
+- [Identificar atividades fraudulentas](#identificar-atividades-fraudulentas)🟩?
 - [Ajustar preços em tempo real](#ajustar-preços-em-tempo-real)
 ## Saúde
-- [Prever o risco de doenças](#prever-o-risco-de-doenças)
-- [Analisar informações genéticas](#analisar-informações-genéticas)
+- [Prever o risco de doenças](#prever-o-risco-de-doenças)🟩?
+- [Analisar informações genéticas](#analisar-informações-genéticas)🟩?
 - [Melhorar tratamentos médicos](#melhorar-tratamentos-médicos)
 - [Interpretar imagens médicas](#interpretar-imagens-médicas)
 - [Gerenciar recursos hospitalares](#gerenciar-recursos-hospitalares)
@@ -152,9 +152,9 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - [Planejar manutenção preventiva](#planejar-manutenção-preventiva)
 - [Desenvolver e aprimorar produtos](#desenvolver-e-aprimorar-produtos)
 ## Ciência Ambiental
-- [Prever mudanças climáticas](#prever-mudanças-climáticas)
-- [Modelar a dinâmica populacional de espécies](#modelar-a-dinâmica-populacional-de-espécies)
-- [Antecipar desastres naturais](#antecipar-desastres-naturais)
+- [Prever mudanças climáticas](#prever-mudanças-climáticas)🟩?
+- [Modelar a dinâmica populacional de espécies](#modelar-a-dinâmica-populacional-de-espécies)🟩?
+- [Antecipar desastres naturais](#antecipar-desastres-naturais)🟩?
 ## Educação
 - [Prever desempenho acadêmico](#prever-desempenho-acadêmico)
 - [Avaliar a eficácia dos métodos de ensino](#avaliar-a-eficácia-dos-métodos-de-ensino)
@@ -232,7 +232,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 1. [Regressão Linear](#regressão-linear)🟩
 2. [Regressão Logística](#regressão-logística)🟩
-3. [Máquinas de Vetores de Suporte (SVM)](#máquinas-de-vetores-de-suporte-svm)
+3. [Máquinas de Vetores de Suporte (SVM)](#máquinas-de-vetores-de-suporte-svm)🟩?
 4. [k-vizinhos mais próximos (k-NN)](#k-vizinhos-mais-próximos-k-nn)
 5. [Árvores de decisão](#árvores-de-decisão)
 6. [Random Forest](#random-forest)
@@ -277,8 +277,8 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 
 ### Algoritmos de processamento de linguagem natural (NLP)
 
-1. [TF-IDF](#tf-idf)
-2. [Word2Vec](#word2vec)
+1. [TF-IDF](#tf-idf)🟩?
+2. [Word2Vec](#word2vec)🟩?
 3. [GloVe](#glove)
 4. [FastText](#fasttext)
 5. [BERT](#bert)
@@ -534,41 +534,202 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - **Cellular automata:** Autômatos celulares são modelos matemáticos que representam sistemas dinâmicos e discretos, nos quais o espaço é dividido em células e cada célula evolui com base em regras simples e locais. Eles podem ser usados em data science para simular fenômenos espaciais e temporais, como crescimento populacional, difusão e propagação de doenças.
 
 # Descrição dos problemas
-## Prever o risco de doenças
+## Modelar a dinâmica populacional de espécies
+O problema de modelar a dinâmica populacional de espécies pode ser dividido em vários tópicos, incluindo:
+>Previsão das tendências de crescimento ou declínio de populações de espécies.<br>
+>Análise do impacto das mudanças ambientais na dinâmica populacional de espécies.<br>
+>Estudo da interação entre diferentes espécies e como isso afeta suas populações.<br>
+>Modelagem da evolução das espécies e da diversidade genética dentro das populações.
+<br><br>
+Este problema afeta uma ampla gama de entidades, incluindo:
+Ecologistas e biólogos que precisam entender as mudanças nas populações de espécies para a pesquisa e a conservação.
+    Gestores de recursos naturais e políticos que precisam de informações sobre a dinâmica das espécies para a tomada de decisões informadas.
+    A própria vida selvagem, já que as mudanças na dinâmica populacional podem ter impactos significativos na sobrevivência e prosperidade das espécies.
+    A sociedade em geral, já que a perda de biodiversidade pode afetar serviços ecossistêmicos cruciais como a polinização das plantações, a purificação da água e a sequestração de carbono.
+<br><br>
+O problema afeta esses grupos ao influenciar decisões sobre a conservação da biodiversidade e o manejo de espécies. As previsões imprecisas podem levar a medidas de conservação ineficazes, a perda de biodiversidade e a perturbação dos ecossistemas.
+<br><br>
+Os prejuízos gerados por este problema podem incluir:
+    Perda de biodiversidade: Se a dinâmica populacional de uma espécie não for bem compreendida, ela pode ser mal gerida, levando ao declínio ou extinção da espécie.
+    Impacto nos ecossistemas: A perda de uma espécie pode ter efeitos cascata em todo o ecossistema, afetando outras espécies e os serviços ecossistêmicos.
+    Custos econômicos: A perda de serviços ecossistêmicos, como a polinização, pode ter grandes impactos econômicos.
+<br><br>
+Ao analisar o problema, deve-se levar em conta vários fatores, incluindo:
+    Variações genéticas dentro da população de espécies.
+    Fatores ambientais que podem afetar a dinâmica da população, como mudanças no clima ou na disponibilidade de recursos.
+    Interações entre espécies, como predação, competição e cooperação.
+    Mudanças humanas no ambiente, como a destruição do habitat, a caça e a introdução de espécies invasoras.
+<br><br>
+A área de Data Science tenta entender o problema através da coleta e análise de grandes volumes de dados sobre as espécies e seus ambientes. Isso pode incluir dados genéticos, observações de campo da abundância de espécies, dados de satélite sobre mudanças no uso da terra e muito mais. Além disso, os cientistas de dados utilizam algoritmos sofisticados para modelar a dinâmica da população e prever futuras tendências7. Existem diversos algoritmos de Ciência de Dados que são comumente usados para resolver este problema:
+>Modelos de regressão: Esses modelos são usados para entender a relação entre várias variáveis ​​e como elas impactam a dinâmica populacional.<br>
+>Algoritmos genéticos: Estes são usados para simular a evolução das espécies e entender como a diversidade genética afeta a dinâmica da população.<br>
+<br>Algoritmos de estimativa de parâmetros: Esses algoritmos são usados para estimar parâmetros em modelos de matança probit e isotermas de adsorção de Freundlich.<br>
+>Algoritmos de seleção aleatória: Esses algoritmos são usados para selecionar aleatoriamente as frequências iniciais dos genótipos.<br>
+>Algoritmo de bissecção: Este algoritmo é usado para estimar a taxa intrínseca de aumento natural de uma populaçã.
+<br><br>
+Esses algoritmos podem resolver o problema de várias maneiras:
+>Modelos de regressão podem identificar as principais variáveis que influenciam a dinâmica populacional e quantificar o impacto dessas variáveis.<br>
+>Algoritmos genéticos podem ajudar a entender como a evolução e a diversidade genética influenciam a dinâmica da população.<br>
+>Algoritmos de estimativa de parâmetros podem ser usados para refinar os modelos de dinâmica populacional, tornando-os mais precisos.<br>
+>Algoritmos de seleção aleatória e o algoritmo de bissecção podem ser usados para simular a dinâmica populacional e fazer previsões sobre futuras tendências.<br>
+<br><br>
+O valor gerado ao usar cada um desses algoritmos inclui:
+>Melhor compreensão da dinâmica populacional de espécies: Isso pode levar a uma melhor gestão e conservação das espécies.<br>
+>Previsões mais precisas: Isso pode ajudar a antecipar problemas futuros e a tomar medidas preventivas.<br>
+>Melhor tomada de decisões: As informações geradas por esses algoritmos podem informar decisões sobre a gestão de espécies e conservação.<br>
+>Aumento do conhecimento: O uso desses algoritmos pode levar a novas descobertas e insights na ecologia e na biologia da conservação
 
-O problema pode ser dividido em vários tópicos, incluindo, mas não se limitando a:
->Previsão de doenças crônicas (como diabetes, doenças cardíacas, câncer)
->Previsão de doenças infecciosas (como gripe, COVID-19)
->Previsão de recorrência de doenças (por exemplo, recidiva de câncer)
->Previsão de riscos genéticos de doenças (com base na análise do genoma)
+## Prever mudanças climáticas
+O problema de prever mudanças climáticas pode ser dividido em vários tópicos, incluindo:
+        Previsão da temperatura global: Estimação de tendências de aquecimento ou resfriamento global.
+        Modelagem de padrões climáticos: Previsão de padrões climáticos, como chuvas, secas, ondas de calor, etc.
+        Previsão do nível do mar: Prever o aumento do nível do mar devido ao derretimento das calotas polares.
+        Previsão de eventos extremos: Prever tempestades, furacões, inundações e outros eventos climáticos extremos.
 <br>
-    Este problema afeta uma ampla gama de indivíduos:
+As mudanças climáticas afetam praticamente todos os seres vivos no planeta. As pessoas, em particular, são afetadas em muitas maneiras, incluindo saúde, economia, segurança alimentar, e moradia.
+<br>
+    As mudanças climáticas podem afetar as pessoas de várias maneiras. Os eventos climáticos extremos podem causar danos materiais e perda de vida. As mudanças na temperatura podem afetar a saúde das pessoas, causando ondas de calor ou frio extremo. As mudanças na precipitação podem afetar a disponibilidade de água e a produção de alimentos.
+<br>
+    Os prejuízos causados pelas mudanças climáticas são enormes. Eles incluem danos a propriedades e infraestruturas devido a eventos climáticos extremos, perda de biodiversidade, problemas de saúde e até mesmo a deslocação de populações devido à elevação do nível do mar.
+<br>
+    Ao analisar o problema das mudanças climáticas, vários fatores devem ser levados em conta. Isso inclui dados históricos sobre o clima, os modelos climáticos existentes, as emissões de gases de efeito estufa, a cobertura do solo e a vegetação, entre outros.
+<br>
+    A área de Data Science tenta entender o problema das mudanças climáticas através da coleta, processamento e análise de grandes quantidades de dados climáticos. Isso inclui dados de temperatura, precipitação, pressão atmosférica, direção e velocidade do vento, etc. Através da análise desses dados, os cientistas de dados podem identificar tendências, padrões e anomalias que podem indicar mudanças climáticas.
+<br>
+    Vários algoritmos de Data Science são usados para resolver o problema das mudanças climáticas. Isso inclui algoritmos de aprendizado de máquina, como regressão linear e logística, árvores de decisão, florestas aleatórias, máquinas de vetores de suporte (SVMs), redes neurais e algoritmos de agrupamento, como K-means.
+<br>
+    Esses algoritmos podem resolver o problema ao modelar a relação entre diferentes variáveis climáticas e prever futuras mudanças com base nesses modelos. Por exemplo, um algoritmo de regressão pode ser usado para modelar a relação entre emissões de gases de efeito estufa e a temperatura global, e então usar esse modelo para prever futuras temperaturas com base nas emissões previstas.
+<br>
+Habilidade de fazer previsões mais precisas. Isso pode ajudar os governos a implantar políticas climáticas mais eficazes, permitir que as comunidades se preparem para as mudanças climáticas e identificar áreas onde se pode potencialmente reverter alguns dos efeitos das mudanças climáticas​1​.
+<br>
+Especificamente, aqui estão algumas aplicações de data science na previsão de mudanças climáticas:
+    Melhoria de modelos climáticos: A aprendizagem de máquina pode ajudar a criar modelos climáticos mais precisos, que podem prever eventos extremos como ciclones, reconstruir condições climáticas passadas e fazer previsões meteorológicas hiperlocalizadas. Um exemplo disso é o uso de algoritmos de aprendizado de máquina para combinar as previsões de cerca de 30 modelos climáticos utilizados pelo Painel Intergovernamental sobre Mudanças Climáticas (IPCC).
+<br>
+    Demonstração dos efeitos dos extremos meteorológicos: Pesquisadores estão usando GANs (Generative Adversarial Networks), um tipo de algoritmo de aprendizado de máquina, para simular como as casas podem ficar após os danos causados pelo aumento do nível do mar e por tempestades mais intensas. Isso pode ajudar a aumentar a conscientização sobre os impactos das mudanças climáticas.
+<br>
+    Avaliação da origem do carbono: Organizações estão usando data science para monitorar as emissões de usinas de carvão através de imagens de satélite. Os dados coletados podem ser usados para convencer o setor financeiro de que as usinas de carvão não são lucrativas, o que pode ajudar a reduzir as emissões de gases de efeito estufa​5​.
+<br>
+Cada um desses algoritmos e aplicações traz valor de várias maneiras. Eles podem melhorar nossa compreensão das mudanças climáticas, ajudar a informar políticas públicas, aumentar a conscientização sobre os impactos das mudanças climáticas e até mesmo contribuir para a redução das emissões de gases de efeito estufa. No entanto, é importante notar que, apesar do grande potencial dessas tecnologias, elas são apenas uma parte da solução e não podem resolver o problema das mudanças climáticas por si só.
+
+## Antecipar falências empresariais
+O problema de antecipar falências empresariais pode ser dividido em vários tópicos, incluindo:
+>Análise de saúde financeira: Avaliando a estabilidade financeira da empresa por meio de indicadores como liquidez, alavancagem e rentabilidade.<br>
+>Avaliação do mercado e da indústria: Analisando tendências do mercado e condições da indústria que podem afetar a empresa.<br>
+>Monitoramento do desempenho operacional: Avaliando métricas como eficiência operacional, qualidade do produto e satisfação do cliente.
+<br>
+    Este problema afeta uma ampla gama de partes interessadas, incluindo os proprietários da empresa, funcionários, investidores, fornecedores, clientes e até mesmo o governo (perda de impostos e aumento do desemprego).
+<br>
+    A falência de uma empresa pode levar ao desemprego de funcionários, perda de investimento para os acionistas, interrupção da cadeia de suprimentos para os fornecedores, falta de bens ou serviços para os clientes, e perda de receita fiscal para o governo.
+<br>
+    Os prejuízos gerados por falências empresariais podem ser enormes e variados. Isso pode incluir a perda de capital para investidores, a perda de empregos, a interrupção de serviços ou fornecimento de produtos, e o impacto sobre a economia local e nacional.
+<br>
+    Ao analisar o problema da falência empresarial, é importante considerar uma variedade de fatores. Isso pode incluir a saúde financeira da empresa, a condição do mercado e da indústria, as tendências macroeconômicas, a qualidade da gestão e a reação dos concorrentes.
+<br>
+    A ciência de dados tenta entender o problema da falência empresarial por meio da análise de grandes quantidades de dados financeiros e operacionais. Esses dados podem ser usados para identificar padrões e tendências que podem indicar um risco crescente de falência.
+<br>
+    Vários algoritmos de ciência de dados são comumente usados para resolver o problema da falência empresarial. Isso pode incluir técnicas de aprendizado de máquina como regressão logística, árvores de decisão, florestas aleatórias, máquinas de vetores de suporte e redes neurais.
+<br>
+    Estes algoritmos podem resolver o problema ao modelar a relação entre várias características de uma empresa (como saúde financeira, desempenho operacional e condições de mercado) e o risco de falência. Isso pode permitir a identificação precoce de empresas em risco, permitindo a intervenção para prevenir a falência.
+<br>
+    O valor gerado ao usar esses algoritmos pode ser significativo. Isso pode incluir a preservação do capital dos investidores, a manutenção do emprego, a continuidade do fornecimento de bens e serviços, e a estabilidade da economia local e nacional. Além disso, a identificação precoce de empresas em risco pode permitir ações corretivas para prevenir a falência, como reestruturação, refinanciamento ou mudanças na estratégia de negócios.
+
+## Identificar atividades fraudulentas
+### 1.	O problema pode ser dividido em quais tópicos?
+O problema de identificar atividades fraudulentas pode ser dividido em vários tópicos, incluindo:
+>Detecção de fraude em transações financeiras (por exemplo, fraude de cartão de crédito)<br>
+>Detecção de fraude em seguros (por exemplo, reivindicações fraudulentas)<br>
+>Detecção de fraude em identidade (por exemplo, roubo de identidade)<br>
+>Detecção de fraude em documentos (por exemplo, falsificação de documentos)<br>
+>Detecção de fraude no setor público (por exemplo, corrupção)<br>
+### 2.	Quem o problema afeta?
+O problema afeta uma ampla gama de entidades, incluindo:
+>Empresas: qualquer tipo de negócio pode ser afetado pela fraude, especialmente bancos, seguradoras e varejistas online.<br>
+>Consumidores: os indivíduos podem ser vítimas de roubo de identidade ou fraude de cartão de crédito.<br>
+>Governos: a fraude pode ocorrer na forma de corrupção, evasão fiscal ou fraude de benefícios.
+<br>
+### 3.	Como ele afeta?
+A fraude pode afetar essas entidades de várias maneiras:
+        Perdas financeiras: a fraude pode resultar em perdas diretas de dinheiro.
+        Danos à reputação: as empresas que são vítimas de fraude podem sofrer danos à sua reputação, o que pode afetar seus negócios a longo prazo.
+        Estresse e transtornos: para os indivíduos, ser vítima de fraude pode ser uma experiência muito estressante e perturbadora.
+<br>
+### 4.	Quais os prejuízos que o problema gera?
+O problema gera vários prejuízos, como:
+>Prejuízos financeiros diretos: as empresas podem perder dinheiro devido a transações fraudulentas.<br>
+>Custos indiretos: as empresas podem ter que investir em medidas de segurança adicionais para prevenir a fraude, o que pode ser caro.<br>
+>Perda de confiança dos consumidores: se os consumidores perderem a confiança em uma empresa devido à fraude, eles podem levar seus negócios para outro lugar.
+<br>
+### 5.	O que deve ser levado em conta quando se for analisar o problema?
+Ao analisar o problema da fraude, várias coisas devem ser levadas em consideração:
+>A natureza da fraude: a fraude pode assumir muitas formas diferentes, portanto, é importante entender a natureza específica da fraude que está ocorrendo.<br>
+>A extensão da fraude: é importante avaliar quão generalizada é a fraude.<br>
+>As medidas de segurança existentes: é importante avaliar a eficácia das medidas de segurança existentes e identificar onde elas podem ser melhoradas.
+<br>
+### 6.	Como a área de Data Science tenta entender o problema?
+A ciência de dados tenta entender o problema da fraude por meio da análise de dados. Isso pode incluir a análise de padrões de transações para identificar atividades suspeitas, a modelagem de comportamentos normais para detectar anomalias e a construção de modelos preditivos para prever a probabilidade de fraude.
+<br>
+### 7.	Quais algoritmos de Data Science costumam ser usados para resolver o problema?
+Vários algoritmos de ciência de dados são comumente usados para resolver o problema da fraude, incluindo:
+>Aprendizado de máquina supervisionado: este é um método que utiliza dados rotulados (transações fraudulentas e não fraudulentas) para treinar um modelo que pode prever seuma nova transação é fraudulenta. Exemplos de algoritmos incluem árvores de decisão, regressão logística, máquinas de vetores de suporte e redes neurais.
+<br>
+>Aprendizado de máquina não supervisionado: este método não requer dados rotulados e é usado para identificar anomalias ou padrões não usuais nos dados que podem indicar fraude. Exemplos de algoritmos incluem detecção de outlier baseada em clusterização (por exemplo, K-means) e detecção de anomalias baseada em densidade (por exemplo, DBSCAN).
+<br>
+>Aprendizado profundo: este é um tipo de aprendizado de máquina que usa redes neurais com várias camadas ocultas (redes neurais profundas) para modelar e prever a fraude. As redes neurais convolucionais (CNN) e as redes neurais recorrentes (RNN) são exemplos de algoritmos de aprendizado profundo.
+<br>
+### 8.	Como esses algoritmos podem resolver o problema?
+Esses algoritmos resolvem o problema de fraude analisando grandes volumes de dados e identificando padrões que podem indicar atividade fraudulenta. Eles são capazes de aprender com os dados e melhorar suas previsões ao longo do tempo. Por exemplo, um algoritmo de aprendizado supervisionado pode ser treinado para reconhecer os padrões de transações que são conhecidos por serem fraudulentos. Em seguida, pode usar esse conhecimento para identificar transações similares no futuro.
+<br>
+### 9.	Qual o valor gerado ao se usar cada um desses algoritmos?
+O valor gerado ao usar esses algoritmos inclui:
+>Redução de perdas financeiras: ao detectar a fraude mais rapidamente, as empresas podem evitar perdas financeiras.
+>Melhoria da eficiência: os algoritmos de detecção de fraude podem analisar grandes volumes de dados muito mais rapidamente e com mais precisão do que os humanos.
+>Melhoria da confiança do cliente: ao demonstrar que estão tomando medidas para prevenir a fraude, as empresas podem melhorar a confiança e a lealdade do cliente.
+>Conformidade regulatória: em muitos setores, as empresas são obrigadas por lei a tomar medidas para prevenir a fraude. A utilização de algoritmos de detecção de fraude pode ajudar as empresas a cumprir esses requisitos.
+
+## Prever o risco de doenças
+### 1.	O problema pode ser dividido em quais tópicos?
+O problema pode ser dividido em vários tópicos, incluindo, mas não se limitando a:<br>
+>Previsão de doenças crônicas (como diabetes, doenças cardíacas, câncer)<br>
+>Previsão de doenças infecciosas (como gripe, COVID-19)<br>
+>Previsão de recorrência de doenças (por exemplo, recidiva de câncer)<br>
+>Previsão de riscos genéticos de doenças (com base na análise do genoma)<br>
+<br>
+### 2.	Quem o problema afeta?
+Este problema afeta uma ampla gama de indivíduos:
 >Pacientes: identificar o risco de doenças permite intervenções preventivas e cuidados personalizados
 >Profissionais de saúde: prever o risco de doenças ajuda a priorizar o tratamento e a tomar decisões informadas
 >Sistemas de saúde e seguradoras: a previsão do risco de doenças pode ajudar a alocar recursos de forma eficaz e reduzir custos
 <br>
-    Ele afeta ao permitir a detecção precoce e a prevenção de doenças, o que pode levar a melhores resultados de saúde e reduzir a carga sobre os sistemas de saúde.
+### 3.	Como ele afeta?
+Ele afeta ao permitir a detecção precoce e a prevenção de doenças, o que pode levar a melhores resultados de saúde e reduzir a carga sobre os sistemas de saúde.
 <br>
-    Os prejuízos gerados pelo problema podem incluir tratamentos tardios, custos mais altos de saúde e uma maior carga de doenças na sociedade.
+### 4.	Quais os prejuízos que o problema gera?
+Os prejuízos gerados pelo problema podem incluir tratamentos tardios, custos mais altos de saúde e uma maior carga de doenças na sociedade.
 <br>
-    Ao analisar o problema, devemos levar em conta vários fatores, incluindo a qualidade e a representatividade dos dados, a necessidade de modelos interpretáveis, questões éticas e de privacidade, e a importância da validação rigorosa do modelo.
+### 5.	O que deve ser levado em conta quando se for analisar o problema?
+Ao analisar o problema, devemos levar em conta vários fatores, incluindo a qualidade e a representatividade dos dados, a necessidade de modelos interpretáveis, questões éticas e de privacidade, e a importância da validação rigorosa do modelo.
 <br>
-    A ciência de dados tenta entender o problema através de métodos como análise exploratória de dados, modelagem estatística, aprendizado de máquina e análise de dados longitudinais.
+### 6.	Como a área de Data Science tenta entender o problema?
+A ciência de dados tenta entender o problema através de métodos como análise exploratória de dados, modelagem estatística, aprendizado de máquina e análise de dados longitudinais.
 <br>
-    Vários algoritmos de ciência de dados são usados para resolver o problema, incluindo regressão logística, árvores de decisão, florestas aleatórias, máquinas de vetores de suporte (SVMs), redes neurais e modelos de aprendizado profundo.
+### 7.	Quais algoritmos de Data Science costumam ser usados para resolver o problema?
+
+Vários algoritmos de ciência de dados são usados para resolver o problema, incluindo regressão logística, árvores de decisão, florestas aleatórias, máquinas de vetores de suporte (SVMs), redes neurais e modelos de aprendizado profundo.
 <br>
-    Esses algoritmos podem resolver o problema ao modelar a relação entre várias variáveis (por exemplo, idade, sexo, histórico médico, genética) e o risco de doença. Eles podem identificar padrões complexos nos dados que podem não ser aparentes para os humanos.
+### 8.	Como esses algoritmos podem resolver o problema?
+Esses algoritmos podem resolver o problema ao modelar a relação entre várias variáveis (por exemplo, idade, sexo, histórico médico, genética) e o risco de doença. Eles podem identificar padrões complexos nos dados que podem não ser aparentes para os humanos.
 <br>
-    O valor gerado ao usar cada um desses algoritmos varia. Por exemplo, a regressão logística pode fornecer uma compreensão clara e interpretável da relação entre os fatores de risco e a doença. As florestas aleatórias e as SVMs podem fornecer uma precisão de previsão mais alta. As redes neurais e os modelos de aprendizado profundo podem lidar com dados de alta dimensão e podem ser particularmente úteis para tarefas como a previsão de riscos genéticos.
+### 9.	Quais o valor gerado ao se usar cada um desses algoritmos?
+O valor gerado ao usar cada um desses algoritmos varia. Por exemplo, a regressão logística pode fornecer uma compreensão clara e interpretável da relação entre os fatores de risco e a doença. As florestas aleatórias e as SVMs podem fornecer uma precisão de previsão mais alta. As redes neurais e os modelos de aprendizado profundo podem lidar com dados de alta dimensão e podem ser particularmente úteis para tarefas como a previsão de riscos genéticos.
 
 ## Analisar informações genéticas    
 O problema de análise de informações genéticas pode ser dividido em diversos tópicos, tais como:
->Sequenciamento de DNA e RNA: inclui a leitura de sequências genéticas e a identificação de genes e suas funções.
->Genômica comparativa: envolve a comparação de genomas de diferentes espécies para entender as semelhanças e diferenças.
->Genômica funcional: estuda a função e interação dos genes.
->Genômica estrutural: analisa a estrutura física do genoma, como número e tamanho dos cromossomos, localização dos genes, etc.
->Farmacogenômica: estuda como a genética de um indivíduo influencia sua resposta a medicamentos.
->Genética de populações: estuda a variação genética dentro e entre populações.
+>Sequenciamento de DNA e RNA: inclui a leitura de sequências genéticas e a identificação de genes e suas funções.<br>
+>Genômica comparativa: envolve a comparação de genomas de diferentes espécies para entender as semelhanças e diferenças.<br>
+>Genômica funcional: estuda a função e interação dos genes.<br>
+>Genômica estrutural: analisa a estrutura física do genoma, como número e tamanho dos cromossomos, localização dos genes, etc.<br>
+>Farmacogenômica: estuda como a genética de um indivíduo influencia sua resposta a medicamentos.<br>
+>Genética de populações: estuda a variação genética dentro e entre populações.<br>
 >Epigenética: analisa modificações do DNA que não envolvem mudanças na sequência do DNA.
 <br>
 Este problema afeta uma vasta gama de indivíduos e instituições, incluindo pacientes, médicos, pesquisadores, empresas farmacêuticas, instituições de saúde e sociedade em geral.
@@ -591,6 +752,265 @@ Este problema afeta uma vasta gama de indivíduos e instituições, incluindo pa
 
 
 # Descrições dos algoritmos
+## TF-IDF
+Descrição técnica e O que faz:
+
+TF-IDF é a abreviação de "Term Frequency-Inverse Document Frequency". É um algoritmo estatístico usado para determinar a importância de uma palavra em um documento em relação a um corpus de documentos.
+
+    A frequência do termo (TF) é a quantidade de vezes que uma palavra aparece em um documento. Essa medida sozinha não é muito útil, pois palavras comuns como "a", "é" ou "os" aparecerão muitas vezes em muitos documentos.
+
+    A frequência inversa de documentos (IDF) é uma medida de quão importante é uma palavra no corpus de documentos. Isso é calculado pegando o logaritmo do número total de documentos dividido pelo número de documentos que contêm a palavra. Assim, palavras que aparecem em muitos documentos terão um IDF baixo e palavras que aparecem em poucos documentos terão um IDF alto.
+
+O produto de TF e IDF dá uma medida da importância relativa de uma palavra em um documento e em todo o corpus.
+
+Suposições feitas pelo algoritmo:
+
+O TF-IDF assume que as palavras que aparecem frequentemente em um documento, mas não em todo o corpus, são importantes para entender o conteúdo do documento. Além disso, assume que os documentos são independentes uns dos outros.
+
+Como o algoritmo lida com diferentes tipos de dados:
+
+TF-IDF é usado principalmente para dados de texto. Ele não lida diretamente com dados numéricos, categóricos ou de outro tipo.
+
+Onde é mais aplicado:
+
+As aplicações comuns do TF-IDF incluem:
+
+    Sistemas de Recomendação: O TF-IDF pode ser usado para recomendar conteúdo semelhante com base em palavras-chave.
+    Mecanismos de Pesquisa: TF-IDF é usado para classificar documentos por relevância em uma consulta de pesquisa.
+    Análise de Sentimento: pode ser usado em combinação com outros algoritmos para entender o sentimento por trás de textos.
+
+Quando e Por que usar:
+
+Use TF-IDF quando quiser entender a importância de palavras específicas em documentos em um corpus. Por exemplo, você pode usar TF-IDF para entender quais palavras são particularmente importantes em críticas negativas em comparação com críticas positivas.
+
+Como usar:
+
+Em Python, a biblioteca Scikit-Learn tem uma classe TfidfVectorizer que facilita o cálculo do TF-IDF. Basicamente, você precisa fornecer uma lista de documentos e o TfidfVectorizer retornará uma matriz de recursos onde cada linha representa um documento e cada coluna representa uma palavra no corpus.
+
+Parâmetros do algoritmo:
+
+Os principais parâmetros do TfidfVectorizer no Scikit-Learn são:
+
+    max_df: Quando a construção do vocabulário, ignore termos que têm uma frequência de documento estritamente maior que o limite fornecido.
+    min_df: Quando a construção do vocabulário, ignore termos que têm uma frequência de documento estritamente inferior ao limite fornecido.
+    use_idf: Permitir usar a reponderação de frequência inversa de documentos.
+    smooth_idf: Suaviza os pesos do IDF adicionando um ao numerador e denominador, como se um documento extra contendo todas as palavras do vocabulário fosse visto uma vez.
+
+Tratamento de dados faltantes e outliers:
+
+TF-IDF não lida diretamente com dados faltantes ou outliers, pois é baseado em dados de texto. Porém, em caso de dados faltantes, podem ser tomadas medidas apropriadas para preenchê-los ou ignorá-los antes de aplicar TF-IDF.
+
+Sensibilidade à escala dos dados:
+
+Não é relevante para o TF-IDF, pois ele opera em dados de texto.
+
+Propensão a overfitting ou underfitting:
+
+Por si só, o TF-IDF não é propenso a overfitting ou underfitting. No entanto, dependendo do modelo subsequente em que os recursos do TF-IDF são usados, podem surgir problemas de sobreajuste ou subajuste.
+
+Complexidade computacional:
+
+A complexidade computacional para calcular TF-IDF é O(n), onde n é o número de documentos. No entanto, o espaço necessário para armazenar a matriz de recursos pode ser bastante grande se o corpus de documentos for grande.
+
+Interpretabilidade do modelo:
+
+TF-IDF é altamente interpretável. Para cada documento, você obtém uma lista de palavras e a importância de cada palavra (pontuação TF-IDF) naquele documento.
+
+Validação ou Avaliação do algoritmo:
+
+A avaliação do TF-IDF depende de como você está usando as características do TF-IDF. Por exemplo, se você está usando TF-IDF para classificação de texto, você pode avaliar o desempenho do classificador usando métricas como precisão, revocação, F1-score, AUC-ROC, etc.
+
+Recursos necessários:
+
+O custo para aplicar o TF-IDF é baixo. Ele requer poder computacional razoável e memória para armazenar a matriz de recursos.
+
+Diferencial:
+
+Diferente de outros métodos como a contagem de palavras (Bag of Words), o TF-IDF também considera a importância das palavras, não apenas a frequência, o que o torna útil para identificar palavras-chave em cada documento.
+
+Vantagens:
+
+    Fácil de entender e implementar.
+    Pode lidar com grandes volumes de texto.
+    Identifica a importância das palavras, não apenas a frequência.
+
+Desvantagens:
+
+    Não leva em conta a ordem das palavras ou o contexto em que são usadas.
+    O espaço necessário para armazenar a matriz de recursos pode ser grande para grandes corpora de documentos.
+Pipeline de execução do algoritmo
+
+    Crie um corpus de documentos.
+    Calcule a frequência do termo (TF) e a frequência inversa do documento (IDF).
+    Multiplique TF e IDF para obter TF-IDF.
+    Use os pesos TF-IDF como recursos para modelos de aprendizado de máquina subsequentes.
+
+## Word2Vec
+Descrição técnica e O que faz
+
+Word2Vec é um algoritmo popular de aprendizado de máquina usado para aprender vetores de palavras, um tipo de representação de texto. O algoritmo aprende vetores de palavras de forma que palavras que compartilham contextos semânticos e sintáticos semelhantes estão próximas umas das outras no espaço vetorial.
+
+Word2Vec usa uma rede neural de duas camadas para aprender a representação vetorial. A entrada para a rede é uma representação one-hot da palavra e a saída é uma representação vetorial densa da palavra. Word2Vec tem duas variantes: Skip-Gram e Continuous Bag of Words (CBOW).
+
+Quais são as suposições feitas pelo algoritmo?
+
+A principal suposição feita pelo Word2Vec é a hipótese distributiva, que afirma que palavras que ocorrem no mesmo contexto tendem a ter significados semelhantes.
+
+Como o algoritmo lida com diferentes tipos de dados (numéricos, categóricos, textuais, etc.)?
+
+O Word2Vec lida principalmente com dados textuais. Ele não é projetado para lidar diretamente com dados numéricos ou categóricos. Cada palavra no corpus é tratada como uma unidade distinta.
+
+Onde é mais aplicado (Exemplos de aplicações mais usadas)
+
+Word2Vec é amplamente usado em muitas tarefas de processamento de linguagem natural (NLP), como análise de sentimento, tradução automática, detecção de entidades nomeadas, geração de texto e sistemas de recomendação baseados em conteúdo.
+
+Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?)
+
+Você deve considerar o uso do Word2Vec quando quiser extrair características de palavras para tarefas de NLP ou quando quiser entender a semântica das palavras em um corpus de texto.
+
+Por que usar
+
+O Word2Vec é útil porque aprende representações vetoriais de palavras que capturam a semântica das palavras. Além disso, como a representação aprendida é densa, ela pode ser usada para alimentar outros algoritmos de aprendizado de máquina que podem não funcionar bem com representações esparsas.
+
+Como usar
+
+Para usar o Word2Vec, você precisa ter um corpus de texto. Você precisa pré-processar o texto (por exemplo, remover pontuação, converter para minúsculas, etc.) e depois alimentá-lo para o algoritmo. Existem várias implementações do Word2Vec disponíveis, como a implementação em Python na biblioteca gensim.
+
+Quais parâmetros o algoritmo tem e como eles afetam o resultado?
+
+Alguns dos principais parâmetros no Word2Vec incluem o tamanho da janela, que determina o número de palavras antes e depois da palavra atual que devem ser consideradas como contexto; o tamanho do vetor, que determina a dimensionalidade dos vetores de palavra aprendidos; e o número mínimo de ocorrências de palavras, que determina se uma palavra deve ser incluída no vocabulário.
+
+Como o algoritmo lida com dados faltantes ou outliers?
+
+Word2Vec não lida diretamente com dados faltantes ou outliers, pois é esperado que o corpus de entrada seja um conjunto completo de sentenças ou documentos.
+
+O algoritmo é sensível à escala dos dados?
+
+Não se aplica ao Word2Vec, pois ele lida com dados textuais e não com dados numéricos.
+
+O algoritmo é propenso a overfitting ou underfitting?
+
+Word2Vec pode ser propenso a overfitting se o tamanho do vetor for muito grande em relação ao tamanho do corpus. Underfitting pode ocorrer se o tamanho do vetor for muito pequeno.
+
+Qual é a complexidade computacional do algoritmo?
+
+A complexidade computacional do Word2Vec é proporcional ao número de palavras no corpus, ao tamanho do vetor e ao tamanho da janela.
+
+Qual é a interpretabilidade do modelo?
+
+Os vetores de palavras aprendidos pelo Word2Vec podem ser difíceis de interpretar diretamente, mas a semântica e a sintaxe das palavras podem ser inferidas com base em suas relações vetoriais.
+
+Como o algoritmo pode ser validado ou avaliado? Quais métricas de desempenho são mais relevantes para este algoritmo?
+
+A validação do Word2Vec é geralmente feita usando tarefas de avaliação extrínsecas, como análise de sentimento ou classificação de texto, ou usando tarefas de avaliação intrínsecas, como analogia de palavras.
+
+Recursos necessários (custos para aplicar)
+
+O Word2Vec pode ser computacionalmente intensivo para grandes corpora e altas dimensões de vetores.
+
+Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este)
+
+A diferença principal do Word2Vec para outras técnicas de vetorização de palavras, como TF-IDF ou one-hot encoding, é que Word2Vec leva em consideração o contexto da palavra, permitindo assim capturar semântica e similaridade entre palavras.
+
+Vantagens
+
+    Captura semântica e similaridade de palavras.
+    Produz vetores densos, que são mais eficientes em termos de armazenamento e computação.
+
+Desvantagens
+
+    Não leva em consideração a ordem das palavras.
+    Pode ser computacionalmente intensivo para grandes corpora e altas dimensões de vetores.
+
+Pipeline de execução do algoritmo
+
+    Pré-processamento de texto: remova a pontuação, converta para minúsculas, remova as palavras de parada, etc.
+    Treinamento do modelo Word2Vec no corpus.
+    Extração dos vetores de palavras para uso em outras tarefas ou análise.
+
+
+## Transformer
+
+
+## Máquinas de Vetores de Suporte (SVM)
+Descrição técnica
+Máquinas de Vetores de Suporte (SVMs, do inglês Support Vector Machines) são uma classe de algoritmos de aprendizado supervisionado usados para classificação e regressão. A ideia central é construir um hiperplano ou conjunto de hiperplanos num espaço de alta (ou infinita) dimensão, que pode ser usado para classificação, regressão ou outras tarefas. Intuitivamente, um bom hiperplano de separação é aquele que tem a maior distância até a instância de treinamento mais próxima de qualquer classe (o chamado margem funcional), uma vez que em geral, quanto maior a margem, menor o erro de generalização do classificador.
+<br><br>
+O que faz
+O algoritmo SVM classifica os dados encontrando o hiperplano que maximiza a margem entre as classes no conjunto de dados de treinamento. O "suporte de vetores" no nome vem dos pontos de dados de treinamento que o hiperplano se apoia, que são também chamados de vetores de suporte.
+Quais são as suposições feitas pelo algoritmo?
+<br><br>
+O algoritmo SVM faz algumas suposições:
+    Os dados são linearmente separáveis: Na sua forma básica, o SVM assume que os dados são linearmente separáveis no espaço de características. Para os dados que não são linearmente separáveis, usamos o chamado truque do kernel para mapear os dados para um espaço de características de maior dimensão onde eles são linearmente separáveis.
+    Os dados são limpos: O SVM é sensível à presença de ruídos e outliers nos dados. Assim, é assumido que os dados são limpos e sem muitos outliers.
+<br><br>
+Como o algoritmo lida com diferentes tipos de dados (numéricos, categóricos, textuais, etc.)?
+Os SVMs são tipicamente usados com dados numéricos. Se você tem dados categóricos, eles devem ser convertidos em numéricos usando técnicas como codificação one-hot. Para dados de texto, uma abordagem comum é usar a representação TF-IDF (Frequência do Termo-Inversa da Frequência do Documento) dos textos para converter o texto em uma representação numérica.
+<br><br>
+Onde é mais aplicado (Exemplos de aplicações mais usadas)
+O SVM tem sido usado em uma variedade de aplicações, incluindo:
+    Reconhecimento de imagem: SVMs têm sido usados para categorizar imagens, detectar rostos, reconhecer escrita à mão, etc.
+    Classificação de texto e hipertexto: SVMs têm sido usados para detectar spam, categorizar notícias, classificar opiniões, etc.
+    Bioinformática: SVMs têm sido usados para classificar proteínas, predizer doenças, etc.
+    Quando usar
+
+SVMs são uma boa escolha quando se tem um conjunto de dados de médio porte e existe uma separação clara ou quase clara entre as classes. Eles também funcionam bem para problemas de classificação binária e multiclasse.
+
+Por que usar
+SVMs são eficazes em espaços de alta dimensão e são eficientes em termos de memória. Além disso, eles são versáteis graças à possibilidade de usar diferentes funções de kernel.
+
+Como usar
+Em Python, por exemplo, você pode usar a biblioteca Scikit-learn para treinar um modelo SVM. Primeiro, você precisaria importar o modelo SVM, ajustar seus dados de treinamento e, em seguida, fazer previsões com seus dados de teste.
+
+Parâmetros
+Os principais parâmetros do SVM incluem o tipo de kernel (linear, polinomial, RBF, sigmoid, etc.), o parâmetro C (que determina o trade-off entre ter uma margem de decisão larga e minimizar as classificações errôneas) e o parâmetro γ (que define a influência de um único exemplo de treinamento - quanto maior o valor de γ, mais próximo outros exemplos devem estar para serem afetados).
+
+Dados faltantes ou outliers
+O SVM não lida diretamente com dados faltantes, então esses valores precisam ser imputados ou removidos antes de treinar o modelo. O SVM é razoavelmente robusto a outliers, especialmente se a margem de erro for ajustada corretamente.
+
+Sensibilidade à escala dos dados
+O SVM é sensível à escala dos dados. Portanto, antes de treinar o modelo, é recomendável normalizar ou padronizar os dados.
+
+Overfitting ou underfitting
+O SVM pode sofrer de overfitting se o parâmetro C for muito grande, o que resulta em um hiperplano de decisão muito complexo. Por outro lado, um C muito pequeno pode causar underfitting. A escolha apropriada do kernel e seus parâmetros também pode afetar a propensão ao overfitting e underfitting.
+
+Complexidade computacional
+O tempo de treinamento do SVM é geralmente entre O(n²) e O(n³), onde n é o número de amostras. Portanto, para conjuntos de dados muito grandes, o treinamento pode ser computacionalmente caro.
+
+Interpretabilidade do modelo
+Os modelos SVM geralmente não são muito interpretáveis. Embora se possa ver quais vetores de suporte são mais importantes na decisão, não é fácil entender a relação entre as características e a classificação.
+
+Validação e avaliação
+A validação e avaliação do modelo podem ser feitas com métodos padrões de aprendizado de máquina, como a validação cruzada. Métricas como acurácia, precisão, recall, F1-score, e a área sob a curva ROC podem ser usadas.
+
+Recursos necessários
+Os recursos necessários dependem do tamanho do conjunto de dados. O SVM pode requerer uma quantidade significativa de memória e tempo de processamento para conjuntos de dados grandes.
+
+Diferenciais
+A principal diferença do SVM para outros algoritmos é o truque do kernel, que permite resolver problemas complexos e não lineares. Além disso, diferente de outros algoritmos como a regressão logística, o SVM se concentra apenas nos pontos mais difíceis de classificar, os chamados vetores de suporte.
+
+Vantagens
+    Eficaz em espaços de alta dimensão.
+    Versátil com diferentes funções de kernel.
+    Robusto contra outliers.
+    Maximiza a margem, o que pode resultar em modelos melhores.
+
+Desvantagens
+    Pode ser sensível à escolha do kernel e aos parâmetros.
+    Não é diretamente aplicável a dados categóricos.
+    O tempo de treinamento pode ser longo para grandes conjuntos de dados.
+    Não fornece estimativas de probabilidade diretamente.
+
+Pipeline de execução do algoritmo
+    Pré-processamento dos dados (lidar com dados faltantes, normalização/padronização, codificação de variáveis categóricas).
+    Escolha do kernel e parâmetros.
+    Treinamento do modelo com os dados de treinamento.
+    Avaliação do modelo com os dados de teste.
+    Ajuste dos parâmetros, se necessário.
+    Previsão com novos dados.
+
+
+
 ## k-means
 #### Descrição Simples
 
