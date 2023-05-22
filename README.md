@@ -48,6 +48,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 >Vantagens<br>
 >Desvantagens<br>
 >Pipeline de execução do algoritmo<br>
+
 É recomendável que estude os conceitos da sessão "Conceitos básicos" para entender conceitos comuns para o entendimento de modelos em Data Science
 
 ## Validação das informações
