@@ -533,7 +533,64 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - **Discrete-event simulation (DES):** A simulação de eventos discretos é uma técnica que modela a evolução de um sistema ao longo do tempo, representando eventos que ocorrem em momentos específicos e que alteram o estado do sistema. O DES é usado em data science para analisar sistemas em que os eventos ocorrem de forma discreta e aleatória, como filas de espera, processos de produção e sistemas de transporte.
 - **Cellular automata:** Autômatos celulares são modelos matemáticos que representam sistemas dinâmicos e discretos, nos quais o espaço é dividido em células e cada célula evolui com base em regras simples e locais. Eles podem ser usados em data science para simular fenômenos espaciais e temporais, como crescimento populacional, difusão e propagação de doenças.
 
-# Descrições
+# Descrição dos problemas
+## Prever o risco de doenças
+
+O problema pode ser dividido em vários tópicos, incluindo, mas não se limitando a:
+>Previsão de doenças crônicas (como diabetes, doenças cardíacas, câncer)
+>Previsão de doenças infecciosas (como gripe, COVID-19)
+>Previsão de recorrência de doenças (por exemplo, recidiva de câncer)
+>Previsão de riscos genéticos de doenças (com base na análise do genoma)
+<br>
+    Este problema afeta uma ampla gama de indivíduos:
+>Pacientes: identificar o risco de doenças permite intervenções preventivas e cuidados personalizados
+>Profissionais de saúde: prever o risco de doenças ajuda a priorizar o tratamento e a tomar decisões informadas
+>Sistemas de saúde e seguradoras: a previsão do risco de doenças pode ajudar a alocar recursos de forma eficaz e reduzir custos
+<br>
+    Ele afeta ao permitir a detecção precoce e a prevenção de doenças, o que pode levar a melhores resultados de saúde e reduzir a carga sobre os sistemas de saúde.
+<br>
+    Os prejuízos gerados pelo problema podem incluir tratamentos tardios, custos mais altos de saúde e uma maior carga de doenças na sociedade.
+<br>
+    Ao analisar o problema, devemos levar em conta vários fatores, incluindo a qualidade e a representatividade dos dados, a necessidade de modelos interpretáveis, questões éticas e de privacidade, e a importância da validação rigorosa do modelo.
+<br>
+    A ciência de dados tenta entender o problema através de métodos como análise exploratória de dados, modelagem estatística, aprendizado de máquina e análise de dados longitudinais.
+<br>
+    Vários algoritmos de ciência de dados são usados para resolver o problema, incluindo regressão logística, árvores de decisão, florestas aleatórias, máquinas de vetores de suporte (SVMs), redes neurais e modelos de aprendizado profundo.
+<br>
+    Esses algoritmos podem resolver o problema ao modelar a relação entre várias variáveis (por exemplo, idade, sexo, histórico médico, genética) e o risco de doença. Eles podem identificar padrões complexos nos dados que podem não ser aparentes para os humanos.
+<br>
+    O valor gerado ao usar cada um desses algoritmos varia. Por exemplo, a regressão logística pode fornecer uma compreensão clara e interpretável da relação entre os fatores de risco e a doença. As florestas aleatórias e as SVMs podem fornecer uma precisão de previsão mais alta. As redes neurais e os modelos de aprendizado profundo podem lidar com dados de alta dimensão e podem ser particularmente úteis para tarefas como a previsão de riscos genéticos.
+
+## Analisar informações genéticas    
+O problema de análise de informações genéticas pode ser dividido em diversos tópicos, tais como:
+>Sequenciamento de DNA e RNA: inclui a leitura de sequências genéticas e a identificação de genes e suas funções.
+>Genômica comparativa: envolve a comparação de genomas de diferentes espécies para entender as semelhanças e diferenças.
+>Genômica funcional: estuda a função e interação dos genes.
+>Genômica estrutural: analisa a estrutura física do genoma, como número e tamanho dos cromossomos, localização dos genes, etc.
+>Farmacogenômica: estuda como a genética de um indivíduo influencia sua resposta a medicamentos.
+>Genética de populações: estuda a variação genética dentro e entre populações.
+>Epigenética: analisa modificações do DNA que não envolvem mudanças na sequência do DNA.
+<br>
+Este problema afeta uma vasta gama de indivíduos e instituições, incluindo pacientes, médicos, pesquisadores, empresas farmacêuticas, instituições de saúde e sociedade em geral.
+<br>
+    A análise de informações genéticas afeta de diversas formas. Pode levar a diagnósticos mais precisos e personalizados, permitir o desenvolvimento de tratamentos mais eficazes e personalizados, e fornecer informações sobre o risco de desenvolver certas doenças. Também pode ter implicações éticas, sociais e legais, como questões de privacidade e discriminação genética.
+<br>
+    Se mal gerida, a análise de informações genéticas pode gerar prejuízos como diagnósticos incorretos, tratamentos ineficazes, aumento dos custos de saúde, violação de privacidade, discriminação genética, e ansiedade ou stress devido à percepção do risco de doença.
+<br>
+    Ao analisar o problema, deve-se levar em conta fatores como a precisão e qualidade dos dados genéticos, o contexto clínico, as implicações éticas, sociais e legais, e a necessidade de interpretação e comunicação clara dos resultados.
+<br>
+    A área de Data Science tenta entender o problema através da aplicação de técnicas estatísticas e computacionais para analisar e interpretar dados genéticos. Isso pode incluir o uso de algoritmos de aprendizado de máquina para identificar padrões nos dados, a modelagem de redes de interação genética, e a simulação de processos genéticos.
+<br>
+    Alguns algoritmos de Data Science que costumam ser usados incluem algoritmos de clustering (como K-means e agrupamento hierárquico), algoritmos de classificação (como árvores de decisão e SVM), algoritmos de regressão (como regressão linear e logística), e algoritmos de aprendizado profundo (como redes neurais convolucionais e recorrentes).
+<br>
+    Esses algoritmos podem resolver o problema através da identificação de padrões nos dados genéticos que podem ser correlacionados com características específicas, como a presença ou ausência de uma doença. Por exemplo, algoritmos de clustering podem ser usados para agrupar indivíduos com perfis genéticos semelhantes, enquantoalgoritmos de classificação podem ser usados para prever o risco de doença com base no perfil genético. Algoritmos de regressão podem ser usados para modelar a relação entre variáveis genéticas e fenotípicas, enquanto algoritmos de aprendizado profundo podem ser usados para modelar processos genéticos complexos.
+<br>
+    O valor gerado ao se usar cada um desses algoritmos varia. Algoritmos de clustering podem revelar subgrupos de pacientes com respostas distintas a tratamentos, melhorando a personalização da medicina. Algoritmos de classificação podem melhorar a precisão do diagnóstico e prognóstico. Algoritmos de regressão podem ajudar a entender a relação entre genótipo e fenótipo, auxiliando na descoberta de novos alvos para drogas. Algoritmos de aprendizado profundo, com sua capacidade de modelar relações complexas, têm o potencial de revolucionar nossa compreensão dos processos genéticos e levar a avanços significativos em áreas como medicina de precisão e genômica funcional.
+
+
+
+
+# Descrições dos algoritmos
 ## k-means
 #### Descrição Simples
 
