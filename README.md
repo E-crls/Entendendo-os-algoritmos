@@ -11,15 +11,15 @@
 
 ## Falta
 Verificar existencias
-Colocar descrição de mais algoritmos
-Colocar imagens no início
-Colocar imagens ilustrativas nos algoritmos
-Colocar possíveis fontes de pesquisa
-Colocar possíveis prompts de pesquisa
-Colocar tópico "Problemas que data science tenta resolver"
+Colocar descrição de mais algoritmos e problemas <br>
+Colocar imagens no início<br>
+Colocar imagens ilustrativas nos algoritmos e nos problemas<br>
+Colocar possíveis fontes de pesquisa<br>
+Colocar possíveis prompts de pesquisa<br>
+Colocar tópico "Problemas que data science tenta resolver"<br>
 
 ## Método de estudo
->  1º Jogue o nome do moedlo no google e leia o básico<br>
+>  1º Jogue o nome do modelo no google e leia o básico<br>
 >  2º Jogue o nome do modelo no youtube e assista o básico<br>
 >  3º Procure artigos no medium sobre o modelo<br>
 >  4º Procure no google, youtube ou medium exemplos de aplicação do modelo<br>
@@ -226,8 +226,8 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
-1. [Regressão Linear](#regressão-linear)
-2. [Regressão Logística](#regressão-logística)
+1. [Regressão Linear](#regressão-linear)🟩
+2. [Regressão Logística](#regressão-logística)🟩
 3. [Máquinas de Vetores de Suporte (SVM)](#máquinas-de-vetores-de-suporte-svm)
 4. [k-vizinhos mais próximos (k-NN)](#k-vizinhos-mais-próximos-k-nn)
 5. [Árvores de decisão](#árvores-de-decisão)
@@ -454,7 +454,7 @@ Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outro
 - **POS Tagging**: Tarefa de etiquetar cada palavra em uma sequência de texto com sua respectiva classe gramatical (por exemplo, substantivo, verbo, adjetivo, etc.).
 - **Named Entity Recognition (NER)**: Tarefa de identificar e classificar entidades nomeadas (como pessoas, organizações e locais) em um texto.
 - **Dependency Parsing**: Tarefa de analisar a estrutura gramatical de uma frase e estabelecer relações entre as palavras, como sujeito, objeto, etc.
-- **Sentiment Analysis**: Tarefa de determinar a polaridade (positiva, negativa ou neutra) de um texto.
+- **Sentiment Analysis**: Tarefa de determinar a polaridade (positiva, negativa ou neutra) de um texto.🟩
 - **Text Summarization**: Tarefa de traduzir automaticamente um texto de um idioma para outro usando modelos de aprendizado de máquina ou técnicas de processamento de linguagem natural. 
 
 ### Algoritmos de recomendação: 
