@@ -21,6 +21,11 @@ Colocar descrição técnica mais detalhada<br>
 Colocar links dos outros 2 repositórios (guiadev e data science)
 -->
 
+## Indicações
+Existem algumas fontes que podem te ajudar nos estudos.
+Aqui estão alguns repositórios que podem te mostrar mais coisas interessantes
+[Guiadev](https://github.com/arthurspk/guiadevbrasil) Guia extensivo de links com fontes de estudo para várias áreas
+[Guia de Wendel](https://github.com/wendelmarques/materiais-de-estudos-sobre-data-science-deep-machine-learning) Repositório com vários links de fontes de estudo específicos para iniciantes em Data Science
 
 ## Método de estudo
 >  1º Jogue o nome do modelo no google e leia o básico<br>
