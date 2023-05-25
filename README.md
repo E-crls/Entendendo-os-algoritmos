@@ -7,7 +7,7 @@
 
 > Este repositório possui como objetivo ajudar no entendimento dos algoritmos usados atualmente em Data Science
 ## Por que o repositório existe
->Data Science envolve querer entender as coisas e, no entanto, a área possui tantas e tantas ferramentas para isso que, naturalmente, ignoramos a maior parte dos algoritmos existentes. O propósito deste repositório é armazendar todas as informações possíveis de cada algoritmo de data science que existe e cada problema que a área tenta resolver através desses algoritmos. Cada algoritmo deve possuir sua própria descrição. Um projeto comunitário ambicioso, mas muito legal.
+Data Science envolve querer entender as coisas e, no entanto, a área possui tantas e tantas ferramentas para isso que, naturalmente, ignoramos a maior parte dos algoritmos existentes. O propósito deste repositório é armazendar todas as informações possíveis de cada algoritmo de data science que existe e cada problema que a área tenta resolver através desses algoritmos. Cada algoritmo deve possuir sua própria descrição. Um projeto comunitário ambicioso, mas muito legal.
 
 <!-- Falta (ignore)
 Verificar existencias
@@ -31,10 +31,10 @@ Colocar links dos outros 2 repositórios (guiadev e data science)
 >  5º Tente resolver algum problema com o algoritmo no kaggle<br>
 
 ## Contribua
-> A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.
-> Como funciona: 
-> Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.
-> Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
+ A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.
+ Como funciona: 
+ Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.
+ Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
 
 Conhecimento é bom, mas conhecimento centralizado e com facilidade de acesso é melhor ainda.
 
