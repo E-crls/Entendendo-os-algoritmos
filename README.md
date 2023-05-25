@@ -9,16 +9,17 @@
 ## Por que o repositório existe
 >Data Science envolve querer entender as coisas e, no entanto, a área possui tantas e tantas ferramentas para isso que, naturalmente, ignoramos a maior parte dos algoritmos existentes. O propósito deste repositório é armazendar todas as informações possíveis de cada algoritmo de data science que existe e cada problema que a área tenta resolver através desses algoritmos. Cada algoritmo deve possuir sua própria descrição. Um projeto comunitário ambicioso, mas muito legal.
 
-## Falta
+<!-- Falta (ignore)
 Verificar existencias
 Colocar descrição de mais algoritmos e problemas <br>
 Colocar imagens no início<br>
 Colocar imagens ilustrativas nos algoritmos e nos problemas<br>
 Colocar possíveis fontes de pesquisa<br>
 Colocar possíveis prompts de pesquisa<br>
-Colocar tópico "Problemas que data science tenta resolver"<br>
 Colocar explicação dos conceitos básicos<br>
 Colocar descrição técnica mais detalhada<br>
+Colocar links dos outros 2 repositórios (guiadev e data science)
+-->
 
 
 ## Método de estudo
