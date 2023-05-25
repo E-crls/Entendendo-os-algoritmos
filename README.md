@@ -32,9 +32,10 @@ Colocar links dos outros 2 repositórios (guiadev e data science)
 
 ## Contribua
 > A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.<br>
- Como funciona: <br>
- Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.<br>
- Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
+
+Como funciona: <br>
+Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.<br>
+Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
 
 Conhecimento é bom, mas conhecimento centralizado e com facilidade de acesso é melhor ainda.
 
