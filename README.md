@@ -31,7 +31,7 @@ Colocar links dos outros 2 repositórios (guiadev e data science)
 >  5º Tente resolver algum problema com o algoritmo no kaggle<br>
 
 ## Contribua
- A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.<br>
+> A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.<br>
  Como funciona: <br>
  Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.<br>
  Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
