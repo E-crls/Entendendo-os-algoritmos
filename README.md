@@ -556,6 +556,44 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **Discrete-event simulation (DES):** A simulação de eventos discretos é uma técnica que modela a evolução de um sistema ao longo do tempo, representando eventos que ocorrem em momentos específicos e que alteram o estado do sistema. O DES é usado em data science para analisar sistemas em que os eventos ocorrem de forma discreta e aleatória, como filas de espera, processos de produção e sistemas de transporte.
 - **Cellular automata:** Autômatos celulares são modelos matemáticos que representam sistemas dinâmicos e discretos, nos quais o espaço é dividido em células e cada célula evolui com base em regras simples e locais. Eles podem ser usados em data science para simular fenômenos espaciais e temporais, como crescimento populacional, difusão e propagação de doenças.
 
+
+# Overfitting
+## O que é Overfitting?
+
+Overfitting, em ciência de dados e aprendizado de máquina, refere-se a um modelo que é excessivamente complexo e se ajusta muito bem aos dados de treinamento, mas tem um desempenho pobre quando é apresentado a novos dados desconhecidos (ou seja, dados de teste ou validação). Em outras palavras, o modelo aprende tanto os padrões subjacentes como o "ruído" ou variações aleatórias presentes nos dados de treinamento.
+
+## Como o Overfitting ocorre?
+
+O overfitting geralmente ocorre quando um modelo é excessivamente complexo, em relação à quantidade e qualidade dos dados disponíveis. Um exemplo comum é quando um modelo de aprendizado de máquina tem muitos parâmetros ou variáveis em relação ao número de observações. Por exemplo, se tentarmos ajustar um polinômio de alto grau a uma pequena quantidade de dados, o modelo pode se ajustar perfeitamente aos dados de treinamento, mas falhará em prever novos pontos de dados.
+
+Existem algumas situações em que o overfitting é mais provável de ocorrer:
+- Quando o modelo é muito complexo (ou seja, tem muitos parâmetros) em comparação com o número de observações de treinamento.
+- Quando o modelo é treinado por tempo demais, permitindo que ele continue aprendendo pequenas variações nos dados de treinamento que são na verdade ruído e não um padrão real.
+- Quando os dados de treinamento contêm ruído ou erros que o modelo interpreta como padrões.
+
+## Quais são os impactos do Overfitting?
+
+Os principais impactos do overfitting são a diminuição da capacidade de generalização e a confiabilidade reduzida das previsões do modelo. Isso ocorre porque um modelo overfitting é essencialmente "memorizando" os dados de treinamento, em vez de aprender padrões gerais que podem ser aplicados a novos dados.
+
+Isso pode levar a resultados imprecisos ou enganosos quando o modelo é usado para fazer previsões em novos dados, mesmo que tenha um desempenho excelente nos dados de treinamento. Além disso, um modelo overfitting também pode levar a uma confiança excessiva nas previsões do modelo, uma vez que ele pode ter um desempenho extremamente bom nos dados de treinamento.
+
+## Como evitar o Overfitting?
+
+Existem várias técnicas comuns usadas para evitar o overfitting:
+
+- **Validação Cruzada**: Uma técnica comum para evitar o overfitting é usar a validação cruzada. Isso envolve dividir os dados em vários subconjuntos e treinar o modelo em um subconjunto (os dados de treinamento) e testá-lo em outro subconjunto (os dados de validação). Isso fornece uma medida mais realista do desempenho do modelo em novos dados.
+
+- **Regularização**: A regularização adiciona uma penalidade ao modelo para adicionar complexidade, ajudando a evitar o overfitting. Exemplos comuns de regularização incluem L1 (lasso) e L2 (ridge) que adicionam uma penalidade baseada na magnitude dos coeficientes do modelo.
+
+- **Poda de árvore**: Para modelos de árvore de decisão e floresta aleatória, a poda de árvore pode ser usada para evitar o overfitting. Isso envolve limitar a profundidade da árvore ou o número mínimo de pontos de dados em um nó.
+
+- **Early stopping**: Durante o treinamento de uma rede neural, podemos monitorar o desempenho do modelo em um conjunto de validação e parar o treinamento quando o desempenho começa a piorar.
+
+- **Aumento de dados**: Para conjuntos de dados pequenos, o aumento de dados pode ser útil. Isso envolve criar novos dados de treinamento artificialmente, por exemplo, por meio de rotações, translações ou inversões para imagens.
+
+Além dessas técnicas, é sempre importante garantir que os dados estejam limpos e livres de ruído tanto quanto possível, e que um número adequado de dados seja usado para treinar o modelo.
+
+
 # Descrição dos problemas
 ## Modelar a dinâmica populacional de espécies
 O problema de modelar a dinâmica populacional de espécies pode ser dividido em vários tópicos, incluindo:
