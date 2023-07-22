@@ -846,7 +846,7 @@ A escolha entre normalização e padronização depende do contexto específico 
 
 >[Índice](#Índice)
 
-# One-Hot Encoding
+# One-Hot Code
 
 One-Hot Encoding é uma técnica utilizada para lidar com variáveis categóricas no processamento de dados e no treinamento de modelos de aprendizado de máquina. Variáveis categóricas são aquelas que têm um número finito e geralmente fixo de possíveis valores.
 
