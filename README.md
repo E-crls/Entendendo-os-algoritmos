@@ -71,6 +71,15 @@ Aqui estão alguns repositórios que podem te mostrar mais coisas interessantes<
 
 ## Índice
 ### Problemas que Data Science tenta resolver (E suas possíveis soluções)
+1. [Saúde](#saúde)
+2. [Negócios e Economia](#negócios-e-economia)
+3. [Segurança](#segurança)
+4. [Tecnologia da Informação](#tecnologia-da-informação)
+5. [Agricultura](#agricultura)
+6. [Ciências Sociais](#ciências-sociais)
+7. [Mídia e Entretenimento](#mídia-e-entretenimento)
+<!--
+No futuro, pretendo colocar a descrição todos a seguir
 1. [Negócios e Economia](#negócios-e-economia)
 2. [Saúde](#saúde)
 3. [Ciências Sociais](#ciências-sociais)
@@ -93,7 +102,7 @@ Aqui estão alguns repositórios que podem te mostrar mais coisas interessantes<
 20. [Governo e Política](#governo-e-política)
 21. [Turismo](#turismo)
 22. [Telecomunicações](#telecomunicações)
-23. [Seguros](#seguros)
+23. [Seguros](#seguros)-->
 
 ### Principais algoritmos
 1. [Algoritmos de aprendizado supervisionado](#algoritmos-de-aprendizado-supervisionado)
