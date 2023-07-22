@@ -37,8 +37,9 @@ Cada algoritmo responderá a cada um dos tópicos seguintes, podendo haver outro
 > A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.<br>
 
 Como funciona: <br>
-Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, faça o commit dela aqui.<br>
-Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir aqui ou em algum lugar e deixe o link neste repositório. Nós também aprendemos explicando
+Se uma explicação específica ajudou você a entender melhor um algoritmo ou uma parte dele, compartilhe-a aqui.
+<br>
+Se está estudando algum algoritmo menos conhecido, publique uma explicação sobre ele da melhor maneira que puder, seja aqui ou em outro lugar, e compartilhe o link neste repositório. Afinal, também aprendemos ao explicar.
 
 Conhecimento é bom, mas conhecimento centralizado e com facilidade de acesso é melhor ainda.
 
@@ -53,22 +54,20 @@ Colocar explicação dos conceitos básicos<br>
 Colocar descrição técnica mais detalhada<br>
 -->
 
+## Recomendação de metodologia de estudos
+Ao se deparar com um algoritmo desconhecido que parece muito complexo, não se intimide. Aqui está uma sugestão de como estudar o algoritmo:
+>  1º Digite o nome do algoritmo no Google e leia informações básicas sobre ele.<br>
+>  2º Insira o nome do algoritmo no YouTube e assista a vídeos introdutórios.<br>
+>  3º Procure artigos no Medium que discutam o algoritmo.<br>
+>  4º Pesquise exemplos de aplicação do algoritmo no Google, YouTube ou Medium.<br>
+>  5º Consulte o ChatGPT ou o Bard para esclarecer dúvidas específicas que surgirem durante o estudo.<br>
+>  5º Tente resolver algum problema com o algoritmo no Kaggle.<br>
+
 ## Indicações
-Existem algumas fontes que podem te ajudar nos estudos.
+Existem algumas outras fontes que podem te ajudar nos estudos.
 Aqui estão alguns repositórios que podem te mostrar mais coisas interessantes<br>
 ·[Guiadev](https://github.com/arthurspk/guiadevbrasil) Guia extensivo de links com fontes de estudo para várias áreas<br>
 ·[Guia de Wendel](https://github.com/wendelmarques/materiais-de-estudos-sobre-data-science-deep-machine-learning) Repositório com vários links de fontes de estudo específicos para iniciantes em Data Science
-
-## Método de estudo
->  1º Jogue o nome do modelo no google e leia o básico<br>
->  2º Jogue o nome do modelo no youtube e assista o básico<br>
->  3º Procure artigos no medium sobre o modelo<br>
->  4º Procure no google, youtube ou medium exemplos de aplicação do modelo<br>
->  5º Procure no chatgpt as respostas das dúvidas específicas que obteve no decorrer do estudo<br>
->  5º Tente resolver algum problema com o algoritmo no kaggle<br>
-
-
-
 
 ## Índice
 ### Problemas que Data Science tenta resolver (E suas possíveis soluções)
