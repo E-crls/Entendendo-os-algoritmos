@@ -30,6 +30,18 @@ Cada algoritmo responderá a cada um dos tópicos seguintes, podendo haver outro
 >Desvantagens<br>
 >Pipeline de execução do algoritmo<br>
 
+## Validação das informações
+>Todas as informações aqui apresentadas estão sujeitas a revisões constantes. Portanto, caso identifique algum conteúdo impreciso, sinta-se à vontade para destacá-lo ou sugerir uma correção.
+
+## Contribua
+> A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.<br>
+
+Como funciona: <br>
+Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, faça o commit dela aqui.<br>
+Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir aqui ou em algum lugar e deixe o link neste repositório. Nós também aprendemos explicando
+
+Conhecimento é bom, mas conhecimento centralizado e com facilidade de acesso é melhor ainda.
+
 <!-- Falta (ignore)
 Verificar existencias
 Colocar descrição de mais algoritmos e problemas <br>
@@ -55,21 +67,8 @@ Aqui estão alguns repositórios que podem te mostrar mais coisas interessantes<
 >  5º Procure no chatgpt as respostas das dúvidas específicas que obteve no decorrer do estudo<br>
 >  5º Tente resolver algum problema com o algoritmo no kaggle<br>
 
-## Contribua
-> A ideia do repositório é ajudar pessoas que possuem interesses em entender melhor a área de data science através dos algoritmos. Sendo assim, será de enorme valor para quem quiser contribuir com conhecimento.<br>
-
-Como funciona: <br>
-Se você entendeu melhor algum algoritmo específico ou alguma parte específica por meio de uma determinada explicação, escreva ela aqui.<br>
-Se você está estudando algum algoritmo pouco conhecido, publique uma explicação sobre ele da forma que você conseguir. Nós também aprendemos explicando
-
-Conhecimento é bom, mas conhecimento centralizado e com facilidade de acesso é melhor ainda.
 
 
-
-É recomendável que estude os conceitos da sessão "Conceitos básicos" para entender conceitos comuns para o entendimento de modelos em Data Science
-
-## Validação das informações
->Todas as informações aqui presentes estão sendo passadas por revisão constante. Sendo assim, se você identificar algum conteúdo errado, sinta-se livre para apontar ele ou sugerir a correção.
 
 ## Índice
 ### Problemas que Data Science tenta resolver (E suas possíveis soluções)
