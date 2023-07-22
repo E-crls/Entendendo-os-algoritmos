@@ -12,11 +12,11 @@ Data Science envolve querer entender as coisas e, no entanto, a área possui tan
 ## Como o repositório funciona
 Este repositório está separado em:
 - Conceitos básicos: 
-Para entender muitas questões dos algoritmos é necessário, antes, ter um embasamento sobre alguns assuntos e é nesta parte em que estes assuntos são abordados
+Para compreender diversas questões relacionadas aos algoritmos, é preciso inicialmente ter um sólido entendimento de determinados tópicos. Esta seção destina-se a abordar esses assuntos.
 - Problemas: 
-Não adianta estudar uma área tão interessante, se não sabemos onde podemos aplicar ela. E é aqui que é desenvolvido isso. Neste tópico, é descrito os problemas para o qual a área de data science costuma tentar resolver.
+Estudar uma área tão fascinante não é suficiente se não soubermos onde aplicá-la. Aqui é onde essa aplicação é desenvolvida. Este tópico descreve os problemas que a área de ciência de dados geralmente busca resolver.
 - Algoritmos: 
-Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outros conforme o tempo:
+Cada algoritmo responderá a cada um dos tópicos seguintes, podendo haver outros adicionados com o passar do tempo:
 >Descrição simples<br>
 >Descrição técnica<br>
 >O que faz<br>
