@@ -793,6 +793,7 @@ Para normalização, pode-se usar a classe `MinMaxScaler`:
 > from sklearn.preprocessing import MinMaxScaler
 
 >scaler = MinMaxScaler()
+>
 >data_normalized = scaler.fit_transform(data)
 
 Para a padronização, pode-se usar a classe StandardScaler:
@@ -800,11 +801,101 @@ Para a padronização, pode-se usar a classe StandardScaler:
 >from sklearn.preprocessing import StandardScaler
 
 >scaler = StandardScaler()
+>
 >data_standardized = scaler.fit_transform(data)
 
 Nestes exemplos, data é o conjunto de dados que você deseja normalizar ou padronizar.
 
 A escolha entre normalização e padronização depende do contexto específico e das suposições dos algoritmos de aprendizado de máquina que você planeja usar. Alguns algoritmos, como a regressão logística e as máquinas de vetores de suporte, assumem que todos os atributos estão centralizados em torno de zero e têm variações semelhantes, portanto a padronização pode ser mais adequada. Outros algoritmos, como k-vizinhos mais próximos (k-NN) e redes neurais artificiais, muitas vezes se beneficiam mais da normalização.
+
+# One-Hot Encoding
+
+One-Hot Encoding é uma técnica utilizada para lidar com variáveis categóricas no processamento de dados e no treinamento de modelos de aprendizado de máquina. Variáveis categóricas são aquelas que têm um número finito e geralmente fixo de possíveis valores.
+
+Alguns exemplos incluem:
+
+- Cor: Vermelho, Azul, Verde
+- Tipo: Circular, Quadrado, Triangular
+- Região: Norte, Sul, Leste, Oeste
+
+A ideia do One-Hot Encoding é transformar uma variável categórica que pode ter `n` diferentes valores possíveis em `n` diferentes variáveis binárias (0 ou 1). 
+
+Por exemplo, a variável "Cor" seria transformada em três novas variáveis: "É Vermelho", "É Azul", "É Verde". Para uma instância da cor "Azul", teríamos "É Vermelho" = 0, "É Azul" = 1, "É Verde" = 0.
+
+Aqui estão as etapas detalhadas para usar o One-Hot Encoding para codificar variáveis categóricas:
+
+1. **Identifique as variáveis categóricas**: Em seu conjunto de dados, identifique quais colunas são categóricas. Normalmente, você desejará selecionar as colunas que contêm tipos de dados 'objetos' ou 'categóricos'.
+2. **Use uma função de One-Hot Encoding**: Existem várias bibliotecas que podem fazer a codificação One-Hot para você. Por exemplo, o pandas tem uma função chamada `get_dummies` que faz a codificação One-Hot. Da mesma forma, o scikit-learn tem uma classe chamada `OneHotEncoder`. Dependendo da biblioteca que você está usando, o uso da função ou classe pode variar, mas o princípio geral é o mesmo: você passa seus dados e a função/classe retorna uma versão codificada de seus dados.
+3. **Transforme as variáveis categóricas em variáveis binárias**: A função/classe que você usa para a codificação One-Hot irá transformar cada variável categórica em várias novas variáveis binárias. Cada valor possível da variável original se tornará uma nova variável binária.
+4. **Substitua as variáveis originais pelas novas variáveis binárias**: Depois que as novas variáveis binárias são criadas, você geralmente desejará substituir as variáveis originais por elas em seus dados. Isso irá preparar seus dados para a modelagem.
+
+Cabe lembrar que o One-Hot Encoding pode aumentar significativamente a dimensionalidade dos seus dados (especialmente se você tiver variáveis categóricas com muitos valores únicos), o que pode tornar o treinamento do seu modelo mais lento e possivelmente menos preciso. Este é conhecido como "maldição da dimensionalidade". Há outras técnicas para lidar com variáveis categóricas, como a codificação ordinal ou binária, que podem ser mais apropriadas dependendo do seu caso de uso.
+
+# Feature Engineering
+
+## O que é Feature Engineering?
+
+Feature Engineering, ou Engenharia de Recursos, é um passo crucial no pipeline de criação de um modelo de machine learning. É o processo de selecionar e transformar variáveis de um dataset para melhorar a eficácia dos modelos de aprendizado de máquina. Em outras palavras, trata-se do processo de criação de novos recursos (features) a partir dos dados brutos para aumentar a eficácia dos algoritmos de machine learning.
+
+Os modelos de machine learning aprendem a mapear as características dos dados de entrada para a variável de saída, seja ela uma classificação, uma regressão, uma série temporal, etc. No entanto, nem todos os dados brutos são imediatamente úteis para o aprendizado de máquina. Alguns dados podem precisar de limpeza, outros podem precisar ser transformados de maneira que torne o padrão subjacente mais óbvio para o modelo. Isso é o que o feature engineering busca fazer.
+
+## Quais são as técnicas de Feature Engineering?
+
+Existem várias técnicas de feature engineering, e a melhor escolha depende da natureza do problema e dos dados disponíveis. Algumas das técnicas mais comuns são:
+
+1. **Extração de recursos**: Consiste em extrair informações relevantes de dados brutos. Um exemplo é extrair partes do dia, dia da semana, mês, ano, etc., de uma data.
+2. **Criação de recursos**: Cria novos recursos a partir dos existentes. Por exemplo, em um problema de classificação de spam de e-mail, poderíamos criar um novo recurso chamado "comprimento do e-mail" a partir do texto do e-mail.
+3. **Transformação de recursos**: Muitos algoritmos de aprendizado de máquina se beneficiam da transformação dos recursos para torná-los mais "amigáveis". Isso pode incluir normalização, padronização, logaritmização, binarização, etc.
+4. **Seleção de recursos**: Nem todos os recursos são úteis para um modelo, e alguns podem até mesmo prejudicá-lo. A seleção de recursos envolve escolher os recursos mais informativos e descartar os restantes.
+5. **Encoding de recursos**: Algumas categorias de dados (por exemplo, dados categóricos como cor, marca, etc.) precisam ser codificadas em um formato que os algoritmos de aprendizado de máquina possam usar. Isso pode ser feito usando várias técnicas como one-hot encoding, label encoding, etc.
+6. **Imputação de valores ausentes**: Trata-se da substituição de valores ausentes por estatísticas descritivas (média, mediana) ou usando algoritmos mais sofisticados como KNN, MICE, etc.
+
+## Como usar o Feature Engineering para melhorar a performance de um modelo de machine learning?
+
+A engenharia de recursos pode melhorar a performance de um modelo de machine learning ao permitir que o modelo capture melhor a estrutura dos dados. Aqui estão alguns passos sobre como você pode usar a engenharia de recursos para melhorar a performance do seu modelo:
+
+1. **Compreender o problema e os dados**: Antes de iniciar a engenharia de recursos, é importante compreender o problema que você está tentando resolver e os dados que você tem disponíveis. Isso pode ajudá-lo a tomar decisões informadas sobre quais recursos criar, como transformá-los, etc.
+2. **Criar novos recursos**: Se você entende bem os seus dados e o problema, pode ser capaz de criar novos recursos que sejam mais informativos para o seu modelo do que os recursos brutos.
+3. **Transformar recursos existentes**: Se alguns dos seus recursos têm uma distribuição enviesada ou contêm outliers, pode ser útil transformá-los para torná-los mais "normais".
+4. **Selecionar recursos**: Nem todos os recursos são igualmente úteis. Usar técnicas de seleção de recursos pode ajudar a remover recursos desnecessários, reduzindo a complexidade do seu modelo e, potencialmente, melhorando o seu desempenho.
+5. **Testar o modelo**: Após realizar a engenharia de recursos, é importante testar o seu modelo para ver se a performance melhorou.
+
+Lembre-se, a engenharia de recursos é um processo iterativo. É possível que você não obtenha resultados perfeitos na primeira tentativa, e pode ser necessário repetir o processo várias vezes para obter os melhores resultados.
+
+**O que é feature selection?**
+
+Feature Selection, ou seleção de recursos em português, é o processo de seleção dos atributos (ou "features") mais relevantes em seus dados para a construção do modelo de machine learning. Este processo é crucial porque a qualidade e a quantidade dos recursos selecionados influenciam diretamente o desempenho do modelo.
+
+Existem várias razões pelas quais a seleção de recursos é essencial:
+
+1. **Simplificação de modelos**: Com menos recursos, seu modelo é mais simples, o que pode torná-lo mais fácil de interpretar e explicar.
+2. **Redução do overfitting**: Menos recursos reduzem a chance do modelo aprender demasiado sobre os detalhes específicos do conjunto de treinamento (sobreajuste ou overfitting), permitindo que ele generalize melhor para novos dados.
+3. **Melhora do desempenho**: Alguns recursos podem ser irrelevantes ou até prejudiciais para a tarefa em questão, portanto, removê-los pode melhorar o desempenho do modelo.
+4. **Redução do tempo de treinamento**: Modelos com menos recursos são mais rápidos para treinar.
+
+---
+
+**Quais são as técnicas de feature selection?**
+
+Existem várias técnicas de seleção de recursos, cada uma com seus próprios prós e contras. Aqui estão algumas das técnicas mais comuns:
+
+1. **Filtro**: Esses métodos usam medidas estatísticas para pontuar a relevância de cada recurso. O exemplo mais simples é a correlação entre cada recurso e a variável alvo. Os recursos são selecionados ou excluídos de acordo com seus valores.
+2. **Wrapper**: Esses métodos consideram a seleção de um conjunto de recursos como um problema de pesquisa. Exemplos típicos incluem a eliminação recursiva de recursos e os métodos sequenciais para frente e para trás. Eles criam muitos modelos com diferentes subconjuntos de recursos e selecionam aqueles que resultam em modelos de melhor desempenho.
+3. **Embedded**: Estes são algoritmos de aprendizado de máquina que têm sua própria técnica de seleção de recursos embutida. Por exemplo, os modelos de árvore de decisão têm a seleção de recursos incorporada ao processo de aprendizado. Eles selecionam a divisão de recursos que fornece o maior ganho de informação.
+
+---
+
+**Como usar a feature selection para reduzir a dimensionalidade dos dados?**
+
+A seleção de recursos é uma das maneiras mais eficazes de reduzir a dimensionalidade dos dados. É um processo de redução de dados ao eliminar recursos irrelevantes ou redundantes.
+
+1. **Identifique recursos irrelevantes**: Inicialmente, você pode realizar análises estatísticas para identificar recursos que têm pouco ou nenhum efeito sobre a variável alvo. Estes podem ser considerados irrelevantes e podem ser descartados.
+2. **Identifique recursos redundantes**: Você também pode procurar recursos que são altamente correlacionados entre si. Se dois recursos são quase idênticos, você provavelmente pode descartar um sem perder muita informação.
+3. **Use técnicas de seleção de recursos**: Você pode usar qualquer uma das técnicas de seleção de recursos mencionadas acima para identificar e remover recursos irrelevantes ou redundantes. 
+4. **Repita o processo**: A seleção de recursos é frequentemente um processo iterativo. Você pode precisar repetir o processo várias vezes, cada vez com um conjunto de recursos diferente, até que esteja satisfeito com o conjunto final de recursos.
+
+Vale lembrar que a seleção de recursos deve ser feita com cuidado, já que a remoção de recursos importantes pode prejudicar o desempenho do seu modelo. Portanto, é sempre uma boa ideia avaliar o desempenho do modelo antes e depois da seleção de recursos para ter certeza de que a seleção de recursos melhorou o desempenho do modelo.
+
 
 # Descrição dos problemas
 ## Modelar a dinâmica populacional de espécies
