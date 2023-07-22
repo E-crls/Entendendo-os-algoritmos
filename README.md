@@ -684,7 +684,7 @@ Em suma, a regularização é uma ferramenta muito útil para evitar overfitting
 
 # Cross-Validation
 
-## Tipos de Cross-Validation
+## O que é Cross-Validation
 
 Cross-validation, ou validação cruzada, é uma técnica estatística utilizada para avaliar a capacidade de um modelo de machine learning generalizar para um conjunto de dados independente. É uma forma de reduzir o overfitting, que é uma situação onde o modelo se ajusta tão bem aos dados de treinamento que não se sai bem com novos dados. A validação cruzada permite uma avaliação mais realista do modelo ao utilizar diferentes subconjuntos dos dados de treinamento para testar o modelo, aumentando assim sua robustez.
 
