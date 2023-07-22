@@ -593,6 +593,48 @@ Existem várias técnicas comuns usadas para evitar o overfitting:
 
 Além dessas técnicas, é sempre importante garantir que os dados estejam limpos e livres de ruído tanto quanto possível, e que um número adequado de dados seja usado para treinar o modelo.
 
+# Underfitting
+
+## O que é underfitting?
+
+Underfitting é um termo comumente usado no campo da aprendizagem de máquina (machine learning) e da ciência de dados. Ele ocorre quando um modelo de aprendizado de máquina é incapaz de capturar a estrutura subjacente ou padrões presentes nos dados.
+
+## Como o underfitting ocorre?
+
+Underfitting geralmente ocorre nas seguintes situações:
+
+1. **Complexidade do modelo muito baixa**: Se o modelo usado é muito simples ou tem muito poucos parâmetros, ele pode não ter a capacidade de aprender efetivamente a partir dos dados. Por exemplo, tentar ajustar uma linha reta (modelo linear) a dados que seguem uma tendência polinomial complexa pode resultar em underfitting.
+
+2. **Treinamento insuficiente**: Se o modelo não for treinado por tempo suficiente ou se não houver dados suficientes para o treinamento, ele pode não aprender os padrões presentes nos dados. Isso também pode levar ao underfitting.
+
+3. **Dados muito ruidosos ou mal definidos**: Se os dados de treinamento estiverem muito ruidosos ou se os exemplos de treinamento não forem representativos do problema geral que o modelo está tentando resolver, o modelo pode sofrer de underfitting.
+
+## Quais são os impactos do underfitting?
+
+Os impactos do underfitting podem ser vários, incluindo:
+
+1. **Baixa precisão**: Underfitting geralmente leva a baixa precisão nas previsões do modelo, tanto nos dados de treinamento quanto nos de teste.
+
+2. **Desempenho insatisfatório na generalização**: Um modelo underfitting tende a ter um desempenho ruim em dados não vistos porque não capturou bem a estrutura subjacente dos dados de treinamento.
+
+3. **Baixa robustez**: Modelos com underfitting podem ter desempenho insatisfatório mesmo com pequenas variações nos dados.
+
+## Como evitar o underfitting?
+
+Existem várias maneiras de evitar o underfitting:
+
+1. **Aumentar a complexidade do modelo**: Usar um modelo mais complexo pode ajudar a reduzir o underfitting. Isso poderia envolver a adição de mais camadas em uma rede neural, aumentando o grau de um polinômio em um modelo de regressão, etc.
+
+2. **Treinar por mais tempo**: Permitir que o modelo treine por mais tempo ou fornecer mais dados de treinamento pode ajudar o modelo a aprender melhor os padrões presentes nos dados.
+
+3. **Limpar os dados**: Garantir que os dados estejam limpos e bem definidos pode ajudar a reduzir o underfitting. Isso pode envolver a remoção de ruído ou outliers, a correção de valores ausentes ou errados, etc.
+
+4. **Feature engineering**: Adicionar mais recursos (variáveis) relevantes aos dados, se possível, também pode ajudar a melhorar o desempenho do modelo.
+
+5. **Regularização**: Técnicas de regularização, como L1 e L2, também podem ser usadas para evitar o underfitting, ajustando a complexidade do modelo.
+
+Lembre-se de que é importante equilibrar entre underfitting e overfitting. Um modelo muito complexo pode se ajustar demais aos dados de treinamento, levando ao overfitting, enquanto um modelo muito simples pode não se ajustar o suficiente, levando ao underfitting. O objetivo é encontrar um equilíbrio onde o modelo aprende a estrutura subjacente dos dados sem se ajustar demais ou de menos.
+
 
 # Descrição dos problemas
 ## Modelar a dinâmica populacional de espécies
