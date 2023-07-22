@@ -862,6 +862,8 @@ A engenharia de recursos pode melhorar a performance de um modelo de machine lea
 
 Lembre-se, a engenharia de recursos é um processo iterativo. É possível que você não obtenha resultados perfeitos na primeira tentativa, e pode ser necessário repetir o processo várias vezes para obter os melhores resultados.
 
+# Feature selection
+
 **O que é feature selection?**
 
 Feature Selection, ou seleção de recursos em português, é o processo de seleção dos atributos (ou "features") mais relevantes em seus dados para a construção do modelo de machine learning. Este processo é crucial porque a qualidade e a quantidade dos recursos selecionados influenciam diretamente o desempenho do modelo.
