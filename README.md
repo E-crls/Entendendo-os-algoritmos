@@ -662,6 +662,25 @@ Para encontrar esse ponto ótimo, a validação cruzada é uma técnica comument
 Além disso, técnicas de regularização, como a regularização L1 (Lasso) e L2 (Ridge), também são usadas para controlar a complexidade do modelo, ajudando a balancear o bias e a variance.
 
 No fim, encontrar o ponto de equilíbrio ideal entre bias e variance é mais uma arte do que uma ciência, e requer um entendimento sólido dos dados e do problema a ser resolvido. Ajustar e experimentar diferentes modelos e hiperparâmetros é uma parte essencial desse processo.
+# Regularização
+## O que é Regularização
+Regularização é um conceito fundamental em aprendizado de máquina e ciência de dados, que ajuda a evitar o overfitting de um modelo ao processo de treinamento. Overfitting ocorre quando um modelo é tão bem ajustado aos dados de treinamento que ele se torna altamente sensível a pequenas variações neles. Isso faz com que o modelo tenha um desempenho pobre ao ser aplicado a novos dados, pois ele está excessivamente especializado para os dados de treinamento. A regularização ajuda a mitigar isso ao adicionar uma penalidade à complexidade do modelo na função de custo que está sendo minimizada.
+
+## Tipos de Regularização
+
+1. **Regularização L1 (Lasso)**: Esta técnica adiciona uma penalidade equivalente ao valor absoluto da magnitude dos coeficientes. Em outras palavras, ela tenta minimizar a soma dos valores absolutos dos coeficientes. Isso pode levar a alguns coeficientes se tornarem exatamente zero, o que é uma forma de seleção de recursos.
+
+2. **Regularização L2 (Ridge)**: Esta técnica adiciona uma penalidade equivalente ao quadrado da magnitude dos coeficientes. Diferentemente da regularização L1, isso não resulta em coeficientes zerados, mas pode resultar em coeficientes menores.
+
+3. **Elastic Net**: É uma combinação de regularização L1 e L2. Ele adiciona tanto uma penalidade de magnitude absoluta (L1) quanto uma penalidade quadrada (L2) ao modelo.
+
+4. **Dropout**: Este é um método usado em redes neurais. Durante o treinamento, algumas frações (definidas pelo hiperparâmetro de dropout) dos neurônios na camada são ignoradas (ou seja, seu peso é definido como zero). Isso ajuda a evitar o overfitting, pois força a rede a aprender representações robustas dos dados que não dependem muito de um único neurônio.
+
+A regularização é usada para evitar overfitting, ajustando o modelo de uma maneira que promova a simplicidade e a generalidade, em vez de se ajustar perfeitamente aos dados de treinamento. Isso é feito adicionando um termo de penalidade à função de custo que está sendo minimizada durante o treinamento. Este termo de penalidade é geralmente uma função dos pesos do modelo, de modo que modelos mais complexos (com pesos maiores) terão um custo maior. Ao ajustar o modelo para minimizar esse custo regularizado, ele é incentivado a encontrar uma solução que é tanto de bom desempenho nos dados de treinamento, quanto simples em termos de pesos.
+
+A magnitude da penalidade de regularização é controlada por um hiperparâmetro, geralmente chamado de lambda ou alpha. Se este parâmetro for definido como zero, a regularização terá nenhum efeito e o modelo será treinado normalmente. Se for definido muito alto, a regularização pode se tornar dominante e o modelo pode se ajustar mal aos dados de treinamento. Ajustar este hiperparâmetro corretamente é uma parte importante do treinamento de um modelo regularizado.
+
+Em suma, a regularização é uma ferramenta muito útil para evitar overfitting em modelos de aprendizado de máquina, tornando-os mais robustos e melhor generalizados para novos dados.
 
 # Descrição dos problemas
 ## Modelar a dinâmica populacional de espécies
