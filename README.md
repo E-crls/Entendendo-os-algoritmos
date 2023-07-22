@@ -5,9 +5,30 @@
   <h1 align="center">O guia para te ajudar a entender melhor data science</h1>
 </p>
 
-> Este repositório possui como objetivo ajudar no entendimento dos algoritmos usados atualmente em Data Science
+> Este repositório possui como objetivo ajudar no entendimento da aplicação da área de Data Science e como ela funciona
 ## Por que o repositório existe
 Data Science envolve querer entender as coisas e, no entanto, a área possui tantas e tantas ferramentas para isso que, naturalmente, ignoramos a maior parte dos algoritmos existentes. O propósito deste repositório é armazendar todas as informações possíveis de cada algoritmo de data science que existe e cada problema que a área tenta resolver através desses algoritmos. Cada algoritmo deve possuir sua própria descrição. Um projeto comunitário ambicioso, mas muito legal.
+
+## Como o repositório funciona
+Este repositório está separado em:
+- Conceitos básicos
+Para entender muitas questões dos algoritmos é necessário, antes, ter um embasamento sobre alguns assuntos e é nesta parte em que estes assuntos são abordados
+- Problemas
+Não adianta estudar uma área tão interessante, se não sabemos onde podemos aplicar ela. E é aqui que é desenvolvido isso. Neste tópico, é descrito os problemas para o qual a área de data science costuma tentar resolver.
+- Algoritmos
+Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outros conforme o tempo:
+>Descrição simples<br>
+>Descrição técnica<br>
+>O que faz<br>
+>Onde é mais aplicado (Exemplos de aplicações mais usadas)<br>
+>Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?)<br>
+>Como usar<br>
+>Por que usar<br>
+>Recursos necessários (custos para aplicar)<br>
+>Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este)<br> 
+>Vantagens<br>
+>Desvantagens<br>
+>Pipeline de execução do algoritmo<br>
 
 <!-- Falta (ignore)
 Verificar existencias
@@ -18,7 +39,6 @@ Colocar possíveis fontes de pesquisa<br>
 Colocar possíveis prompts de pesquisa<br>
 Colocar explicação dos conceitos básicos<br>
 Colocar descrição técnica mais detalhada<br>
-Colocar links dos outros 2 repositórios (guiadev e data science)
 -->
 
 ## Indicações
@@ -44,20 +64,7 @@ Se você está estudando algum algoritmo pouco conhecido, publique uma explicaç
 
 Conhecimento é bom, mas conhecimento centralizado e com facilidade de acesso é melhor ainda.
 
-## Estrutura de explicação
-Cada algoritmo irá responder cada uma dos seguintes tópicos, podendo ter outros conforme o tempo:
->Descrição simples<br>
->Descrição técnica<br>
->O que faz<br>
->Onde é mais aplicado (Exemplos de aplicações mais usadas)<br>
->Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?)<br>
->Como usar<br>
->Por que usar<br>
->Recursos necessários (custos para aplicar)<br>
->Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este)<br> 
->Vantagens<br>
->Desvantagens<br>
->Pipeline de execução do algoritmo<br>
+
 
 É recomendável que estude os conceitos da sessão "Conceitos básicos" para entender conceitos comuns para o entendimento de modelos em Data Science
 
