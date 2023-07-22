@@ -249,7 +249,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - [Avaliar riscos para a precificação de seguros](#avaliar-riscos-para-a-precificação-de-seguros)
 - [Detectar fraudes em sinistros](#detectar-fraudes-em-sinistros)
 - [Personalizar prêmios de seguros para cada cliente](#personalizar-prêmios-de-seguros-para-cada-cliente)
-
+>[Índice](#Índice)
+>
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
@@ -350,6 +351,7 @@ No futuro, pretendo colocar a descrição todos a seguir
 4. [Node2Vec](#node2vec)
 5. [Graph Convolutional Networks (GCN)](#graph-convolutional-networks-gcn)
 
+>[Índice](#Índice)
 
 ## Todos os algoritmos 
 
@@ -383,6 +385,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **T5 (Text-to-Text Transfer Transformer)**: Modelo baseado em Transformer que aborda todas as tarefas de processamento de linguagem natural como um problema de tradução de texto para texto.
 - **ALBERT (A Lite BERT)**: Variação do BERT que usa fatorização de parâmetros e compartilhamento de parâmetros entre camadas para reduzir o tamanho do modelo e o tempo de treinamento.
 - **XLNet**: Modelo de linguagem baseado em Transformer que combina a autoatenção bidirecional do BERT com a auto-regressão do GPT para lidar com o contexto e a permutação das palavras.
+
+>[Índice](#Índice)
 
 ### Algoritmos de aprendizado não supervisionado
 
@@ -447,6 +451,7 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **Newton-Raphson**: Um algoritmo de otimização baseado em métodos de segunda ordem que usa a matriz hessiana (segundas derivadas) da função objetivo para encontrar mínimos locais mais rapidamente do que o Gradient Descent.
 - **Broyden-Fletcher-Goldfarb-Shanno (BFGS)**: Um algoritmo de otimização quasi-Newton que usa aproximações da matriz hessiana para encontrar mínimos locais de uma função objetivo, sendo mais eficiente que o método de Newton-Raphson em termos de uso de memória e cálculos.
 
+>[Índice](#Índice)
 
 ### Algoritmos de Otimização Evolutiva 
 
@@ -461,6 +466,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **Harmony Search**: Algoritmo de otimização inspirado na improvisação musical.Um algoritmo de otimização inspirado na improvisação musical, que utiliza o conceito de harmonia para explorar o espaço de busca em busca de soluções ótimas.
 - **Differential Evolution**: Algoritmo de otimização evolutiva.Um algoritmo de otimização baseado em populações, onde a combinação de diferentes soluções candidatas por meio de diferenças é utilizada para explorar o espaço de busca em busca de soluções ótimas.
 - **Coordinate Descent**: Algoritmo de otimização baseado em busca coordenada.Um algoritmo de otimização baseado em busca coordenada, onde cada coordenada dos parâmetros é otimizada independentemente enquanto as outras são mantidas fixas, buscando melhorias iterativas.
+
+>[Índice](#Índice)
 
 ### Algoritmos de processamento de linguagem natural (NLP): 
 
@@ -484,6 +491,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **Sentiment Analysis**: Tarefa de determinar a polaridade (positiva, negativa ou neutra) de um texto.🟩
 - **Text Summarization**: Tarefa de traduzir automaticamente um texto de um idioma para outro usando modelos de aprendizado de máquina ou técnicas de processamento de linguagem natural. 
 
+>[Índice](#Índice)
+
 ### Algoritmos de recomendação: 
 
 - **Collaborative Filtering (User-based, Item-based):**
@@ -499,6 +508,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **Apriori**: Eclat e FP-Growth são algoritmos usados para descobrir regras de associação entre itens, identificando padrões frequentes de itens que ocorrem juntos.
 - **Deep Learning-based Recommendations**: Utiliza técnicas de aprendizado profundo, como redes neurais, para modelar interações entre usuários e itens e fazer recomendações personalizadas.
 
+>[Índice](#Índice)
+
 ### Algoritmos de detecção de anomalias: 
 
 - **Isolation Forest**: Um algoritmo baseado em árvores que isola as observações anômalas, construindo árvores de decisão aleatórias e usando o comprimento médio do caminho para classificar anomalias.
@@ -512,6 +523,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **Variational Autoencoders (VAE):** Uma extensão dos autoencoders que inclui uma camada estocástica e pode ser usada para detectar anomalias de forma semelhante aos autoencoders regulares.
 - **LSTM**: Redes neurais recorrentes especializadas em aprender sequências temporais, podem ser treinadas para prever a próxima etapa em uma série temporal e identificar pontos com previsões de baixa precisão como anomalias.
 
+>[Índice](#Índice)
+
 ### Algoritmos de redução de dimensionalidade: 
 
 - **PCA (Principal Component Analysis):** Uma técnica linear de redução de dimensionalidade que busca projetar os dados em um espaço de menor dimensão, mantendo a maior variância possível.
@@ -522,6 +535,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **Isomap:** Um algoritmo de redução de dimensionalidade não linear que busca preservar as distâncias geodésicas entre os pontos no espaço de menor dimensão.
 - **Locally Linear Embedding (LLE):** Uma técnica de redução de dimensionalidade não linear que busca preservar as relações lineares locais entre pontos no espaço de menor dimensão.
 - **Multidimensional Scaling (MDS):** Um algoritmo de redução de dimensionalidade que busca preservar as distâncias entre os pontos no espaço de menor dimensão.
+
+>[Índice](#Índice)
 
 ### Algoritmos de análise de séries temporais: 
 
@@ -535,6 +550,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - **Hidden Markov Models (HMM):** Modelo estatístico baseado em cadeias de Markov que descreve um sistema com estados ocultos, onde as transições entre estados e as emissões de observações são governadas por probabilidades.
 - **Kalman Filter:** Algoritmo recursivo de estimação que combina informações de medições e modelos dinâmicos para estimar estados ocultos em sistemas lineares com ruído.
 - **Dynamic Time Warping (DTW):** Algoritmo de alinhamento temporal que mede a similaridade entre duas séries temporais, permitindo comparações mesmo quando as séries têm variações temporais ou taxas de amostragem diferentes.
+
+>[Índice](#Índice)
 
 ### Algoritmos de análise de redes e grafos: 
 
@@ -897,6 +914,36 @@ A seleção de recursos é uma das maneiras mais eficazes de reduzir a dimension
 4. **Repita o processo**: A seleção de recursos é frequentemente um processo iterativo. Você pode precisar repetir o processo várias vezes, cada vez com um conjunto de recursos diferente, até que esteja satisfeito com o conjunto final de recursos.
 
 Vale lembrar que a seleção de recursos deve ser feita com cuidado, já que a remoção de recursos importantes pode prejudicar o desempenho do seu modelo. Portanto, é sempre uma boa ideia avaliar o desempenho do modelo antes e depois da seleção de recursos para ter certeza de que a seleção de recursos melhorou o desempenho do modelo.
+
+# Gradiente Descendente
+
+O **Gradiente Descendente** é um algoritmo de otimização que se baseia no princípio de deslocamento no sentido oposto ao gradiente de uma função de custo para encontrar seus mínimos locais. Ele é amplamente utilizado em machine learning e deep learning, pois muitos dos problemas encontrados nesses campos envolvem a minimização de uma função de custo.
+
+## O que é gradiente descendente?
+
+Imagine que você está em uma montanha e seu objetivo é descer ao vale mais próximo. Não há visibilidade e você só consegue sentir a inclinação do terreno sob seus pés. Uma estratégia eficaz para descer a montanha seria determinar a direção com a maior inclinação e dar um passo nessa direção. Isso é basicamente o que o algoritmo do Gradiente Descendente faz.
+
+Para compreender o gradiente descendente em um contexto matemático, vamos pensar em uma função custo, também chamada de função de perda ou erro, que é usada para avaliar a eficácia de um modelo de aprendizado de máquina. O objetivo da otimização é minimizar essa função de custo, ajustando os parâmetros do modelo.
+
+O "gradiente" em gradiente descendente se refere à derivada da função de custo, que indica a direção de maior taxa de mudança da função. Como queremos minimizar a função de custo, devemos mover-nos na direção oposta ao gradiente - daí o termo "descendente".
+
+## Como usar o gradiente descendente para treinar um modelo de machine learning?
+
+Aqui estão os passos básicos para usar o gradiente descendente para treinar um modelo:
+
+1. **Inicialização dos parâmetros:** Primeiro, inicialize os parâmetros do modelo com alguns valores. Isso pode ser aleatório ou pode ser algum valor fixo. Em redes neurais, por exemplo, é comum iniciar os pesos com pequenos valores aleatórios.
+
+2. **Cálculo do gradiente:** Calcule o gradiente da função de custo em relação aos parâmetros do modelo. Isso é feito através da aplicação das regras do cálculo diferencial.
+
+3. **Atualização dos parâmetros:** Atualize os parâmetros do modelo movendo-se na direção oposta ao gradiente. O tamanho do "passo" que você dá é determinado pela taxa de aprendizado, um hiperparâmetro que você precisa definir. Uma taxa de aprendizado muito alta pode fazer com que você ultrapasse o mínimo, enquanto uma taxa de aprendizado muito baixa pode fazer o treinamento levar muito tempo.
+
+4. **Iteração:** Repita os passos 2 e 3 até que a função de custo esteja suficientemente pequena ou até que um número máximo de iterações tenha sido alcançado.
+
+Em um cenário de aprendizado de máquina, a função de custo normalmente depende dos dados de treinamento e dos parâmetros do modelo. Queremos encontrar os parâmetros que minimizam a função de custo. Então, para cada ponto de dados no conjunto de treinamento, calculamos o gradiente da função de custo com relação aos parâmetros, ajustamos os parâmetros na direção oposta ao gradiente e repetimos o processo.
+
+Existem várias variantes do algoritmo do gradiente descendente que diferem principalmente na quantidade de dados usados para calcular o gradiente em cada passo. No Gradiente Descendente em Lote, usamos todos os dados de treinamento de uma vez para calcular o gradiente, enquanto no Gradiente Descendente Estocástico (SGD), usamos um único ponto de dados por vez. O Gradiente Descendente Mini-Lote é um compromisso entre os dois, usando um pequeno "lote" de pontos de dados de cada vez.
+
+Por fim, vale mencionar que o gradiente descendente não garante encontrar o mínimo global de uma função de custo, especialmente se essa função tem muitos mínimos locais. Ele irá convergir para um mínimo local, mas esse mínimo local pode não ser o mínimo global. Isso é especialmente relevante em redes neurais profundas, que têm funções de custo complexas com muitos mínimos locais.
 
 
 # Descrição dos problemas
