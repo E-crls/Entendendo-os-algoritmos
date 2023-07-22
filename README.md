@@ -70,6 +70,27 @@ Aqui estão alguns repositórios que podem te mostrar mais coisas interessantes<
 ·[Guia de Wendel](https://github.com/wendelmarques/materiais-de-estudos-sobre-data-science-deep-machine-learning) Repositório com vários links de fontes de estudo específicos para iniciantes em Data Science
 
 ## Índice
+### Conceitos básicos
+1. [Overfitting](#overfitting)
+2. [Underfitting](#underfitting)
+3. [Bias-Variance Tradeoff](#bias-variance-tradeoff)
+4. [Regularização](#regularização)
+5. [Cross-Validation](#cross-validation)
+6. [Outliers](#outliers)
+7. [Imputação](#imputação)
+8. [Normalização e Padronização](#normalização-e-padronização)
+9. [One-Hot Code](#one-hot-code)
+10. [Feature Engineering](#feature-engineering)
+11. [Feature Selection](#feature-selection)
+12. [Gradiente Descendente](#gradiente-descendente)
+13. [Aprendizado Supervisionado](#aprendizado-supervisionado)
+14. [Aprendizado Não Supervisionado](#aprendizado-não-supervisionado)
+15. [Aprendizado por Reforço](#aprendizado-por-reforço)
+16. [Redes Neurais](#redes-neurais)
+17. [Ensemble Learning](#ensemble-learning)
+18. [Hiperparâmetros e Tuning de Hiperparâmetros](#hiperparâmetros-e-tuning-de-hiperparâmetros)
+19. [Conceitos de Classificação e Regressão](#conceitos-de-classificação-e-regressão)
+
 ### Problemas que Data Science tenta resolver (E suas possíveis soluções)
 1. [Saúde](#saúde)
 2. [Negócios e Economia](#negócios-e-economia)
@@ -127,26 +148,7 @@ No futuro, pretendo colocar a descrição todos a seguir
 8. [Algoritmos de detecção de anomalias](#algoritmos-de-detecção-de-anomalias)
 9. [Algoritmos de redução de dimensionalidade](#algoritmos-de-redução-de-dimensionalidade)
 10. [Simulação e modelagem de cenários](#simulação-e-modelagem-de-cenários)
-### Conceitos básicos
-1. [Overfitting](#overfitting)
-2. [Underfitting](#underfitting)
-3. [Bias-Variance Tradeoff](#bias-variance-tradeoff)
-4. [Regularização](#regularização)
-5. [Cross-Validation](#cross-validation)
-6. [Outliers](#outliers)
-7. [Imputação](#imputação)
-8. [Normalização e Padronização](#normalização-e-padronização)
-9. [One-Hot Code](#one-hot-code)
-10. [Feature Engineering](#feature-engineering)
-11. [Feature Selection](#feature-selection)
-12. [Gradiente Descendente](#gradiente-descendente)
-13. [Aprendizado Supervisionado](#aprendizado-supervisionado)
-14. [Aprendizado Não Supervisionado](#aprendizado-não-supervisionado)
-15. [Aprendizado por Reforço](#aprendizado-por-reforço)
-16. [Redes Neurais](#redes-neurais)
-17. [Ensemble Learning](#ensemble-learning)
-18. [Hiperparâmetros e Tuning de Hiperparâmetros](#hiperparâmetros-e-tuning-de-hiperparâmetros)
-19. [Conceitos de Classificação e Regressão](#conceitos-de-classificação-e-regressão)
+
 
 # Problemas que Data Science tenta resolver (E suas possíveis soluções)
 ## Negócios e Economia
