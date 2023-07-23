@@ -180,8 +180,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 - [Desenvolver e aprimorar produtos](#desenvolver-e-aprimorar-produtos)-->
 ## Ciência Ambiental
 - [Prever mudanças climáticas](#prever-mudanças-climáticas)
-- [Modelar a dinâmica populacional de espécies](#modelar-a-dinâmica-populacional-de-espécies)🟩?
-- [Antecipar desastres naturais](#antecipar-desastres-naturais)🟩?
+- [Modelar a dinâmica populacional de espécies](#modelar-a-dinâmica-populacional-de-espécies)
+- [Antecipar desastres naturais](#antecipar-desastres-naturais)
 <!--## Educação
 - [Prever desempenho acadêmico](#prever-desempenho-acadêmico)
 - [Avaliar a eficácia dos métodos de ensino](#avaliar-a-eficácia-dos-métodos-de-ensino)
