@@ -1303,34 +1303,46 @@ O problema de antecipar falências empresariais pode ser dividido em vários tó
     O valor gerado ao usar esses algoritmos pode ser significativo. Isso pode incluir a preservação do capital dos investidores, a manutenção do emprego, a continuidade do fornecimento de bens e serviços, e a estabilidade da economia local e nacional. Além disso, a identificação precoce de empresas em risco pode permitir ações corretivas para prevenir a falência, como reestruturação, refinanciamento ou mudanças na estratégia de negócios.
 
 ## Identificar atividades fraudulentas
+
 ### Quem o problema afeta?
+
 O problema afeta uma ampla gama de entidades, incluindo:
 >Empresas: qualquer tipo de negócio pode ser afetado pela fraude, especialmente bancos, seguradoras e varejistas online.<br>
 >Consumidores: os indivíduos podem ser vítimas de roubo de identidade ou fraude de cartão de crédito.<br>
 >Governos: a fraude pode ocorrer na forma de corrupção, evasão fiscal ou fraude de benefícios.
 <br>
+
 ### Como ele afeta?
+
 A fraude pode afetar essas entidades de várias maneiras:
 Perdas financeiras: a fraude pode resultar em perdas diretas de dinheiro.
 Danos à reputação: as empresas que são vítimas de fraude podem sofrer danos à sua reputação, o que pode afetar seus negócios a longo prazo.
 Estresse e transtornos: para os indivíduos, ser vítima de fraude pode ser uma experiência muito estressante e perturbadora.
 <br>
+
 ### Quais os prejuízos que o problema gera?
+
 O problema gera vários prejuízos, como:
 >Prejuízos financeiros diretos: as empresas podem perder dinheiro devido a transações fraudulentas.<br>
 >Custos indiretos: as empresas podem ter que investir em medidas de segurança adicionais para prevenir a fraude, o que pode ser caro.<br>
 >Perda de confiança dos consumidores: se os consumidores perderem a confiança em uma empresa devido à fraude, eles podem levar seus negócios para outro lugar.
 <br>
+
 ### O que deve ser levado em conta quando se for analisar o problema?
+
 Ao analisar o problema da fraude, várias coisas devem ser levadas em consideração:
 >A natureza da fraude: a fraude pode assumir muitas formas diferentes, portanto, é importante entender a natureza específica da fraude que está ocorrendo.<br>
 >A extensão da fraude: é importante avaliar quão generalizada é a fraude.<br>
 >As medidas de segurança existentes: é importante avaliar a eficácia das medidas de segurança existentes e identificar onde elas podem ser melhoradas.
 <br>
+
 ### Como a área de Data Science tenta entender o problema?
+
 A ciência de dados tenta entender o problema da fraude por meio da análise de dados. Isso pode incluir a análise de padrões de transações para identificar atividades suspeitas, a modelagem de comportamentos normais para detectar anomalias e a construção de modelos preditivos para prever a probabilidade de fraude.
 <br>
+
 ### Quais algoritmos de Data Science costumam ser usados para resolver o problema?
+
 Vários algoritmos de ciência de dados são comumente usados para resolver o problema da fraude, incluindo:
 >Aprendizado de máquina supervisionado: este é um método que utiliza dados rotulados (transações fraudulentas e não fraudulentas) para treinar um modelo que pode prever seuma nova transação é fraudulenta. Exemplos de algoritmos incluem árvores de decisão, regressão logística, máquinas de vetores de suporte e redes neurais.
 <br>
@@ -1338,10 +1350,14 @@ Vários algoritmos de ciência de dados são comumente usados para resolver o pr
 <br>
 >Aprendizado profundo: este é um tipo de aprendizado de máquina que usa redes neurais com várias camadas ocultas (redes neurais profundas) para modelar e prever a fraude. As redes neurais convolucionais (CNN) e as redes neurais recorrentes (RNN) são exemplos de algoritmos de aprendizado profundo.
 <br>
+
 ### Como esses algoritmos podem resolver o problema?
+
 Esses algoritmos resolvem o problema de fraude analisando grandes volumes de dados e identificando padrões que podem indicar atividade fraudulenta. Eles são capazes de aprender com os dados e melhorar suas previsões ao longo do tempo. Por exemplo, um algoritmo de aprendizado supervisionado pode ser treinado para reconhecer os padrões de transações que são conhecidos por serem fraudulentos. Em seguida, pode usar esse conhecimento para identificar transações similares no futuro.
 <br>
+
 ### Qual o valor gerado ao se usar cada um desses algoritmos?
+
 O valor gerado ao usar esses algoritmos inclui:
 >Redução de perdas financeiras: ao detectar a fraude mais rapidamente, as empresas podem evitar perdas financeiras.
 >Melhoria da eficiência: os algoritmos de detecção de fraude podem analisar grandes volumes de dados muito mais rapidamente e com mais precisão do que os humanos.
