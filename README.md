@@ -255,9 +255,9 @@ No futuro, pretendo colocar a descrição todos a seguir
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
-1. [Regressão Linear](#regressão-linear)🟩
-2. [Regressão Logística](#regressão-logística)🟩
-3. [Máquinas de Vetores de Suporte (SVM)](#máquinas-de-vetores-de-suporte-svm)🟩?
+1. [Regressão Linear](#regressão-linear)
+2. [Regressão Logística](#regressão-logística)
+3. [Máquinas de Vetores de Suporte (SVM)](#máquinas-de-vetores-de-suporte-svm)
 4. [k-vizinhos mais próximos (k-NN)](#k-vizinhos-mais-próximos-k-nn)
 5. [Árvores de decisão](#árvores-de-decisão)
 6. [Random Forest](#random-forest)
@@ -269,7 +269,7 @@ No futuro, pretendo colocar a descrição todos a seguir
 
 ### Algoritmos de aprendizado não supervisionado
 
-1. [k-means](#k-means)🟩
+1. [k-means](#k-means)
 2. [Clustering hierárquico](#clustering-hierárquico)
 3. [DBSCAN](#dbscan)
 4. [Modelo de Mistura Gaussiana (GMM)](#modelo-de-mistura-gaussiana-gmm)
@@ -302,8 +302,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 
 ### Algoritmos de processamento de linguagem natural (NLP)
 
-1. [TF-IDF](#tf-idf)🟩?
-2. [Word2Vec](#word2vec)🟩?
+1. [TF-IDF](#tf-idf)
+2. [Word2Vec](#word2vec)
 3. [GloVe](#glove)
 4. [FastText](#fasttext)
 5. [BERT](#bert)
@@ -1422,261 +1422,266 @@ Este problema afeta uma vasta gama de indivíduos e instituições, incluindo pa
 
 # Descrições dos algoritmos
 ## TF-IDF
-Descrição técnica e O que faz:
+
+### Descrição técnica e O que faz:
 
 TF-IDF é a abreviação de "Term Frequency-Inverse Document Frequency". É um algoritmo estatístico usado para determinar a importância de uma palavra em um documento em relação a um corpus de documentos.
 
-    A frequência do termo (TF) é a quantidade de vezes que uma palavra aparece em um documento. Essa medida sozinha não é muito útil, pois palavras comuns como "a", "é" ou "os" aparecerão muitas vezes em muitos documentos.
+- A **frequência do termo (TF)** é a quantidade de vezes que uma palavra aparece em um documento. Essa medida sozinha não é muito útil, pois palavras comuns como "a", "é" ou "os" aparecerão muitas vezes em muitos documentos.
 
-    A frequência inversa de documentos (IDF) é uma medida de quão importante é uma palavra no corpus de documentos. Isso é calculado pegando o logaritmo do número total de documentos dividido pelo número de documentos que contêm a palavra. Assim, palavras que aparecem em muitos documentos terão um IDF baixo e palavras que aparecem em poucos documentos terão um IDF alto.
+- A **frequência inversa de documentos (IDF)** é uma medida de quão importante é uma palavra no corpus de documentos. Isso é calculado pegando o logaritmo do número total de documentos dividido pelo número de documentos que contêm a palavra. Assim, palavras que aparecem em muitos documentos terão um IDF baixo e palavras que aparecem em poucos documentos terão um IDF alto.
 
 O produto de TF e IDF dá uma medida da importância relativa de uma palavra em um documento e em todo o corpus.
 
-Suposições feitas pelo algoritmo:
+### Suposições feitas pelo algoritmo:
 
 O TF-IDF assume que as palavras que aparecem frequentemente em um documento, mas não em todo o corpus, são importantes para entender o conteúdo do documento. Além disso, assume que os documentos são independentes uns dos outros.
 
-Como o algoritmo lida com diferentes tipos de dados:
+### Como o algoritmo lida com diferentes tipos de dados:
 
 TF-IDF é usado principalmente para dados de texto. Ele não lida diretamente com dados numéricos, categóricos ou de outro tipo.
 
-Onde é mais aplicado:
+### Onde é mais aplicado:
 
 As aplicações comuns do TF-IDF incluem:
 
-    Sistemas de Recomendação: O TF-IDF pode ser usado para recomendar conteúdo semelhante com base em palavras-chave.
-    Mecanismos de Pesquisa: TF-IDF é usado para classificar documentos por relevância em uma consulta de pesquisa.
-    Análise de Sentimento: pode ser usado em combinação com outros algoritmos para entender o sentimento por trás de textos.
+- **Sistemas de Recomendação**: O TF-IDF pode ser usado para recomendar conteúdo semelhante com base em palavras-chave.
+- **Mecanismos de Pesquisa**: TF-IDF é usado para classificar documentos por relevância em uma consulta de pesquisa.
+- **Análise de Sentimento**: pode ser usado em combinação com outros algoritmos para entender o sentimento por trás de textos.
 
-Quando e Por que usar:
+### Quando e Por que usar:
 
 Use TF-IDF quando quiser entender a importância de palavras específicas em documentos em um corpus. Por exemplo, você pode usar TF-IDF para entender quais palavras são particularmente importantes em críticas negativas em comparação com críticas positivas.
 
-Como usar:
+### Como usar:
 
 Em Python, a biblioteca Scikit-Learn tem uma classe TfidfVectorizer que facilita o cálculo do TF-IDF. Basicamente, você precisa fornecer uma lista de documentos e o TfidfVectorizer retornará uma matriz de recursos onde cada linha representa um documento e cada coluna representa uma palavra no corpus.
 
-Parâmetros do algoritmo:
+### Parâmetros do algoritmo:
 
 Os principais parâmetros do TfidfVectorizer no Scikit-Learn são:
 
-    max_df: Quando a construção do vocabulário, ignore termos que têm uma frequência de documento estritamente maior que o limite fornecido.
-    min_df: Quando a construção do vocabulário, ignore termos que têm uma frequência de documento estritamente inferior ao limite fornecido.
-    use_idf: Permitir usar a reponderação de frequência inversa de documentos.
-    smooth_idf: Suaviza os pesos do IDF adicionando um ao numerador e denominador, como se um documento extra contendo todas as palavras do vocabulário fosse visto uma vez.
+- **max_df**: Quando a construção do vocabulário, ignore termos que têm uma frequência de documento estritamente maior que o limite fornecido.
+- **min_df**: Quando a construção do vocabulário, ignore termos que têm uma frequência de documento estritamente inferior ao limite fornecido.
+- **use_idf**: Permitir usar a reponderação de frequência inversa de documentos.
+- **smooth_idf**: Suaviza os pesos do IDF adicionando um ao numerador e denominador, como se um documento extra contendo todas as palavras do vocabulário fosse visto uma vez.
 
-Tratamento de dados faltantes e outliers:
+### Tratamento de dados faltantes e outliers:
 
 TF-IDF não lida diretamente com dados faltantes ou outliers, pois é baseado em dados de texto. Porém, em caso de dados faltantes, podem ser tomadas medidas apropriadas para preenchê-los ou ignorá-los antes de aplicar TF-IDF.
 
-Sensibilidade à escala dos dados:
+### Sensibilidade à escala dos dados:
 
 Não é relevante para o TF-IDF, pois ele opera em dados de texto.
 
-Propensão a overfitting ou underfitting:
+### Propensão a overfitting ou underfitting:
 
 Por si só, o TF-IDF não é propenso a overfitting ou underfitting. No entanto, dependendo do modelo subsequente em que os recursos do TF-IDF são usados, podem surgir problemas de sobreajuste ou subajuste.
 
-Complexidade computacional:
+### Complexidade computacional:
 
 A complexidade computacional para calcular TF-IDF é O(n), onde n é o número de documentos. No entanto, o espaço necessário para armazenar a matriz de recursos pode ser bastante grande se o corpus de documentos for grande.
 
-Interpretabilidade do modelo:
+### Interpretabilidade do modelo:
 
 TF-IDF é altamente interpretável. Para cada documento, você obtém uma lista de palavras e a importância de cada palavra (pontuação TF-IDF) naquele documento.
 
-Validação ou Avaliação do algoritmo:
+### Validação ou Avaliação do algoritmo:
 
 A avaliação do TF-IDF depende de como você está usando as características do TF-IDF. Por exemplo, se você está usando TF-IDF para classificação de texto, você pode avaliar o desempenho do classificador usando métricas como precisão, revocação, F1-score, AUC-ROC, etc.
 
-Recursos necessários:
+### Recursos necessários:
 
 O custo para aplicar o TF-IDF é baixo. Ele requer poder computacional razoável e memória para armazenar a matriz de recursos.
 
-Diferencial:
+### Diferencial:
 
 Diferente de outros métodos como a contagem de palavras (Bag of Words), o TF-IDF também considera a importância das palavras, não apenas a frequência, o que o torna útil para identificar palavras-chave em cada documento.
 
-Vantagens:
+### Vantagens:
 
-    Fácil de entender e implementar.
-    Pode lidar com grandes volumes de texto.
-    Identifica a importância das palavras, não apenas a frequência.
+- Fácil de entender e implementar.
+- Pode lidar com grandes volumes de texto.
+- Identifica a importância das palavras, não apenas a frequência.
 
-Desvantagens:
+### Desvantagens:
 
-    Não leva em conta a ordem das palavras ou o contexto em que são usadas.
-    O espaço necessário para armazenar a matriz de recursos pode ser grande para grandes corpora de documentos.
-Pipeline de execução do algoritmo
+- Não leva em conta a ordem das palavras ou o contexto em que são usadas.
+- O espaço necessário para armazenar a matriz de recursos pode ser grande para grandes corpora de documentos.
 
-    Crie um corpus de documentos.
-    Calcule a frequência do termo (TF) e a frequência inversa do documento (IDF).
-    Multiplique TF e IDF para obter TF-IDF.
-    Use os pesos TF-IDF como recursos para modelos de aprendizado de máquina subsequentes.
+### Pipeline de execução do algoritmo:
+
+1. Crie um corpus de documentos.
+2. Calcule a frequência do termo (TF) e a frequência inversa do documento (IDF).
+3. Multiplique TF e IDF para obter TF-IDF.
+4. Use os pesos TF-IDF como recursos para modelos de aprendizado de máquina subsequentes.
 
 ## Word2Vec
-Descrição técnica e O que faz
 
+### Descrição técnica e O que faz
 Word2Vec é um algoritmo popular de aprendizado de máquina usado para aprender vetores de palavras, um tipo de representação de texto. O algoritmo aprende vetores de palavras de forma que palavras que compartilham contextos semânticos e sintáticos semelhantes estão próximas umas das outras no espaço vetorial.
 
 Word2Vec usa uma rede neural de duas camadas para aprender a representação vetorial. A entrada para a rede é uma representação one-hot da palavra e a saída é uma representação vetorial densa da palavra. Word2Vec tem duas variantes: Skip-Gram e Continuous Bag of Words (CBOW).
 
-Quais são as suposições feitas pelo algoritmo?
-
+### Quais são as suposições feitas pelo algoritmo?
 A principal suposição feita pelo Word2Vec é a hipótese distributiva, que afirma que palavras que ocorrem no mesmo contexto tendem a ter significados semelhantes.
 
-Como o algoritmo lida com diferentes tipos de dados (numéricos, categóricos, textuais, etc.)?
-
+### Como o algoritmo lida com diferentes tipos de dados (numéricos, categóricos, textuais, etc.)?
 O Word2Vec lida principalmente com dados textuais. Ele não é projetado para lidar diretamente com dados numéricos ou categóricos. Cada palavra no corpus é tratada como uma unidade distinta.
 
-Onde é mais aplicado (Exemplos de aplicações mais usadas)
-
+### Onde é mais aplicado (Exemplos de aplicações mais usadas)
 Word2Vec é amplamente usado em muitas tarefas de processamento de linguagem natural (NLP), como análise de sentimento, tradução automática, detecção de entidades nomeadas, geração de texto e sistemas de recomendação baseados em conteúdo.
 
-Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?)
-
+### Quando usar (Quando eu estiver sobre quais situações deverei usar este algoritmo?)
 Você deve considerar o uso do Word2Vec quando quiser extrair características de palavras para tarefas de NLP ou quando quiser entender a semântica das palavras em um corpus de texto.
 
-Por que usar
-
+### Por que usar
 O Word2Vec é útil porque aprende representações vetoriais de palavras que capturam a semântica das palavras. Além disso, como a representação aprendida é densa, ela pode ser usada para alimentar outros algoritmos de aprendizado de máquina que podem não funcionar bem com representações esparsas.
 
-Como usar
-
+### Como usar
 Para usar o Word2Vec, você precisa ter um corpus de texto. Você precisa pré-processar o texto (por exemplo, remover pontuação, converter para minúsculas, etc.) e depois alimentá-lo para o algoritmo. Existem várias implementações do Word2Vec disponíveis, como a implementação em Python na biblioteca gensim.
 
-Quais parâmetros o algoritmo tem e como eles afetam o resultado?
-
+### Quais parâmetros o algoritmo tem e como eles afetam o resultado?
 Alguns dos principais parâmetros no Word2Vec incluem o tamanho da janela, que determina o número de palavras antes e depois da palavra atual que devem ser consideradas como contexto; o tamanho do vetor, que determina a dimensionalidade dos vetores de palavra aprendidos; e o número mínimo de ocorrências de palavras, que determina se uma palavra deve ser incluída no vocabulário.
 
-Como o algoritmo lida com dados faltantes ou outliers?
-
+### Como o algoritmo lida com dados faltantes ou outliers?
 Word2Vec não lida diretamente com dados faltantes ou outliers, pois é esperado que o corpus de entrada seja um conjunto completo de sentenças ou documentos.
 
-O algoritmo é sensível à escala dos dados?
-
+### O algoritmo é sensível à escala dos dados?
 Não se aplica ao Word2Vec, pois ele lida com dados textuais e não com dados numéricos.
 
-O algoritmo é propenso a overfitting ou underfitting?
-
+### O algoritmo é propenso a overfitting ou underfitting?
 Word2Vec pode ser propenso a overfitting se o tamanho do vetor for muito grande em relação ao tamanho do corpus. Underfitting pode ocorrer se o tamanho do vetor for muito pequeno.
 
-Qual é a complexidade computacional do algoritmo?
-
+### Qual é a complexidade computacional do algoritmo?
 A complexidade computacional do Word2Vec é proporcional ao número de palavras no corpus, ao tamanho do vetor e ao tamanho da janela.
 
-Qual é a interpretabilidade do modelo?
-
+### Qual é a interpretabilidade do modelo?
 Os vetores de palavras aprendidos pelo Word2Vec podem ser difíceis de interpretar diretamente, mas a semântica e a sintaxe das palavras podem ser inferidas com base em suas relações vetoriais.
 
-Como o algoritmo pode ser validado ou avaliado? Quais métricas de desempenho são mais relevantes para este algoritmo?
-
+### Como o algoritmo pode ser validado ou avaliado? Quais métricas de desempenho são mais relevantes para este algoritmo?
 A validação do Word2Vec é geralmente feita usando tarefas de avaliação extrínsecas, como análise de sentimento ou classificação de texto, ou usando tarefas de avaliação intrínsecas, como analogia de palavras.
 
-Recursos necessários (custos para aplicar)
-
+### Recursos necessários (custos para aplicar)
 O Word2Vec pode ser computacionalmente intensivo para grandes corpora e altas dimensões de vetores.
 
-Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este)
-
+### Diferencial (quais são todas as diferenças entre este modelo de algoritmo para algoritmos com objetivos ou métodos similares a este)
 A diferença principal do Word2Vec para outras técnicas de vetorização de palavras, como TF-IDF ou one-hot encoding, é que Word2Vec leva em consideração o contexto da palavra, permitindo assim capturar semântica e similaridade entre palavras.
 
-Vantagens
+### Vantagens
+* Captura semântica e similaridade de palavras.
+* Produz vetores densos, que são mais eficientes em termos de armazenamento e computação.
 
-    Captura semântica e similaridade de palavras.
-    Produz vetores densos, que são mais eficientes em termos de armazenamento e computação.
+### Desvantagens
+* Não leva em consideração a ordem das palavras.
+* Pode ser computacionalmente intensivo para grandes corpora e altas dimensões de vetores.
 
-Desvantagens
-
-    Não leva em consideração a ordem das palavras.
-    Pode ser computacionalmente intensivo para grandes corpora e altas dimensões de vetores.
-
-Pipeline de execução do algoritmo
-
-    Pré-processamento de texto: remova a pontuação, converta para minúsculas, remova as palavras de parada, etc.
-    Treinamento do modelo Word2Vec no corpus.
-    Extração dos vetores de palavras para uso em outras tarefas ou análise.
-
+### Pipeline de execução do algoritmo
+1. Pré-processamento de texto: remova a pontuação, converta para minúsculas, remova as palavras de parada, etc.
+2. Treinamento do modelo Word2Vec no corpus.
+3. Extração dos vetores de palavras para uso em outras tarefas ou análise.
 
 ## Transformer
 
-
 ## Máquinas de Vetores de Suporte (SVM)
-Descrição técnica
+
+### Descrição técnica
+
 Máquinas de Vetores de Suporte (SVMs, do inglês Support Vector Machines) são uma classe de algoritmos de aprendizado supervisionado usados para classificação e regressão. A ideia central é construir um hiperplano ou conjunto de hiperplanos num espaço de alta (ou infinita) dimensão, que pode ser usado para classificação, regressão ou outras tarefas. Intuitivamente, um bom hiperplano de separação é aquele que tem a maior distância até a instância de treinamento mais próxima de qualquer classe (o chamado margem funcional), uma vez que em geral, quanto maior a margem, menor o erro de generalização do classificador.
-<br><br>
-O que faz
+
+### O que faz
+
 O algoritmo SVM classifica os dados encontrando o hiperplano que maximiza a margem entre as classes no conjunto de dados de treinamento. O "suporte de vetores" no nome vem dos pontos de dados de treinamento que o hiperplano se apoia, que são também chamados de vetores de suporte.
-Quais são as suposições feitas pelo algoritmo?
-<br><br>
+
+### Quais são as suposições feitas pelo algoritmo?
+
 O algoritmo SVM faz algumas suposições:
-    Os dados são linearmente separáveis: Na sua forma básica, o SVM assume que os dados são linearmente separáveis no espaço de características. Para os dados que não são linearmente separáveis, usamos o chamado truque do kernel para mapear os dados para um espaço de características de maior dimensão onde eles são linearmente separáveis.
-    Os dados são limpos: O SVM é sensível à presença de ruídos e outliers nos dados. Assim, é assumido que os dados são limpos e sem muitos outliers.
-<br><br>
-Como o algoritmo lida com diferentes tipos de dados (numéricos, categóricos, textuais, etc.)?
+
+- Os dados são linearmente separáveis: Na sua forma básica, o SVM assume que os dados são linearmente separáveis no espaço de características. Para os dados que não são linearmente separáveis, usamos o chamado truque do kernel para mapear os dados para um espaço de características de maior dimensão onde eles são linearmente separáveis.
+- Os dados são limpos: O SVM é sensível à presença de ruídos e outliers nos dados. Assim, é assumido que os dados são limpos e sem muitos outliers.
+
+### Como o algoritmo lida com diferentes tipos de dados (numéricos, categóricos, textuais, etc.)?
+
 Os SVMs são tipicamente usados com dados numéricos. Se você tem dados categóricos, eles devem ser convertidos em numéricos usando técnicas como codificação one-hot. Para dados de texto, uma abordagem comum é usar a representação TF-IDF (Frequência do Termo-Inversa da Frequência do Documento) dos textos para converter o texto em uma representação numérica.
-<br><br>
-Onde é mais aplicado (Exemplos de aplicações mais usadas)
+
+### Onde é mais aplicado (Exemplos de aplicações mais usadas)
+
 O SVM tem sido usado em uma variedade de aplicações, incluindo:
-    Reconhecimento de imagem: SVMs têm sido usados para categorizar imagens, detectar rostos, reconhecer escrita à mão, etc.
-    Classificação de texto e hipertexto: SVMs têm sido usados para detectar spam, categorizar notícias, classificar opiniões, etc.
-    Bioinformática: SVMs têm sido usados para classificar proteínas, predizer doenças, etc.
-    Quando usar
+
+- Reconhecimento de imagem: SVMs têm sido usados para categorizar imagens, detectar rostos, reconhecer escrita à mão, etc.
+- Classificação de texto e hipertexto: SVMs têm sido usados para detectar spam, categorizar notícias, classificar opiniões, etc.
+- Bioinformática: SVMs têm sido usados para classificar proteínas, predizer doenças, etc.
+
+### Quando usar
 
 SVMs são uma boa escolha quando se tem um conjunto de dados de médio porte e existe uma separação clara ou quase clara entre as classes. Eles também funcionam bem para problemas de classificação binária e multiclasse.
 
-Por que usar
+### Por que usar
+
 SVMs são eficazes em espaços de alta dimensão e são eficientes em termos de memória. Além disso, eles são versáteis graças à possibilidade de usar diferentes funções de kernel.
 
-Como usar
+### Como usar
+
 Em Python, por exemplo, você pode usar a biblioteca Scikit-learn para treinar um modelo SVM. Primeiro, você precisaria importar o modelo SVM, ajustar seus dados de treinamento e, em seguida, fazer previsões com seus dados de teste.
 
-Parâmetros
+### Parâmetros
+
 Os principais parâmetros do SVM incluem o tipo de kernel (linear, polinomial, RBF, sigmoid, etc.), o parâmetro C (que determina o trade-off entre ter uma margem de decisão larga e minimizar as classificações errôneas) e o parâmetro γ (que define a influência de um único exemplo de treinamento - quanto maior o valor de γ, mais próximo outros exemplos devem estar para serem afetados).
 
-Dados faltantes ou outliers
+### Dados faltantes ou outliers
+
 O SVM não lida diretamente com dados faltantes, então esses valores precisam ser imputados ou removidos antes de treinar o modelo. O SVM é razoavelmente robusto a outliers, especialmente se a margem de erro for ajustada corretamente.
 
-Sensibilidade à escala dos dados
+### Sensibilidade à escala dos dados
+
 O SVM é sensível à escala dos dados. Portanto, antes de treinar o modelo, é recomendável normalizar ou padronizar os dados.
 
-Overfitting ou underfitting
+### Overfitting ou underfitting
+
 O SVM pode sofrer de overfitting se o parâmetro C for muito grande, o que resulta em um hiperplano de decisão muito complexo. Por outro lado, um C muito pequeno pode causar underfitting. A escolha apropriada do kernel e seus parâmetros também pode afetar a propensão ao overfitting e underfitting.
 
-Complexidade computacional
+### Complexidade computacional
+
 O tempo de treinamento do SVM é geralmente entre O(n²) e O(n³), onde n é o número de amostras. Portanto, para conjuntos de dados muito grandes, o treinamento pode ser computacionalmente caro.
 
-Interpretabilidade do modelo
+### Interpretabilidade do modelo
+
 Os modelos SVM geralmente não são muito interpretáveis. Embora se possa ver quais vetores de suporte são mais importantes na decisão, não é fácil entender a relação entre as características e a classificação.
 
-Validação e avaliação
+### Validação e avaliação
+
 A validação e avaliação do modelo podem ser feitas com métodos padrões de aprendizado de máquina, como a validação cruzada. Métricas como acurácia, precisão, recall, F1-score, e a área sob a curva ROC podem ser usadas.
 
-Recursos necessários
+### Recursos necessários
+
 Os recursos necessários dependem do tamanho do conjunto de dados. O SVM pode requerer uma quantidade significativa de memória e tempo de processamento para conjuntos de dados grandes.
 
-Diferenciais
+### Diferenciais
+
 A principal diferença do SVM para outros algoritmos é o truque do kernel, que permite resolver problemas complexos e não lineares. Além disso, diferente de outros algoritmos como a regressão logística, o SVM se concentra apenas nos pontos mais difíceis de classificar, os chamados vetores de suporte.
 
-Vantagens
-    Eficaz em espaços de alta dimensão.
-    Versátil com diferentes funções de kernel.
-    Robusto contra outliers.
-    Maximiza a margem, o que pode resultar em modelos melhores.
+### Vantagens
 
-Desvantagens
-    Pode ser sensível à escolha do kernel e aos parâmetros.
-    Não é diretamente aplicável a dados categóricos.
-    O tempo de treinamento pode ser longo para grandes conjuntos de dados.
-    Não fornece estimativas de probabilidade diretamente.
+- Eficaz em espaços de alta dimensão.
+- Versátil com diferentes funções de kernel.
+- Robusto contra outliers.
+- Maximiza a margem, o que pode resultar em modelos melhores.
 
-Pipeline de execução do algoritmo
-    Pré-processamento dos dados (lidar com dados faltantes, normalização/padronização, codificação de variáveis categóricas).
-    Escolha do kernel e parâmetros.
-    Treinamento do modelo com os dados de treinamento.
-    Avaliação do modelo com os dados de teste.
-    Ajuste dos parâmetros, se necessário.
-    Previsão com novos dados.
+### Desvantagens
+
+- Pode ser sensível à escolha do kernel e aos parâmetros.
+- Não é diretamente aplicável a dados categóricos.
+- O tempo de treinamento pode ser longo para grandes conjuntos de dados.
+- Não fornece estimativas de probabilidade diretamente.
+
+### Pipeline de execução do algoritmo
+
+- Pré-processamento dos dados (lidar com dados faltantes, normalização/padronização, codificação de variáveis categóricas).
+- Escolha do kernel e parâmetros.
+- Treinamento do modelo com os dados de treinamento.
+- Avaliação do modelo com os dados de teste.
+- Ajuste dos parâmetros, se necessário.
+- Previsão com novos dados.
 
 
 
