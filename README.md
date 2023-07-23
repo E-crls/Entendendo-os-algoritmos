@@ -357,6 +357,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 
 ## Todos os algoritmos 
 
+> Abaixo é feita uma descrição muito breve sobre cada algoritmo
+ 
 ### Algoritmos de aprendizado supervisionado
 
 - **Regressão Linear**: Modelo simples de aprendizado supervisionado para prever uma variável contínua a partir de uma ou mais variáveis independentes. 
