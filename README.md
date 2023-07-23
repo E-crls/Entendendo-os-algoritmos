@@ -140,7 +140,8 @@ No futuro, pretendo colocar a descrição todos a seguir
 9. [Algoritmos de redução de dimensionalidade](#algoritmos-de-redução-de-dimensionalidade)
 10. [Algoritmos de análise de redes e grafos](#algoritmos-de-análise-de-redes-e-grafos)
 
-### Todos os algoritmos
+<!-- ### Todos os algoritmos
+
 1. [Algoritmos de aprendizado supervisionado](#algoritmos-de-aprendizado-supervisionado)
 2. [Algoritmos de aprendizado não supervisionado](#algoritmos-de-aprendizado-não-supervisionado)
 3. [Algoritmos de aprendizado por reforço](#algoritmos-de-aprendizado-por-reforço)
@@ -151,7 +152,7 @@ No futuro, pretendo colocar a descrição todos a seguir
 8. [Algoritmos de detecção de anomalias](#algoritmos-de-detecção-de-anomalias)
 9. [Algoritmos de redução de dimensionalidade](#algoritmos-de-redução-de-dimensionalidade)
 10. [Simulação e modelagem de cenários](#simulação-e-modelagem-de-cenários)
-
+-->
 
 # Problemas que Data Science tenta resolver (E suas possíveis soluções)
 ## Negócios e Economia
