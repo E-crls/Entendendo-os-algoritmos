@@ -4,6 +4,7 @@
   </a>
   <h1 align="center">O guia para te ajudar a entender melhor data science</h1>
 </p>
+>https://linktr.ee/rson_data
 
 > Este repositório possui como objetivo ajudar no entendimento da aplicação da área de Data Science e como ela funciona
 ## Por que o repositório existe
