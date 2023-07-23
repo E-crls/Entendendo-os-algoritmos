@@ -1249,37 +1249,43 @@ O valor gerado ao usar cada um desses algoritmos inclui:
 
 [Índice](#Índice)
 
-## Prever mudanças climáticas
+# O problema de prever mudanças climáticas
+
 O problema de prever mudanças climáticas pode ser dividido em vários tópicos, incluindo:
-        Previsão da temperatura global: Estimação de tendências de aquecimento ou resfriamento global.
-        Modelagem de padrões climáticos: Previsão de padrões climáticos, como chuvas, secas, ondas de calor, etc.
-        Previsão do nível do mar: Prever o aumento do nível do mar devido ao derretimento das calotas polares.
-        Previsão de eventos extremos: Prever tempestades, furacões, inundações e outros eventos climáticos extremos.
-<br>
-As mudanças climáticas afetam praticamente todos os seres vivos no planeta. As pessoas, em particular, são afetadas em muitas maneiras, incluindo saúde, economia, segurança alimentar, e moradia.
-<br>
-    As mudanças climáticas podem afetar as pessoas de várias maneiras. Os eventos climáticos extremos podem causar danos materiais e perda de vida. As mudanças na temperatura podem afetar a saúde das pessoas, causando ondas de calor ou frio extremo. As mudanças na precipitação podem afetar a disponibilidade de água e a produção de alimentos.
-<br>
-    Os prejuízos causados pelas mudanças climáticas são enormes. Eles incluem danos a propriedades e infraestruturas devido a eventos climáticos extremos, perda de biodiversidade, problemas de saúde e até mesmo a deslocação de populações devido à elevação do nível do mar.
-<br>
-    Ao analisar o problema das mudanças climáticas, vários fatores devem ser levados em conta. Isso inclui dados históricos sobre o clima, os modelos climáticos existentes, as emissões de gases de efeito estufa, a cobertura do solo e a vegetação, entre outros.
-<br>
-    A área de Data Science tenta entender o problema das mudanças climáticas através da coleta, processamento e análise de grandes quantidades de dados climáticos. Isso inclui dados de temperatura, precipitação, pressão atmosférica, direção e velocidade do vento, etc. Através da análise desses dados, os cientistas de dados podem identificar tendências, padrões e anomalias que podem indicar mudanças climáticas.
-<br>
-    Vários algoritmos de Data Science são usados para resolver o problema das mudanças climáticas. Isso inclui algoritmos de aprendizado de máquina, como regressão linear e logística, árvores de decisão, florestas aleatórias, máquinas de vetores de suporte (SVMs), redes neurais e algoritmos de agrupamento, como K-means.
-<br>
-    Esses algoritmos podem resolver o problema ao modelar a relação entre diferentes variáveis climáticas e prever futuras mudanças com base nesses modelos. Por exemplo, um algoritmo de regressão pode ser usado para modelar a relação entre emissões de gases de efeito estufa e a temperatura global, e então usar esse modelo para prever futuras temperaturas com base nas emissões previstas.
-<br>
-Habilidade de fazer previsões mais precisas. Isso pode ajudar os governos a implantar políticas climáticas mais eficazes, permitir que as comunidades se preparem para as mudanças climáticas e identificar áreas onde se pode potencialmente reverter alguns dos efeitos das mudanças climáticas​1​.
-<br>
+
+- **Previsão da temperatura global:** Estimação de tendências de aquecimento ou resfriamento global.
+- **Modelagem de padrões climáticos:** Previsão de padrões climáticos, como chuvas, secas, ondas de calor, etc.
+- **Previsão do nível do mar:** Prever o aumento do nível do mar devido ao derretimento das calotas polares.
+- **Previsão de eventos extremos:** Prever tempestades, furacões, inundações e outros eventos climáticos extremos.
+
+## Impacto das mudanças climáticas
+
+As mudanças climáticas afetam praticamente todos os seres vivos no planeta. As pessoas, em particular, são afetadas em muitas maneiras, incluindo saúde, economia, segurança alimentar, e moradia. 
+
+As mudanças climáticas podem afetar as pessoas de várias maneiras. Os eventos climáticos extremos podem causar danos materiais e perda de vida. As mudanças na temperatura podem afetar a saúde das pessoas, causando ondas de calor ou frio extremo. As mudanças na precipitação podem afetar a disponibilidade de água e a produção de alimentos.
+
+Os prejuízos causados pelas mudanças climáticas são enormes. Eles incluem danos a propriedades e infraestruturas devido a eventos climáticos extremos, perda de biodiversidade, problemas de saúde e até mesmo a deslocação de populações devido à elevação do nível do mar.
+
+## Análise do problema das mudanças climáticas
+
+Ao analisar o problema das mudanças climáticas, vários fatores devem ser levados em conta. Isso inclui dados históricos sobre o clima, os modelos climáticos existentes, as emissões de gases de efeito estufa, a cobertura do solo e a vegetação, entre outros.
+
+A área de Data Science tenta entender o problema das mudanças climáticas através da coleta, processamento e análise de grandes quantidades de dados climáticos. Isso inclui dados de temperatura, precipitação, pressão atmosférica, direção e velocidade do vento, etc. Através da análise desses dados, os cientistas de dados podem identificar tendências, padrões e anomalias que podem indicar mudanças climáticas.
+
+Vários algoritmos de Data Science são usados para resolver o problema das mudanças climáticas. Isso inclui algoritmos de aprendizado de máquina, como regressão linear e logística, árvores de decisão, florestas aleatórias, máquinas de vetores de suporte (SVMs), redes neurais e algoritmos de agrupamento, como K-means.
+
+Esses algoritmos podem resolver o problema ao modelar a relação entre diferentes variáveis climáticas e prever futuras mudanças com base nesses modelos. Por exemplo, um algoritmo de regressão pode ser usado para modelar a relação entre emissões de gases de efeito estufa e a temperatura global, e então usar esse modelo para prever futuras temperaturas com base nas emissões previstas.
+
+## Aplicações de data science na previsão de mudanças climáticas
+
 Especificamente, aqui estão algumas aplicações de data science na previsão de mudanças climáticas:
-    Melhoria de modelos climáticos: A aprendizagem de máquina pode ajudar a criar modelos climáticos mais precisos, que podem prever eventos extremos como ciclones, reconstruir condições climáticas passadas e fazer previsões meteorológicas hiperlocalizadas. Um exemplo disso é o uso de algoritmos de aprendizado de máquina para combinar as previsões de cerca de 30 modelos climáticos utilizados pelo Painel Intergovernamental sobre Mudanças Climáticas (IPCC).
-<br>
-    Demonstração dos efeitos dos extremos meteorológicos: Pesquisadores estão usando GANs (Generative Adversarial Networks), um tipo de algoritmo de aprendizado de máquina, para simular como as casas podem ficar após os danos causados pelo aumento do nível do mar e por tempestades mais intensas. Isso pode ajudar a aumentar a conscientização sobre os impactos das mudanças climáticas.
-<br>
-    Avaliação da origem do carbono: Organizações estão usando data science para monitorar as emissões de usinas de carvão através de imagens de satélite. Os dados coletados podem ser usados para convencer o setor financeiro de que as usinas de carvão não são lucrativas, o que pode ajudar a reduzir as emissões de gases de efeito estufa​5​.
-<br>
+
+- **Melhoria de modelos climáticos:** A aprendizagem de máquina pode ajudar a criar modelos climáticos mais precisos, que podem prever eventos extremos como ciclones, reconstruir condições climáticas passadas e fazer previsões meteorológicas hiperlocalizadas. Um exemplo disso é o uso de algoritmos de aprendizado de máquina para combinar as previsões de cerca de 30 modelos climáticos utilizados pelo Painel Intergovernamental sobre Mudanças Climáticas (IPCC).
+- **Demonstração dos efeitos dos extremos meteorológicos:** Pesquisadores estão usando GANs (Generative Adversarial Networks), um tipo de algoritmo de aprendizado de máquina, para simular como as casas podem ficar após os danos causados pelo aumento do nível do mar e por tempestades mais intensas. Isso pode ajudar a aumentar a conscientização sobre os impactos das mudanças climáticas.
+- **Avaliação da origem do carbono:** Organizações estão usando data science para monitorar as emissões de usinas de carvão através de imagens de satélite. Os dados coletados podem ser usados para convencer o setor financeiro de que as usinas de carvão não são lucrativas, o que pode ajudar a reduzir as emissões de gases de efeito estufa.
+
 Cada um desses algoritmos e aplicações traz valor de várias maneiras. Eles podem melhorar nossa compreensão das mudanças climáticas, ajudar a informar políticas públicas, aumentar a conscientização sobre os impactos das mudanças climáticas e até mesmo contribuir para a redução das emissões de gases de efeito estufa. No entanto, é importante notar que, apesar do grande potencial dessas tecnologias, elas são apenas uma parte da solução e não podem resolver o problema das mudanças climáticas por si só.
+
 >[Índice](#Índice)
 ## Antecipar falências empresariais
 O problema de antecipar falências empresariais pode ser dividido em vários tópicos, incluindo:
