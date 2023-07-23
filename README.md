@@ -32,7 +32,7 @@ Cada algoritmo responderá a cada um dos tópicos seguintes, podendo haver outro
 >Desvantagens<br>
 >Pipeline de execução do algoritmo<br>
 
-O projeto ainda está em construção, podem existir muita coisa ainda sem preencher. Você irá perceber que eu me refiro à descrição dos algoritmos. Eu escolhi deixar eles por último (para preencher), pois acredito que entender os conceitos básicos e, principalmente, os problemas que a área de data science tenta resolver devem vir antes com toda a certeza. Mas não se preocupe, existe uma sessão com uma descrição breve sobre cada algoritmo [aqui](#Todos os algoritmos)
+O projeto ainda está em construção, podem existir muita coisa ainda sem preencher. Você irá perceber que eu me refiro à descrição dos algoritmos. Eu escolhi deixar eles por último (para preencher), pois acredito que entender os conceitos básicos e, principalmente, os problemas que a área de data science tenta resolver devem vir antes com toda a certeza. Mas não se preocupe, existe uma sessão com uma descrição breve sobre cada algoritmo [aqui](#Todos-os-algoritmos)
 
 ## Validação das informações
 >Todas as informações aqui apresentadas estão sujeitas a revisões constantes. Portanto, caso identifique algum conteúdo impreciso, sinta-se à vontade para destacá-lo ou sugerir uma correção.
