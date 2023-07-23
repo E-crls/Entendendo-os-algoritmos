@@ -98,7 +98,7 @@ Aqui estão alguns repositórios que podem te mostrar mais coisas interessantes<
 3. [Segurança](#segurança)
 4. [Tecnologia da Informação](#tecnologia-da-informação)
 5. [Agricultura](#agricultura)
-6. [Ciências Sociais](#ciências-sociais)
+<!-- 6. [Ciências Sociais](#ciências-sociais)
 7. [Mídia e Entretenimento](#mídia-e-entretenimento)
 <!--
 No futuro, pretendo colocar a descrição todos a seguir
@@ -165,7 +165,7 @@ No futuro, pretendo colocar a descrição todos a seguir
 - [Melhorar tratamentos médicos](#melhorar-tratamentos-médicos)
 - [Interpretar imagens médicas](#interpretar-imagens-médicas)
 - [Gerenciar recursos hospitalares](#gerenciar-recursos-hospitalares)
-## Ciências Sociais
+<!--## Ciências Sociais
 - [Monitorar sentimentos e opiniões públicas](#monitorar-sentimentos-e-opiniões-públicas)
 - [Prever resultados eleitorais](#prever-resultados-eleitorais)
 - [Avaliar o impacto das políticas públicas](#avaliar-o-impacto-das-políticas-públicas)
@@ -174,12 +174,12 @@ No futuro, pretendo colocar a descrição todos a seguir
 - [Aprimorar processos de fabricação](#aprimorar-processos-de-fabricação)
 - [Detectar falhas em equipamentos](#detectar-falhas-em-equipamentos)
 - [Planejar manutenção preventiva](#planejar-manutenção-preventiva)
-- [Desenvolver e aprimorar produtos](#desenvolver-e-aprimorar-produtos)
+- [Desenvolver e aprimorar produtos](#desenvolver-e-aprimorar-produtos)-->
 ## Ciência Ambiental
 - [Prever mudanças climáticas](#prever-mudanças-climáticas)🟩?
 - [Modelar a dinâmica populacional de espécies](#modelar-a-dinâmica-populacional-de-espécies)🟩?
 - [Antecipar desastres naturais](#antecipar-desastres-naturais)🟩?
-## Educação
+<!--## Educação
 - [Prever desempenho acadêmico](#prever-desempenho-acadêmico)
 - [Avaliar a eficácia dos métodos de ensino](#avaliar-a-eficácia-dos-métodos-de-ensino)
 - [Identificar estudantes em risco de evasão](#identificar-estudantes-em-risco-de-evasão)
@@ -189,19 +189,19 @@ No futuro, pretendo colocar a descrição todos a seguir
 - [Planejar e gerenciar frotas de veículos](#planejar-e-gerenciar-frotas-de-veículos)
 ## Energia
 - [Prever a demanda por energia](#prever-a-demanda-por-energia)
-- [Maximizar a produção de energia renovável](#maximizar-a-produção-de-energia-renovável)
+- [Maximizar a produção de energia renovável](#maximizar-a-produção-de-energia-renovável)-->
 ## Segurança
 - [Analisar padrões de atividade criminosa](#analisar-padrões-de-atividade-criminosa)
 - [Detectar atividades suspeitas](#detectar-atividades-suspeitas)
 - [Prevenir ataques cibernéticos](#prevenir-ataques-cibernéticos)
-## Marketing
+<!--## Marketing
 - [Segmentar o público-alvo](#segmentar-o-público-alvo)
 - [Avaliar a eficácia das campanhas de marketing](#avaliar-a-eficácia-das-campanhas-de-marketing)
 - [Recomendar produtos aos clientes](#recomendar-produtos-aos-clientes)
 ## Finanças
 - [Avaliar riscos de crédito](#avaliar-riscos-de-crédito)
 - [Prever movimentos do mercado de ações](#prever-movimentos-do-mercado-de-ações)
-- [Otimizar portfólios de investimento](#otimizar-portfólios-de-investimento)
+- [Otimizar portfólios de investimento](#otimizar-portfólios-de-investimento)-->
 ## Tecnologia da Informação
 - [Gerenciar grandes volumes de dados](#gerenciar-grandes-volumes-de-dados)
 - [Analisar registros de servidores](#analisar-registros-de-servidores)
@@ -210,7 +210,7 @@ No futuro, pretendo colocar a descrição todos a seguir
 - [Maximizar a produção agrícola](#maximizar-a-produção-agrícola)
 - [Antecipar doenças em plantações](#antecipar-doenças-em-plantações)
 - [Monitorar condições de cultivo](#monitorar-condições-de-cultivo)
-## Varejo
+<!--## Varejo
 - [Otimizar a gestão de estoques](#otimizar-a-gestão-de-estoques)
 - [Identificar padrões de comportamento de compra](#identificar-padrões-de-comportamento-de-compra)
 - [Personalizar a experiência de compra para cada cliente](#personalizar-a-experiência-de-compra-para-cada-cliente)
@@ -249,9 +249,10 @@ No futuro, pretendo colocar a descrição todos a seguir
 ## Seguros
 - [Avaliar riscos para a precificação de seguros](#avaliar-riscos-para-a-precificação-de-seguros)
 - [Detectar fraudes em sinistros](#detectar-fraudes-em-sinistros)
-- [Personalizar prêmios de seguros para cada cliente](#personalizar-prêmios-de-seguros-para-cada-cliente)
->[Índice](#Índice)
->
+- [Personalizar prêmios de seguros para cada cliente](#personalizar-prêmios-de-seguros-para-cada-cliente)-->
+
+[Índice](#Índice)
+
 ## Principais algoritmos 
 ### Algoritmos de aprendizado supervisionado: 
 
