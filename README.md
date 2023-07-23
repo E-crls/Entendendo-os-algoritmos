@@ -176,7 +176,7 @@ No futuro, pretendo colocar a descrição todos a seguir
 - [Planejar manutenção preventiva](#planejar-manutenção-preventiva)
 - [Desenvolver e aprimorar produtos](#desenvolver-e-aprimorar-produtos)-->
 ## Ciência Ambiental
-- [Prever mudanças climáticas](#prever-mudanças-climáticas)🟩?
+- [Prever mudanças climáticas](#prever-mudanças-climáticas)
 - [Modelar a dinâmica populacional de espécies](#modelar-a-dinâmica-populacional-de-espécies)🟩?
 - [Antecipar desastres naturais](#antecipar-desastres-naturais)🟩?
 <!--## Educação
@@ -1249,7 +1249,7 @@ O valor gerado ao usar cada um desses algoritmos inclui:
 
 [Índice](#Índice)
 
-# O problema de prever mudanças climáticas
+## Prever mudanças climáticas 
 
 O problema de prever mudanças climáticas pode ser dividido em vários tópicos, incluindo:
 
@@ -1418,13 +1418,17 @@ Este problema afeta uma vasta gama de indivíduos e instituições, incluindo pa
 <br>
     Ao analisar o problema, deve-se levar em conta fatores como a precisão e qualidade dos dados genéticos, o contexto clínico, as implicações éticas, sociais e legais, e a necessidade de interpretação e comunicação clara dos resultados.
 <br>
-    A área de Data Science tenta entender o problema através da aplicação de técnicas estatísticas e computacionais para analisar e interpretar dados genéticos. Isso pode incluir o uso de algoritmos de aprendizado de máquina para identificar padrões nos dados, a modelagem de redes de interação genética, e a simulação de processos genéticos.
+
+A área de Data Science tenta entender o problema através da aplicação de técnicas estatísticas e computacionais para analisar e interpretar dados genéticos. Isso pode incluir o uso de algoritmos de aprendizado de máquina para identificar padrões nos dados, a modelagem de redes de interação genética, e a simulação de processos genéticos.
 <br>
-    Alguns algoritmos de Data Science que costumam ser usados incluem algoritmos de clustering (como K-means e agrupamento hierárquico), algoritmos de classificação (como árvores de decisão e SVM), algoritmos de regressão (como regressão linear e logística), e algoritmos de aprendizado profundo (como redes neurais convolucionais e recorrentes).
+
+Alguns algoritmos de Data Science que costumam ser usados incluem algoritmos de clustering (como K-means e agrupamento hierárquico), algoritmos de classificação (como árvores de decisão e SVM), algoritmos de regressão (como regressão linear e logística), e algoritmos de aprendizado profundo (como redes neurais convolucionais e recorrentes).
 <br>
-    Esses algoritmos podem resolver o problema através da identificação de padrões nos dados genéticos que podem ser correlacionados com características específicas, como a presença ou ausência de uma doença. Por exemplo, algoritmos de clustering podem ser usados para agrupar indivíduos com perfis genéticos semelhantes, enquantoalgoritmos de classificação podem ser usados para prever o risco de doença com base no perfil genético. Algoritmos de regressão podem ser usados para modelar a relação entre variáveis genéticas e fenotípicas, enquanto algoritmos de aprendizado profundo podem ser usados para modelar processos genéticos complexos.
+
+Esses algoritmos podem resolver o problema através da identificação de padrões nos dados genéticos que podem ser correlacionados com características específicas, como a presença ou ausência de uma doença. Por exemplo, algoritmos de clustering podem ser usados para agrupar indivíduos com perfis genéticos semelhantes, enquantoalgoritmos de classificação podem ser usados para prever o risco de doença com base no perfil genético. Algoritmos de regressão podem ser usados para modelar a relação entre variáveis genéticas e fenotípicas, enquanto algoritmos de aprendizado profundo podem ser usados para modelar processos genéticos complexos.
 <br>
-    O valor gerado ao se usar cada um desses algoritmos varia. Algoritmos de clustering podem revelar subgrupos de pacientes com respostas distintas a tratamentos, melhorando a personalização da medicina. Algoritmos de classificação podem melhorar a precisão do diagnóstico e prognóstico. Algoritmos de regressão podem ajudar a entender a relação entre genótipo e fenótipo, auxiliando na descoberta de novos alvos para drogas. Algoritmos de aprendizado profundo, com sua capacidade de modelar relações complexas, têm o potencial de revolucionar nossa compreensão dos processos genéticos e levar a avanços significativos em áreas como medicina de precisão e genômica funcional.
+
+O valor gerado ao se usar cada um desses algoritmos varia. Algoritmos de clustering podem revelar subgrupos de pacientes com respostas distintas a tratamentos, melhorando a personalização da medicina. Algoritmos de classificação podem melhorar a precisão do diagnóstico e prognóstico. Algoritmos de regressão podem ajudar a entender a relação entre genótipo e fenótipo, auxiliando na descoberta de novos alvos para drogas. Algoritmos de aprendizado profundo, com sua capacidade de modelar relações complexas, têm o potencial de revolucionar nossa compreensão dos processos genéticos e levar a avanços significativos em áreas como medicina de precisão e genômica funcional.
 
 
 # Descrições dos algoritmos
